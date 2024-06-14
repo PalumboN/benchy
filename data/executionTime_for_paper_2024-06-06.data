@@ -1,0 +1,72 @@
+#!/opt/homebrew/bin/rebench execution_time.conf
+# Execution Start: 2024-05-21T12:08:40.368585+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.3.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "rebench", "commitId": "f4cc89f2091a96b5d40789835e5ce740e34fd5a4", "commitMsg": "Code for plotting charts using Rebench results", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_time.conf
+# Execution Start: 2024-05-21T12:08:40.368585+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.3.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "rebench", "commitId": "f4cc89f2091a96b5d40789835e5ce740e34fd5a4", "commitMsg": "Code for plotting charts using Rebench results", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_time.conf -r
+# Execution Start: 2024-05-21T12:08:40.368585+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.3.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "rebench", "commitId": "f4cc89f2091a96b5d40789835e5ce740e34fd5a4", "commitMsg": "Code for plotting charts using Rebench results", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_time.conf -r
+# Execution Start: 2024-05-21T12:08:40.368585+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.3.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "rebench", "commitId": "f4cc89f2091a96b5d40789835e5ce740e34fd5a4", "commitMsg": "Code for plotting charts using Rebench results", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_time.conf -r
+# Execution Start: 2024-05-21T12:08:40.368585+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.3.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "rebench", "commitId": "f4cc89f2091a96b5d40789835e5ce740e34fd5a4", "commitMsg": "Code for plotting charts using Rebench results", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+1	1	287.400000	ms	total	SMarkSlopstone	Druid	Smark-Slopstone		1			
+1	1	232.300000	ms	total	SMarkSlopstone	Stack	Smark-Slopstone		1			
+1	1	206.200000	ms	total	SMarkSlopstone	Stock	Smark-Slopstone		1			
+#!/opt/homebrew/bin/rebench execution_time.conf
+# Execution Start: 2024-05-21T12:08:40.368585+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.3.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "rebench", "commitId": "f4cc89f2091a96b5d40789835e5ce740e34fd5a4", "commitMsg": "Code for plotting charts using Rebench results", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+1	1	148460.000000	ms	user	Kernel.*	Stack	Tests		1			
+1	1	1530.000000	ms	sys	Kernel.*	Stack	Tests		1			
+1	1	153690.000000	ms	total	Kernel.*	Stack	Tests		1			
+1	1	260.000000	ms	user	Network.* Zinc.* Zodiac.*	Stack	Tests		1			
+1	1	10.000000	ms	sys	Network.* Zinc.* Zodiac.*	Stack	Tests		1			
+1	1	280.000000	ms	total	Network.* Zinc.* Zodiac.*	Stack	Tests		1			
+1	1	2710.000000	ms	user	Microdown.*	Druid	Tests		1			
+1	1	80.000000	ms	sys	Microdown.*	Druid	Tests		1			
+1	1	4140.000000	ms	total	Microdown.*	Druid	Tests		1			
+1	1	150.000000	ms	user	Opal.* AST.*	Stock	Tests		1			
+1	1	20.000000	ms	sys	Opal.* AST.*	Stock	Tests		1			
+1	1	190.000000	ms	total	Opal.* AST.*	Stock	Tests		1			
+1	1	150.000000	ms	user	Network.* Zinc.* Zodiac.*	Stock	Tests		1			
+1	1	10.000000	ms	sys	Network.* Zinc.* Zodiac.*	Stock	Tests		1			
+1	1	170.000000	ms	total	Network.* Zinc.* Zodiac.*	Stock	Tests		1			
+1	1	300.000000	ms	user	Network.* Zinc.* Zodiac.*	Druid	Tests		1			
+1	1	20.000000	ms	sys	Network.* Zinc.* Zodiac.*	Druid	Tests		1			
+1	1	330.000000	ms	total	Network.* Zinc.* Zodiac.*	Druid	Tests		1			
+1	1	4860.000000	ms	user	File.*	Stack	Tests		1			
+1	1	90.000000	ms	sys	File.*	Stack	Tests		1			
+1	1	9360.000000	ms	total	File.*	Stack	Tests		1			
+1	1	99710.000000	ms	user	Kernel.*	Druid	Tests		1			
+1	1	1350.000000	ms	sys	Kernel.*	Druid	Tests		1			
+1	1	104880.000000	ms	total	Kernel.*	Druid	Tests		1			
+1	1	97350.000000	ms	user	Kernel.*	Stock	Tests		1			
+1	1	1420.000000	ms	sys	Kernel.*	Stock	Tests		1			
+1	1	102670.000000	ms	total	Kernel.*	Stock	Tests		1			
+1	1	2350.000000	ms	user	Microdown.*	Stack	Tests		1			
+1	1	80.000000	ms	sys	Microdown.*	Stack	Tests		1			
+1	1	3550.000000	ms	total	Microdown.*	Stack	Tests		1			
+1	1	260.000000	ms	user	Opal.* AST.*	Stack	Tests		1			
+1	1	20.000000	ms	sys	Opal.* AST.*	Stack	Tests		1			
+1	1	290.000000	ms	total	Opal.* AST.*	Stack	Tests		1			
+1	1	4070.000000	ms	user	File.*	Stock	Tests		1			
+1	1	100.000000	ms	sys	File.*	Stock	Tests		1			
+1	1	8600.000000	ms	total	File.*	Stock	Tests		1			
+1	1	300.000000	ms	user	Opal.* AST.*	Druid	Tests		1			
+1	1	20.000000	ms	sys	Opal.* AST.*	Druid	Tests		1			
+1	1	340.000000	ms	total	Opal.* AST.*	Druid	Tests		1			
+1	1	5140.000000	ms	user	File.*	Druid	Tests		1			
+1	1	100.000000	ms	sys	File.*	Druid	Tests		1			
+1	1	9670.000000	ms	total	File.*	Druid	Tests		1			
+1	1	1420.000000	ms	user	Microdown.*	Stock	Tests		1			
+1	1	50.000000	ms	sys	Microdown.*	Stock	Tests		1			
+1	1	2060.000000	ms	total	Microdown.*	Stock	Tests		1			

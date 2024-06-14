@@ -1,0 +1,158 @@
+# Event 'cycles'
+#
+# Baseline  Delta Abs  Shared Object              Symbol                                      
+# ........  .........  .........................  ............................................
+#
+              +29.83%  [JIT] tid 3377515          [.] 0x0000000300000065
+     0.09%    +12.48%  libPharoVMCore.so          [.] interpret
+     9.35%     -4.10%  libPharoVMCore.so          [.] markAndTrace
+     7.57%     -3.58%  libPharoVMCore.so          [.] isWidowedContext
+     3.27%     -2.81%  libPharoVMCore.so          [.] primitiveWait
+     4.72%     -2.57%  libPharoVMCore.so          [.] transferTofrom
+               +2.10%  libPharoVMCore.so          [.] primitiveFullClosureValueNoContextSwitch
+               +1.95%  libPharoVMCore.so          [.] primitiveFullClosureValue
+               +1.35%  libPharoVMCore.so          [.] ceSendsupertonumArgs
+     1.78%     -1.32%  libPharoVMCore.so          [.] markAndTraceClassOf
+               +1.27%  libPharoVMCore.so          [.] activateNewMethod
+     1.72%     -1.26%  libPharoVMCore.so          [.] primitiveSignal
+     2.97%     -1.20%  libPharoVMCore.so          [.] addLastLinktoList
+     2.31%     -1.20%  libPharoVMCore.so          [.] removeFirstLinkOfList
+     4.22%     +1.14%  libPharoVMCore.so          [.] marryFrameSP
+     0.09%     +1.10%  libPharoVMCore.so          [.] inlineLookupInMethodCacheSelclassTag
+     0.45%     +1.08%  libPharoVMCore.so          [.] startOfObjectMemory
+               +0.99%  libpthread-2.31.so         [.] __GI___pthread_cleanup_upto
+     1.87%     -0.99%  libPharoVMCore.so          [.] unmarkInitialImmobileObjectsFreeUnmarked
+               +0.69%  libPharoVMCore.so          [.] activateCoggedNewMethod
+               +0.69%  libPharoVMCore.so          [.] methodShouldBeCogged
+     1.04%     -0.69%  libPharoVMCore.so          [.] resumepreemptedYieldingIffrom
+     1.04%     -0.61%  libPharoVMCore.so          [.] reinitializeScanFrom
+               +0.61%  libPharoVMCore.so          [.] primitivePerform
+               +0.61%  libPharoVMCore.so          [.] enterSmalltalkExecutiveImplementation
+               +0.61%  libc-2.31.so               [.] __libc_siglongjmp
+     1.63%     -0.56%  libPharoVMCore.so          [.] getMemoryMap
+               +0.53%  libPharoVMCore.so          [.] maybeFlagMethodAsInterpreted
+     1.85%     -0.51%  libc-2.31.so               [.] 0x0000000000080a44
+               +0.46%  libPharoVMCore.so          [.] primitiveSmallFloatLessThan
+               +0.46%  libPharoVMCore.so          [.] retryPrimitiveOnFailure
+     1.87%     -0.45%  libPharoVMCore.so          [.] wakeHighestPriority
+     1.36%     -0.45%  libPharoVMCore.so          [.] returnToExecutivepostContextSwitch
+     0.59%     -0.44%  libPharoVMCore.so          [.] putToSleepyieldingIf
+     1.04%     +0.41%  libPharoVMCore.so          [.] startOfObjectMemory@plt
+               +0.38%  [kernel.kallsyms]          [k] memcg_slab_post_alloc_hook
+               +0.38%  libPharoVMCore.so          [.] numSlotsOf
+               +0.37%  [kernel.kallsyms]          [k] filemap_map_pages
+               +0.35%  [kernel.kallsyms]          [k] rcu_segcblist_enqueue
+               +0.34%  bash                       [.] 0x000000000007b010
+     1.16%     -0.34%  ld-2.31.so                 [.] 0x000000000000a270
+               +0.33%  [kernel.kallsyms]          [k] do_user_addr_fault
+               +0.32%  bash                       [.] wait_for
+     0.59%     -0.32%  libPharoVMCore.so          [.] scavengeReferentsOfFromOldSpace
+     1.13%     -0.31%  libPharoVMCore.so          [.] getMemoryMap@plt
+               +0.30%  libPharoVMCore.so          [.] primitiveStringAtPut
+               +0.30%  libPharoVMCore.so          [.] interpretMethodFromMachineCode
+     0.44%     -0.29%  libPharoVMCore.so          [.] popObjStack
+               +0.25%  [kernel.kallsyms]          [k] up_write
+               +0.23%  libPharoVMCore.so          [.] popStack@plt
+               +0.23%  libPharoVMCore.so          [.] popStack
+               +0.21%  libPharoVMCore.so          [.] returntoExecutive
+               +0.20%  [kernel.kallsyms]          [k] balance_rt
+     0.66%     -0.20%  libPharoVMCore.so          [.] updatePointers
+     0.27%     -0.19%  libPharoVMCore.so          [.] noCheckPushonObjStack.isra.0
+               +0.19%  [kernel.kallsyms]          [k] perf_iterate_ctx
+     0.74%     +0.17%  libPharoVMCore.so          [.] synchronousSignal
+               +0.16%  libPharoVMCore.so          [.] computeMaximumSize
+               +0.15%  libPharoVMCore.so          [.] primitiveDivide
+               +0.15%  libPharoVMCore.so          [.] primitiveSmallFloatDivide
+               +0.15%  libPharoVMCore.so          [.] methodShouldBeCogged@plt
+               +0.15%  libPharoVMCore.so          [.] minCogMethodAddress@plt
+               +0.15%  libPharoVMCore.so          [.] ceReturnToInterpreter
+               +0.15%  libPharoVMCore.so          [.] floatObjectOf
+               +0.15%  libPharoVMCore.so          [.] methodHeaderOf
+     0.30%     -0.14%  libPharoVMCore.so          [.] fetchIntegerofObject
+               +0.12%  libPharoVMCore.so          [.] primitiveAtPut
+     0.18%     -0.11%  libPharoVMCore.so          [.] planCompactSavingForwarders
+               +0.10%  libPharoVMCore.so          [.] lookupOrdinaryNoMNUEtcInClass
+     0.24%     -0.08%  libPharoVMCore.so          [.] isSendReturnPC
+     0.15%     +0.08%  libPharoVMCore.so          [.] nilUnmarkedWeaklingSlots
+     0.53%     -0.08%  libPharoVMCore.so          [.] isLiveContext
+               +0.08%  libPharoVMCore.so          [.] ceCheckAndMaybeRetryPrimitive
+               +0.08%  libPharoVMCore.so          [.] findNewMethodInClassTag
+               +0.08%  [kernel.kallsyms]          [k] ktime_get_update_offsets_now
+               +0.08%  libPharoVMCore.so          [.] primitiveSmallFloatEqual
+               +0.08%  libPharoVMCore.so          [.] 0x000000000001e2e8
+               +0.08%  libPharoVMCore.so          [.] needsFrameNever
+               +0.08%  libPharoVMCore.so          [.] mapStackPages
+               +0.08%  libPharoVMCore.so          [.] getFromOldSpaceRememberedSet
+               +0.08%  [kernel.kallsyms]          [k] rcu_sched_clock_irq
+               +0.08%  libPharoVMCore.so          [.] remapIfObjectRefpchasYoung
+               +0.08%  libPharoVMCore.so          [.] markObjects.constprop.0
+               +0.08%  [kernel.kallsyms]          [k] entry_SYSCALL_64
+               +0.08%  libc-2.31.so               [.] memcpy
+               +0.08%  libPharoVMCore.so          [.] canContextSwitchIfActivatingheader@plt
+               +0.08%  libPharoVMCore.so          [.] gen_BytecodePrimIdenticalSistaV1
+               +0.08%  libPharoVMCore.so          [.] minCogMethodAddress
+               +0.08%  [kernel.kallsyms]          [k] __fdget
+               +0.08%  libPharoVMCore.so          [.] _longjmp@plt
+               +0.08%  libPharoVMCore.so          [.] primitiveStringAt
+     0.10%     -0.06%  libPharoVMCore.so          [.] sizeOfSTArrayFromCPrimitive
+               +0.05%  [kernel.kallsyms]          [k] do_select
+     0.09%     +0.05%  libPharoVMCore.so          [.] allInstancesOf
+               +0.05%  libPharoVMCore.so          [.] isMachineCodeIP
+               +0.05%  libPharoVMCore.so          [.] ceSendFromInLineCacheMiss
+               +0.05%  libPharoVMCore.so          [.] findUnwindThroughContext
+               +0.05%  libPharoVMCore.so          [.] gen_PushTemporaryVariableBytecode6
+               +0.05%  libPharoVMCore.so          [.] generateInstructionsAt
+               +0.05%  libssl.so.1.1              [.] ssl_cipher_apply_rule.constprop.5
+     0.09%     -0.05%  libPharoVMCore.so          [.] cogFullBlockMethodnumCopied
+     0.06%     -0.04%  [kernel.kallsyms]          [k] native_flush_tlb_one_user
+     0.09%     -0.04%  libPharoVMCore.so          [.] lookupMethodInClass
+               +0.03%  libc-2.31.so               [.] clock_nanosleep
+               +0.03%  [kernel.kallsyms]          [k] entry_SYSCALL_64_after_hwframe
+               +0.02%  [kernel.kallsyms]          [k] hrtimer_start_range_ns
+               +0.02%  [kernel.kallsyms]          [k] dequeue_task_rt
+               +0.02%  [kernel.kallsyms]          [k] dequeue_rt_stack
+               +0.02%  [kernel.kallsyms]          [k] __hrtimer_init
+               +0.02%  libPharoVMCore.so          [.] heartbeat_wait_if_polling@plt
+               +0.02%  libpthread-2.31.so         [.] sem_post@@GLIBC_2.2.5
+     0.09%     -0.01%  libPharoVMCore.so          [.] copyAndUnmarkMobileObjects
+     0.30%     +0.01%  libPharoVMCore.so          [.] allocateNewSpaceSlotsformatclassIndex
+     0.15%     +0.00%  libPharoVMCore.so          [.] maxCogMethodAddress
+     0.15%     +0.00%  libPharoVMCore.so          [.] markAndTraceMachineCodeOfMarkedMethods
+     0.15%     +0.00%  libPharoVMCore.so          [.] fetchIntegerofObject@plt
+               +0.00%  [kernel.kallsyms]          [k] finish_task_switch
+               +0.00%  [kernel.kallsyms]          [k] exc_nmi
+               +0.00%  [kernel.kallsyms]          [k] set_pte_vaddr
+               +0.00%  [kernel.kallsyms]          [k] fill_pmd
+               +0.00%  [kernel.kallsyms]          [k] memcpy_fromio
+     0.01%     -0.00%  [kernel.kallsyms]          [k] ghes_copy_tofrom_phys
+               +0.00%  [kernel.kallsyms]          [k] fill_pud
+               +0.00%  [kernel.kallsyms]          [k] ghes_notify_nmi
+               +0.00%  [kernel.kallsyms]          [k] strrchr
+               +0.00%  [kernel.kallsyms]          [k] __wait_on_bit
+     0.01%     +0.00%  [kernel.kallsyms]          [k] end_repeat_nmi
+     0.00%     -0.00%  [kernel.kallsyms]          [k] intel_pmu_handle_irq
+     0.00%     -0.00%  [kernel.kallsyms]          [k] native_sched_clock
+     0.00%     -0.00%  [kernel.kallsyms]          [k] __intel_pmu_enable_all.constprop.0
+               +0.00%  [kernel.kallsyms]          [k] sched_clock
+     0.00%     -0.00%  [kernel.kallsyms]          [k] native_write_msr
+    36.68%             [JIT] tid 3377000          [.] 0x0000000300000d78
+     0.70%             [kernel.kallsyms]          [k] _raw_spin_lock
+     0.70%             [kernel.kallsyms]          [k] kfree
+     0.67%             [kernel.kallsyms]          [k] page_add_file_rmap
+     0.67%             [kernel.kallsyms]          [k] inherit_task_group.isra.0
+     0.51%             [kernel.kallsyms]          [k] flush_thread
+     0.29%             [kernel.kallsyms]          [k] clear_page_rep
+     0.22%             libPharoVMCore.so          [.] followForwardedObjectFieldstoDepth
+     0.15%             libPharoVMCore.so          [.] copyAndForward
+     0.15%             libPharoVMCore.so          [.] shouldRemapObj
+     0.15%             libPharoVMCore.so          [.] ceContextinstVarvalue
+     0.15%             libPharoVMCore.so          [.] maxCogMethodAddress@plt
+     0.15%             libPharoVMCore.so          [.] markAndTraceLiteralinatpc
+     0.09%             libMiscPrimitivePlugin.so  [.] primitiveStringHash
+     0.09%             libMiscPrimitivePlugin.so  [.] primitiveCompareString
+     0.09%             libPharoVMCore.so          [.] isOopImmutable
+     0.02%             libpthread-2.31.so         [.] sem_wait@@GLIBC_2.2.5
+     0.01%             [kernel.kallsyms]          [k] __x86_indirect_thunk_rax
+     0.01%             [kernel.kallsyms]          [k] default_do_nmi
+     0.00%             [kernel.kallsyms]          [k] native_set_fixmap
+     0.00%             [kernel.kallsyms]          [k] intel_bts_enable_local

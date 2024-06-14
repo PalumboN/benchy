@@ -1,0 +1,2283 @@
+# To display the perf.data header info, please use --header/--header-only options.
+#
+#
+# Total Lost Samples: 0
+#
+# Samples: 1K of event 'cycles'
+# Event count (approx.): 35248473958
+#
+# Children      Self  Command          Shared Object              Symbol                                          
+# ........  ........  ...............  .........................  ................................................
+#
+    37.22%    12.98%  pharo            libPharoVMCore.so          [.] interpret
+            |          
+            |--24.25%--interpret
+            |          enterSmalltalkExecutiveImplementation
+            |          |          
+            |           --23.26%--interpret
+            |                     |          
+            |                     |--8.90%--primitiveWait
+            |                     |          |          
+            |                     |          |--5.32%--transferTofrom
+            |                     |          |          |          
+            |                     |          |          |--2.59%--marryFrameSP
+            |                     |          |          |          
+            |                     |          |           --0.76%--isWidowedContext
+            |                     |          |          
+            |                     |           --2.74%--wakeHighestPriority
+            |                     |                     |          
+            |                     |                     |--1.29%--isLiveContext
+            |                     |                     |          isLiveContext
+            |                     |                     |          isWidowedContext
+            |                     |                     |          
+            |                     |                      --0.84%--removeFirstLinkOfList
+            |                     |          
+            |                     |--8.06%--primitiveFullGC
+            |                     |          fullGC
+            |                     |          |          
+            |                     |          |--6.01%--markObjects (inlined)
+            |                     |          |          |          
+            |                     |          |           --5.63%--markAndTraceHiddenRoots (inlined)
+            |                     |          |                     markAndTrace
+            |                     |          |                     |          
+            |                     |          |                     |--2.21%--long64At (inlined)
+            |                     |          |                     |          long64AtPointer (inlined)
+            |                     |          |                     |          
+            |                     |          |                     |--0.84%--unsignedLongAt (inlined)
+            |                     |          |                     |          unsignedLongAtPointer (inlined)
+            |                     |          |                     |          
+            |                     |          |                      --0.53%--markAndTraceClassOf
+            |                     |          |          
+            |                     |           --1.90%--compact
+            |                     |                     |          
+            |                     |                     |--0.76%--unmarkInitialImmobileObjectsFreeUnmarked
+            |                     |                     |          
+            |                     |                      --0.53%--initializeScanCheckingForFullyCompactedHeap (inlined)
+            |                     |                                reinitializeScanFrom
+            |                     |                                scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+            |                     |          
+            |                     |--1.52%--marryFrameSP
+            |                     |          
+            |                     |--1.03%--activateCoggedNewMethod
+            |                     |          
+            |                     |--0.61%--returnToExecutivepostContextSwitch
+            |                     |          
+            |                     |--0.61%--primitiveFullClosureValue
+            |                     |          
+            |                      --0.53%--assertValidExecutionPointersimbarline (inlined)
+            |          
+            |--11.23%--_start
+            |          __libc_start_main
+            |          vm_main
+            |          vm_main_with_parameters
+            |          vm_main_with_parameters
+            |          runOnMainThread (inlined)
+            |          runVMThread (inlined)
+            |          interpret
+            |          enterSmalltalkExecutiveImplementation
+            |          interpret
+            |          |          
+            |          |--1.29%--unsignedLongAt (inlined)
+            |          |          unsignedLongAtPointer (inlined)
+            |          |          
+            |           --0.68%--unsignedLongAtput (inlined)
+            |                     unsignedLongAtPointerput (inlined)
+            |          
+             --1.60%--0xffffffffffffffff
+                       interpret
+
+    35.93%     0.76%  pharo            libPharoVMCore.so          [.] enterSmalltalkExecutiveImplementation
+            |          
+            |--35.17%--enterSmalltalkExecutiveImplementation
+            |          |          
+            |           --34.49%--interpret
+            |                     |          
+            |                     |--8.90%--primitiveWait
+            |                     |          |          
+            |                     |          |--5.32%--transferTofrom
+            |                     |          |          |          
+            |                     |          |          |--2.59%--marryFrameSP
+            |                     |          |          |          
+            |                     |          |           --0.76%--isWidowedContext
+            |                     |          |          
+            |                     |           --2.74%--wakeHighestPriority
+            |                     |                     |          
+            |                     |                     |--1.29%--isLiveContext
+            |                     |                     |          isLiveContext
+            |                     |                     |          isWidowedContext
+            |                     |                     |          
+            |                     |                      --0.84%--removeFirstLinkOfList
+            |                     |          
+            |                     |--8.06%--primitiveFullGC
+            |                     |          fullGC
+            |                     |          |          
+            |                     |          |--6.01%--markObjects (inlined)
+            |                     |          |          |          
+            |                     |          |           --5.63%--markAndTraceHiddenRoots (inlined)
+            |                     |          |                     markAndTrace
+            |                     |          |                     |          
+            |                     |          |                     |--2.21%--long64At (inlined)
+            |                     |          |                     |          long64AtPointer (inlined)
+            |                     |          |                     |          
+            |                     |          |                     |--0.84%--unsignedLongAt (inlined)
+            |                     |          |                     |          unsignedLongAtPointer (inlined)
+            |                     |          |                     |          
+            |                     |          |                      --0.53%--markAndTraceClassOf
+            |                     |          |          
+            |                     |           --1.90%--compact
+            |                     |                     |          
+            |                     |                     |--0.76%--unmarkInitialImmobileObjectsFreeUnmarked
+            |                     |                     |          
+            |                     |                      --0.53%--initializeScanCheckingForFullyCompactedHeap (inlined)
+            |                     |                                reinitializeScanFrom
+            |                     |                                scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+            |                     |          
+            |                     |--1.52%--marryFrameSP
+            |                     |          
+            |                     |--1.29%--unsignedLongAt (inlined)
+            |                     |          unsignedLongAtPointer (inlined)
+            |                     |          
+            |                     |--1.03%--activateCoggedNewMethod
+            |                     |          
+            |                     |--0.68%--unsignedLongAtput (inlined)
+            |                     |          unsignedLongAtPointerput (inlined)
+            |                     |          
+            |                     |--0.61%--returnToExecutivepostContextSwitch
+            |                     |          
+            |                     |--0.61%--primitiveFullClosureValue
+            |                     |          
+            |                      --0.61%--assertValidExecutionPointersimbarline (inlined)
+            |          
+             --0.61%--_start
+                       __libc_start_main
+                       vm_main
+                       vm_main_with_parameters
+                       vm_main_with_parameters
+                       runOnMainThread (inlined)
+                       runVMThread (inlined)
+                       interpret
+                       enterSmalltalkExecutiveImplementation
+
+    35.90%     0.00%  pharo            libc-2.31.so               [.] __libc_start_main
+            |
+            ---__libc_start_main
+               |          
+                --35.78%--vm_main
+                          vm_main_with_parameters
+                          vm_main_with_parameters
+                          runOnMainThread (inlined)
+                          runVMThread (inlined)
+                          |          
+                           --35.48%--interpret
+                                     enterSmalltalkExecutiveImplementation
+                                     |          
+                                      --34.49%--interpret
+                                                |          
+                                                |--8.90%--primitiveWait
+                                                |          |          
+                                                |          |--5.32%--transferTofrom
+                                                |          |          |          
+                                                |          |          |--2.59%--marryFrameSP
+                                                |          |          |          
+                                                |          |           --0.76%--isWidowedContext
+                                                |          |          
+                                                |           --2.74%--wakeHighestPriority
+                                                |                     |          
+                                                |                     |--1.29%--isLiveContext
+                                                |                     |          isLiveContext
+                                                |                     |          isWidowedContext
+                                                |                     |          
+                                                |                      --0.84%--removeFirstLinkOfList
+                                                |          
+                                                |--8.06%--primitiveFullGC
+                                                |          fullGC
+                                                |          |          
+                                                |          |--6.01%--markObjects (inlined)
+                                                |          |          |          
+                                                |          |           --5.63%--markAndTraceHiddenRoots (inlined)
+                                                |          |                     markAndTrace
+                                                |          |                     |          
+                                                |          |                     |--2.21%--long64At (inlined)
+                                                |          |                     |          long64AtPointer (inlined)
+                                                |          |                     |          
+                                                |          |                     |--0.84%--unsignedLongAt (inlined)
+                                                |          |                     |          unsignedLongAtPointer (inlined)
+                                                |          |                     |          
+                                                |          |                      --0.53%--markAndTraceClassOf
+                                                |          |          
+                                                |           --1.90%--compact
+                                                |                     |          
+                                                |                     |--0.76%--unmarkInitialImmobileObjectsFreeUnmarked
+                                                |                     |          
+                                                |                      --0.53%--initializeScanCheckingForFullyCompactedHeap (inlined)
+                                                |                                reinitializeScanFrom
+                                                |                                scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+                                                |          
+                                                |--1.52%--marryFrameSP
+                                                |          
+                                                |--1.29%--unsignedLongAt (inlined)
+                                                |          unsignedLongAtPointer (inlined)
+                                                |          
+                                                |--1.03%--activateCoggedNewMethod
+                                                |          
+                                                |--0.68%--unsignedLongAtput (inlined)
+                                                |          unsignedLongAtPointerput (inlined)
+                                                |          
+                                                |--0.61%--returnToExecutivepostContextSwitch
+                                                |          
+                                                |--0.61%--primitiveFullClosureValue
+                                                |          
+                                                 --0.61%--assertValidExecutionPointersimbarline (inlined)
+
+    35.78%     0.00%  pharo            pharo                      [.] _start
+            |
+            ---_start
+               __libc_start_main
+               vm_main
+               vm_main_with_parameters
+               vm_main_with_parameters
+               runOnMainThread (inlined)
+               runVMThread (inlined)
+               |          
+                --35.48%--interpret
+                          enterSmalltalkExecutiveImplementation
+                          |          
+                           --34.49%--interpret
+                                     |          
+                                     |--8.90%--primitiveWait
+                                     |          |          
+                                     |          |--5.32%--transferTofrom
+                                     |          |          |          
+                                     |          |          |--2.59%--marryFrameSP
+                                     |          |          |          
+                                     |          |           --0.76%--isWidowedContext
+                                     |          |          
+                                     |           --2.74%--wakeHighestPriority
+                                     |                     |          
+                                     |                     |--1.29%--isLiveContext
+                                     |                     |          isLiveContext
+                                     |                     |          isWidowedContext
+                                     |                     |          
+                                     |                      --0.84%--removeFirstLinkOfList
+                                     |          
+                                     |--8.06%--primitiveFullGC
+                                     |          fullGC
+                                     |          |          
+                                     |          |--6.01%--markObjects (inlined)
+                                     |          |          |          
+                                     |          |           --5.63%--markAndTraceHiddenRoots (inlined)
+                                     |          |                     markAndTrace
+                                     |          |                     |          
+                                     |          |                     |--2.21%--long64At (inlined)
+                                     |          |                     |          long64AtPointer (inlined)
+                                     |          |                     |          
+                                     |          |                     |--0.84%--unsignedLongAt (inlined)
+                                     |          |                     |          unsignedLongAtPointer (inlined)
+                                     |          |                     |          
+                                     |          |                      --0.53%--markAndTraceClassOf
+                                     |          |          
+                                     |           --1.90%--compact
+                                     |                     |          
+                                     |                     |--0.76%--unmarkInitialImmobileObjectsFreeUnmarked
+                                     |                     |          
+                                     |                      --0.53%--initializeScanCheckingForFullyCompactedHeap (inlined)
+                                     |                                reinitializeScanFrom
+                                     |                                scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+                                     |          
+                                     |--1.52%--marryFrameSP
+                                     |          
+                                     |--1.29%--unsignedLongAt (inlined)
+                                     |          unsignedLongAtPointer (inlined)
+                                     |          
+                                     |--1.03%--activateCoggedNewMethod
+                                     |          
+                                     |--0.68%--unsignedLongAtput (inlined)
+                                     |          unsignedLongAtPointerput (inlined)
+                                     |          
+                                     |--0.61%--returnToExecutivepostContextSwitch
+                                     |          
+                                     |--0.61%--primitiveFullClosureValue
+                                     |          
+                                      --0.61%--assertValidExecutionPointersimbarline (inlined)
+
+    35.78%     0.00%  pharo            libPharoVMCore.so          [.] vm_main
+            |
+            ---vm_main
+               vm_main_with_parameters
+               vm_main_with_parameters
+               runOnMainThread (inlined)
+               runVMThread (inlined)
+               |          
+                --35.48%--interpret
+                          enterSmalltalkExecutiveImplementation
+                          |          
+                           --34.49%--interpret
+                                     |          
+                                     |--8.90%--primitiveWait
+                                     |          |          
+                                     |          |--5.32%--transferTofrom
+                                     |          |          |          
+                                     |          |          |--2.59%--marryFrameSP
+                                     |          |          |          
+                                     |          |           --0.76%--isWidowedContext
+                                     |          |          
+                                     |           --2.74%--wakeHighestPriority
+                                     |                     |          
+                                     |                     |--1.29%--isLiveContext
+                                     |                     |          isLiveContext
+                                     |                     |          isWidowedContext
+                                     |                     |          
+                                     |                      --0.84%--removeFirstLinkOfList
+                                     |          
+                                     |--8.06%--primitiveFullGC
+                                     |          fullGC
+                                     |          |          
+                                     |          |--6.01%--markObjects (inlined)
+                                     |          |          |          
+                                     |          |           --5.63%--markAndTraceHiddenRoots (inlined)
+                                     |          |                     markAndTrace
+                                     |          |                     |          
+                                     |          |                     |--2.21%--long64At (inlined)
+                                     |          |                     |          long64AtPointer (inlined)
+                                     |          |                     |          
+                                     |          |                     |--0.84%--unsignedLongAt (inlined)
+                                     |          |                     |          unsignedLongAtPointer (inlined)
+                                     |          |                     |          
+                                     |          |                      --0.53%--markAndTraceClassOf
+                                     |          |          
+                                     |           --1.90%--compact
+                                     |                     |          
+                                     |                     |--0.76%--unmarkInitialImmobileObjectsFreeUnmarked
+                                     |                     |          
+                                     |                      --0.53%--initializeScanCheckingForFullyCompactedHeap (inlined)
+                                     |                                reinitializeScanFrom
+                                     |                                scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+                                     |          
+                                     |--1.52%--marryFrameSP
+                                     |          
+                                     |--1.29%--unsignedLongAt (inlined)
+                                     |          unsignedLongAtPointer (inlined)
+                                     |          
+                                     |--1.03%--activateCoggedNewMethod
+                                     |          
+                                     |--0.68%--unsignedLongAtput (inlined)
+                                     |          unsignedLongAtPointerput (inlined)
+                                     |          
+                                     |--0.61%--returnToExecutivepostContextSwitch
+                                     |          
+                                     |--0.61%--primitiveFullClosureValue
+                                     |          
+                                      --0.61%--assertValidExecutionPointersimbarline (inlined)
+
+    35.78%     0.00%  pharo            libPharoVMCore.so          [.] vm_main_with_parameters
+            |
+            ---vm_main_with_parameters
+               vm_main_with_parameters
+               runOnMainThread (inlined)
+               runVMThread (inlined)
+               |          
+                --35.48%--interpret
+                          enterSmalltalkExecutiveImplementation
+                          |          
+                           --34.49%--interpret
+                                     |          
+                                     |--8.90%--primitiveWait
+                                     |          |          
+                                     |          |--5.32%--transferTofrom
+                                     |          |          |          
+                                     |          |          |--2.59%--marryFrameSP
+                                     |          |          |          
+                                     |          |           --0.76%--isWidowedContext
+                                     |          |          
+                                     |           --2.74%--wakeHighestPriority
+                                     |                     |          
+                                     |                     |--1.29%--isLiveContext
+                                     |                     |          isLiveContext
+                                     |                     |          isWidowedContext
+                                     |                     |          
+                                     |                      --0.84%--removeFirstLinkOfList
+                                     |          
+                                     |--8.06%--primitiveFullGC
+                                     |          fullGC
+                                     |          |          
+                                     |          |--6.01%--markObjects (inlined)
+                                     |          |          |          
+                                     |          |           --5.63%--markAndTraceHiddenRoots (inlined)
+                                     |          |                     markAndTrace
+                                     |          |                     |          
+                                     |          |                     |--2.21%--long64At (inlined)
+                                     |          |                     |          long64AtPointer (inlined)
+                                     |          |                     |          
+                                     |          |                     |--0.84%--unsignedLongAt (inlined)
+                                     |          |                     |          unsignedLongAtPointer (inlined)
+                                     |          |                     |          
+                                     |          |                      --0.53%--markAndTraceClassOf
+                                     |          |          
+                                     |           --1.90%--compact
+                                     |                     |          
+                                     |                     |--0.76%--unmarkInitialImmobileObjectsFreeUnmarked
+                                     |                     |          
+                                     |                      --0.53%--initializeScanCheckingForFullyCompactedHeap (inlined)
+                                     |                                reinitializeScanFrom
+                                     |                                scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+                                     |          
+                                     |--1.52%--marryFrameSP
+                                     |          
+                                     |--1.29%--unsignedLongAt (inlined)
+                                     |          unsignedLongAtPointer (inlined)
+                                     |          
+                                     |--1.03%--activateCoggedNewMethod
+                                     |          
+                                     |--0.68%--unsignedLongAtput (inlined)
+                                     |          unsignedLongAtPointerput (inlined)
+                                     |          
+                                     |--0.61%--returnToExecutivepostContextSwitch
+                                     |          
+                                     |--0.61%--primitiveFullClosureValue
+                                     |          
+                                      --0.61%--assertValidExecutionPointersimbarline (inlined)
+
+    35.78%     0.00%  pharo            libPharoVMCore.so          [.] runOnMainThread (inlined)
+            |
+            ---runOnMainThread (inlined)
+               runVMThread (inlined)
+               |          
+                --35.48%--interpret
+                          enterSmalltalkExecutiveImplementation
+                          |          
+                           --34.49%--interpret
+                                     |          
+                                     |--8.90%--primitiveWait
+                                     |          |          
+                                     |          |--5.32%--transferTofrom
+                                     |          |          |          
+                                     |          |          |--2.59%--marryFrameSP
+                                     |          |          |          
+                                     |          |           --0.76%--isWidowedContext
+                                     |          |          
+                                     |           --2.74%--wakeHighestPriority
+                                     |                     |          
+                                     |                     |--1.29%--isLiveContext
+                                     |                     |          isLiveContext
+                                     |                     |          isWidowedContext
+                                     |                     |          
+                                     |                      --0.84%--removeFirstLinkOfList
+                                     |          
+                                     |--8.06%--primitiveFullGC
+                                     |          fullGC
+                                     |          |          
+                                     |          |--6.01%--markObjects (inlined)
+                                     |          |          |          
+                                     |          |           --5.63%--markAndTraceHiddenRoots (inlined)
+                                     |          |                     markAndTrace
+                                     |          |                     |          
+                                     |          |                     |--2.21%--long64At (inlined)
+                                     |          |                     |          long64AtPointer (inlined)
+                                     |          |                     |          
+                                     |          |                     |--0.84%--unsignedLongAt (inlined)
+                                     |          |                     |          unsignedLongAtPointer (inlined)
+                                     |          |                     |          
+                                     |          |                      --0.53%--markAndTraceClassOf
+                                     |          |          
+                                     |           --1.90%--compact
+                                     |                     |          
+                                     |                     |--0.76%--unmarkInitialImmobileObjectsFreeUnmarked
+                                     |                     |          
+                                     |                      --0.53%--initializeScanCheckingForFullyCompactedHeap (inlined)
+                                     |                                reinitializeScanFrom
+                                     |                                scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+                                     |          
+                                     |--1.52%--marryFrameSP
+                                     |          
+                                     |--1.29%--unsignedLongAt (inlined)
+                                     |          unsignedLongAtPointer (inlined)
+                                     |          
+                                     |--1.03%--activateCoggedNewMethod
+                                     |          
+                                     |--0.68%--unsignedLongAtput (inlined)
+                                     |          unsignedLongAtPointerput (inlined)
+                                     |          
+                                     |--0.61%--returnToExecutivepostContextSwitch
+                                     |          
+                                     |--0.61%--primitiveFullClosureValue
+                                     |          
+                                      --0.61%--assertValidExecutionPointersimbarline (inlined)
+
+    35.78%     0.00%  pharo            libPharoVMCore.so          [.] runVMThread (inlined)
+            |
+            ---runVMThread (inlined)
+               |          
+                --35.48%--interpret
+                          enterSmalltalkExecutiveImplementation
+                          |          
+                           --34.49%--interpret
+                                     |          
+                                     |--8.90%--primitiveWait
+                                     |          |          
+                                     |          |--5.32%--transferTofrom
+                                     |          |          |          
+                                     |          |          |--2.59%--marryFrameSP
+                                     |          |          |          
+                                     |          |           --0.76%--isWidowedContext
+                                     |          |          
+                                     |           --2.74%--wakeHighestPriority
+                                     |                     |          
+                                     |                     |--1.29%--isLiveContext
+                                     |                     |          isLiveContext
+                                     |                     |          isWidowedContext
+                                     |                     |          
+                                     |                      --0.84%--removeFirstLinkOfList
+                                     |          
+                                     |--8.06%--primitiveFullGC
+                                     |          fullGC
+                                     |          |          
+                                     |          |--6.01%--markObjects (inlined)
+                                     |          |          |          
+                                     |          |           --5.63%--markAndTraceHiddenRoots (inlined)
+                                     |          |                     markAndTrace
+                                     |          |                     |          
+                                     |          |                     |--2.21%--long64At (inlined)
+                                     |          |                     |          long64AtPointer (inlined)
+                                     |          |                     |          
+                                     |          |                     |--0.84%--unsignedLongAt (inlined)
+                                     |          |                     |          unsignedLongAtPointer (inlined)
+                                     |          |                     |          
+                                     |          |                      --0.53%--markAndTraceClassOf
+                                     |          |          
+                                     |           --1.90%--compact
+                                     |                     |          
+                                     |                     |--0.76%--unmarkInitialImmobileObjectsFreeUnmarked
+                                     |                     |          
+                                     |                      --0.53%--initializeScanCheckingForFullyCompactedHeap (inlined)
+                                     |                                reinitializeScanFrom
+                                     |                                scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+                                     |          
+                                     |--1.52%--marryFrameSP
+                                     |          
+                                     |--1.29%--unsignedLongAt (inlined)
+                                     |          unsignedLongAtPointer (inlined)
+                                     |          
+                                     |--1.03%--activateCoggedNewMethod
+                                     |          
+                                     |--0.68%--unsignedLongAtput (inlined)
+                                     |          unsignedLongAtPointerput (inlined)
+                                     |          
+                                     |--0.61%--returnToExecutivepostContextSwitch
+                                     |          
+                                     |--0.61%--primitiveFullClosureValue
+                                     |          
+                                      --0.61%--assertValidExecutionPointersimbarline (inlined)
+
+    12.25%     1.14%  pharo            libPharoVMCore.so          [.] primitiveWait
+            |          
+            |--11.18%--primitiveWait
+            |          |          
+            |          |--7.00%--transferTofrom
+            |          |          |          
+            |          |          |--2.59%--marryFrameSP
+            |          |          |          
+            |          |           --1.75%--isWidowedContext
+            |          |          
+            |           --3.19%--wakeHighestPriority
+            |                     |          
+            |                     |--1.75%--isLiveContext
+            |                     |          isLiveContext
+            |                     |          isWidowedContext
+            |                     |          
+            |                      --0.84%--removeFirstLinkOfList
+            |          
+             --0.61%--0x30013273e
+                       primitiveWait
+
+     8.06%     0.00%  pharo            libPharoVMCore.so          [.] primitiveFullGC
+            |
+            ---primitiveFullGC
+               fullGC
+               |          
+               |--6.01%--markObjects (inlined)
+               |          |          
+               |           --5.63%--markAndTraceHiddenRoots (inlined)
+               |                     markAndTrace
+               |                     |          
+               |                     |--2.21%--long64At (inlined)
+               |                     |          long64AtPointer (inlined)
+               |                     |          
+               |                     |--0.84%--unsignedLongAt (inlined)
+               |                     |          unsignedLongAtPointer (inlined)
+               |                     |          
+               |                      --0.53%--markAndTraceClassOf
+               |          
+                --1.90%--compact
+                          |          
+                          |--0.76%--unmarkInitialImmobileObjectsFreeUnmarked
+                          |          
+                           --0.53%--initializeScanCheckingForFullyCompactedHeap (inlined)
+                                     reinitializeScanFrom
+                                     scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+
+     8.06%     0.00%  pharo            libPharoVMCore.so          [.] fullGC
+            |
+            ---fullGC
+               |          
+               |--6.01%--markObjects (inlined)
+               |          |          
+               |           --5.63%--markAndTraceHiddenRoots (inlined)
+               |                     markAndTrace
+               |                     |          
+               |                     |--2.21%--long64At (inlined)
+               |                     |          long64AtPointer (inlined)
+               |                     |          
+               |                     |--0.84%--unsignedLongAt (inlined)
+               |                     |          unsignedLongAtPointer (inlined)
+               |                     |          
+               |                      --0.53%--markAndTraceClassOf
+               |          
+                --1.90%--compact
+                          |          
+                          |--0.76%--unmarkInitialImmobileObjectsFreeUnmarked
+                          |          
+                           --0.53%--initializeScanCheckingForFullyCompactedHeap (inlined)
+                                     reinitializeScanFrom
+                                     scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+
+     7.23%     2.66%  pharo            libPharoVMCore.so          [.] transferTofrom
+            |          
+            |--4.56%--transferTofrom
+            |          |          
+            |          |--2.59%--marryFrameSP
+            |          |          
+            |           --1.75%--isWidowedContext
+            |          
+            |--1.83%--_start
+            |          __libc_start_main
+            |          vm_main
+            |          vm_main_with_parameters
+            |          vm_main_with_parameters
+            |          runOnMainThread (inlined)
+            |          runVMThread (inlined)
+            |          interpret
+            |          enterSmalltalkExecutiveImplementation
+            |          interpret
+            |          primitiveWait
+            |          transferTofrom
+            |          
+             --0.61%--0x300124f3c
+                       primitiveWait
+                       transferTofrom
+
+     6.28%     5.40%  pharo            libPharoVMCore.so          [.] marryFrameSP
+            |          
+            |--3.27%--_start
+            |          __libc_start_main
+            |          vm_main
+            |          vm_main_with_parameters
+            |          vm_main_with_parameters
+            |          runOnMainThread (inlined)
+            |          runVMThread (inlined)
+            |          interpret
+            |          enterSmalltalkExecutiveImplementation
+            |          interpret
+            |          |          
+            |          |--1.98%--primitiveWait
+            |          |          transferTofrom
+            |          |          marryFrameSP
+            |          |          
+            |           --1.29%--marryFrameSP
+            |          
+            |--1.29%--0x10000468077
+            |          marryFrameSP
+            |          |          
+            |           --0.76%--isMachineCodeIP (inlined)
+            |          
+             --0.88%--marryFrameSP
+                       |          
+                        --0.58%--isMachineCodeIP (inlined)
+
+     6.01%     0.00%  pharo            libPharoVMCore.so          [.] markObjects (inlined)
+            |
+            ---markObjects (inlined)
+               |          
+                --5.63%--markAndTraceHiddenRoots (inlined)
+                          markAndTrace
+                          |          
+                          |--2.21%--long64At (inlined)
+                          |          long64AtPointer (inlined)
+                          |          
+                          |--0.84%--unsignedLongAt (inlined)
+                          |          unsignedLongAtPointer (inlined)
+                          |          
+                           --0.53%--markAndTraceClassOf
+
+     5.78%     5.02%  pharo            libPharoVMCore.so          [.] markAndTrace
+            |          
+            |--4.87%--_start
+            |          __libc_start_main
+            |          vm_main
+            |          vm_main_with_parameters
+            |          vm_main_with_parameters
+            |          runOnMainThread (inlined)
+            |          runVMThread (inlined)
+            |          interpret
+            |          enterSmalltalkExecutiveImplementation
+            |          interpret
+            |          primitiveFullGC
+            |          fullGC
+            |          markObjects (inlined)
+            |          markAndTraceHiddenRoots (inlined)
+            |          markAndTrace
+            |          |          
+            |          |--2.21%--long64At (inlined)
+            |          |          long64AtPointer (inlined)
+            |          |          
+            |           --0.84%--unsignedLongAt (inlined)
+            |                     unsignedLongAtPointer (inlined)
+            |          
+             --0.76%--markAndTrace
+                       |          
+                        --0.53%--markAndTraceClassOf
+
+     5.63%     0.00%  pharo            libPharoVMCore.so          [.] markAndTraceHiddenRoots (inlined)
+            |
+            ---markAndTraceHiddenRoots (inlined)
+               markAndTrace
+               |          
+               |--2.21%--long64At (inlined)
+               |          long64AtPointer (inlined)
+               |          
+               |--0.84%--unsignedLongAt (inlined)
+               |          unsignedLongAtPointer (inlined)
+               |          
+                --0.53%--markAndTraceClassOf
+
+     3.88%     3.73%  pharo            libPharoVMCore.so          [.] isWidowedContext
+            |          
+            |--2.05%--_start
+            |          __libc_start_main
+            |          vm_main
+            |          vm_main_with_parameters
+            |          vm_main_with_parameters
+            |          runOnMainThread (inlined)
+            |          runVMThread (inlined)
+            |          interpret
+            |          enterSmalltalkExecutiveImplementation
+            |          interpret
+            |          primitiveWait
+            |          |          
+            |          |--1.29%--wakeHighestPriority
+            |          |          isLiveContext
+            |          |          isLiveContext
+            |          |          isWidowedContext
+            |          |          
+            |           --0.76%--transferTofrom
+            |                     isWidowedContext
+            |          
+             --1.29%--0x300124f3c
+                       primitiveWait
+                       |          
+                        --0.91%--transferTofrom
+                                  isWidowedContext
+
+     3.76%     1.51%  pharo            libPharoVMCore.so          [.] ceSendsupertonumArgs
+            |          
+            |--2.25%--ceSendsupertonumArgs
+            |          |          
+            |           --1.60%--interpretMethodFromMachineCode
+            |                     |          
+            |                      --1.45%--activateNewMethod
+            |          
+             --1.20%--0x300000106
+                       ceSendsupertonumArgs
+
+     3.58%     0.99%  pharo            libPharoVMCore.so          [.] wakeHighestPriority
+            |          
+            |--2.59%--wakeHighestPriority
+            |          |          
+            |          |--1.75%--isLiveContext
+            |          |          isLiveContext
+            |          |          isWidowedContext
+            |          |          
+            |           --0.84%--removeFirstLinkOfList
+            |          
+             --0.61%--_start
+                       __libc_start_main
+                       vm_main
+                       vm_main_with_parameters
+                       vm_main_with_parameters
+                       runOnMainThread (inlined)
+                       runVMThread (inlined)
+                       interpret
+                       enterSmalltalkExecutiveImplementation
+                       interpret
+                       primitiveWait
+                       wakeHighestPriority
+
+     3.38%     0.00%  pharo            [JIT] tid 3380543          [.] 0x0000000300000106
+            |
+            ---0x300000106
+               ceSendsupertonumArgs
+               |          
+                --1.52%--interpretMethodFromMachineCode
+                          |          
+                           --1.37%--activateNewMethod
+
+     3.27%     0.68%  pharo            libPharoVMCore.so          [.] primitiveSignal
+            |          
+             --2.59%--primitiveSignal
+                       |          
+                       |--1.83%--resumepreemptedYieldingIffrom
+                       |          |          
+                       |           --0.99%--addLastLinktoList
+                       |          
+                        --0.61%--synchronousSignal
+
+     3.04%     0.00%  pharo            [JIT] tid 3380543          [.] 0x0000000300124f3c
+            |
+            ---0x300124f3c
+               |          
+                --2.66%--primitiveWait
+                          |          
+                           --1.67%--transferTofrom
+                                     |          
+                                      --0.99%--isWidowedContext
+
+     2.81%     0.00%  pharo            [JIT] tid 3380543          [.] 0x0000000300125a5c
+            |
+            ---0x300125a5c
+               primitiveSignal
+               |          
+               |--1.83%--resumepreemptedYieldingIffrom
+               |          |          
+               |           --0.99%--addLastLinktoList
+               |          
+                --0.61%--synchronousSignal
+
+     2.59%     2.05%  pharo            libPharoVMCore.so          [.] primitiveFullClosureValueNoContextSwitch
+            |          
+            |--1.52%--0x3001252f4
+            |          primitiveFullClosureValueNoContextSwitch
+            |          
+             --0.53%--primitiveFullClosureValueNoContextSwitch
+
+     2.59%     0.00%  pharo            [unknown]                  [.] 0xffffffffffffffff
+            |
+            ---0xffffffffffffffff
+               |          
+                --1.60%--interpret
+
+     2.51%     0.00%  pharo            [JIT] tid 3380543          [.] 0x00000003001252f4
+            |
+            ---0x3001252f4
+               |          
+                --2.05%--primitiveFullClosureValueNoContextSwitch
+
+     2.40%     0.00%  pharo            libPharoVMCore.so          [.] isMachineCodeIP (inlined)
+            |
+            ---isMachineCodeIP (inlined)
+
+     2.33%     1.80%  pharo            libPharoVMCore.so          [.] activateNewMethod
+            |          
+            |--0.99%--0x300000106
+            |          ceSendsupertonumArgs
+            |          interpretMethodFromMachineCode
+            |          activateNewMethod
+            |          
+             --0.76%--activateNewMethod
+
+     2.21%     0.00%  pharo            libPharoVMCore.so          [.] long64At (inlined)
+            |
+            ---long64At (inlined)
+               long64AtPointer (inlined)
+
+     2.21%     0.00%  pharo            libPharoVMCore.so          [.] long64AtPointer (inlined)
+            |
+            ---long64AtPointer (inlined)
+
+     2.13%     1.45%  pharo            libPharoVMCore.so          [.] returnToExecutivepostContextSwitch
+            |          
+             --0.91%--returnToExecutivepostContextSwitch
+
+     1.98%     0.23%  pharo            libPharoVMCore.so          [.] isLiveContext
+            |          
+             --1.75%--isLiveContext
+                       isLiveContext
+                       isWidowedContext
+
+     1.90%     0.84%  pharo            libPharoVMCore.so          [.] resumepreemptedYieldingIffrom
+            |          
+            |--1.06%--resumepreemptedYieldingIffrom
+            |          |          
+            |           --0.99%--addLastLinktoList
+            |          
+             --0.76%--0x300125a5c
+                       primitiveSignal
+                       resumepreemptedYieldingIffrom
+
+     1.90%     0.00%  pharo            libPharoVMCore.so          [.] compact
+            |
+            ---compact
+               |          
+               |--0.76%--unmarkInitialImmobileObjectsFreeUnmarked
+               |          
+                --0.53%--initializeScanCheckingForFullyCompactedHeap (inlined)
+                          reinitializeScanFrom
+                          scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+
+     1.87%     1.60%  pharo            libPharoVMCore.so          [.] primitiveFullClosureValue
+            |          
+             --0.61%--_start
+                       __libc_start_main
+                       vm_main
+                       vm_main_with_parameters
+                       vm_main_with_parameters
+                       runOnMainThread (inlined)
+                       runVMThread (inlined)
+                       interpret
+                       enterSmalltalkExecutiveImplementation
+                       interpret
+                       primitiveFullClosureValue
+
+     1.83%     1.83%  pharo            libPharoVMCore.so          [.] addLastLinktoList
+            |          
+             --0.99%--0x300125a5c
+                       primitiveSignal
+                       resumepreemptedYieldingIffrom
+                       addLastLinktoList
+
+     1.75%     0.15%  pharo            libPharoVMCore.so          [.] interpretMethodFromMachineCode
+            |          
+             --1.60%--interpretMethodFromMachineCode
+                       |          
+                        --1.45%--activateNewMethod
+
+     1.44%     0.00%  pharo            anon                       [.] 0x0000010000468077
+            |
+            ---0x10000468077
+               |          
+                --1.29%--marryFrameSP
+                          |          
+                           --0.76%--isMachineCodeIP (inlined)
+
+     1.37%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAt (inlined)
+            |
+            ---unsignedLongAt (inlined)
+               unsignedLongAtPointer (inlined)
+
+     1.37%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointer (inlined)
+            |
+            ---unsignedLongAtPointer (inlined)
+
+     1.37%     1.37%  pharo            libPharoVMCore.so          [.] removeFirstLinkOfList
+            |          
+             --0.84%--_start
+                       __libc_start_main
+                       vm_main
+                       vm_main_with_parameters
+                       vm_main_with_parameters
+                       runOnMainThread (inlined)
+                       runVMThread (inlined)
+                       interpret
+                       enterSmalltalkExecutiveImplementation
+                       interpret
+                       primitiveWait
+                       wakeHighestPriority
+                       removeFirstLinkOfList
+
+     1.29%     0.00%  pharo            libc-2.31.so               [.] _longjmp (inlined)
+            |
+            ---_longjmp (inlined)
+
+     1.26%     1.26%  pharo            libPharoVMCore.so          [.] startOfObjectMemory@plt
+            |          
+             --0.68%--_start
+                       __libc_start_main
+                       vm_main
+                       vm_main_with_parameters
+                       vm_main_with_parameters
+                       runOnMainThread (inlined)
+                       runVMThread (inlined)
+                       interpret
+                       enterSmalltalkExecutiveImplementation
+                       interpret
+
+     1.22%     1.22%  pharo            libPharoVMCore.so          [.] getMemoryMap@plt
+            |          
+             --0.91%--_start
+                       __libc_start_main
+                       vm_main
+                       vm_main_with_parameters
+                       vm_main_with_parameters
+                       runOnMainThread (inlined)
+                       runVMThread (inlined)
+                       interpret
+                       enterSmalltalkExecutiveImplementation
+                       |          
+                        --0.76%--interpret
+
+     1.14%     1.14%  pharo            [JIT] tid 3380543          [.] 0x00000003000013a0
+            |
+            ---0x3000013a0
+
+     1.03%     0.73%  pharo            libPharoVMCore.so          [.] activateCoggedNewMethod
+            |          
+             --0.73%--_start
+                       __libc_start_main
+                       vm_main
+                       vm_main_with_parameters
+                       vm_main_with_parameters
+                       runOnMainThread (inlined)
+                       runVMThread (inlined)
+                       interpret
+                       enterSmalltalkExecutiveImplementation
+                       interpret
+                       activateCoggedNewMethod
+
+     0.99%     0.38%  pharo            libPharoVMCore.so          [.] primitivePerform
+            |          
+             --0.61%--primitivePerform
+
+     0.99%     0.99%  pharo            libPharoVMCore.so          [.] getMemoryMap
+     0.99%     0.99%  pharo            libPharoVMCore.so          [.] inlineLookupInMethodCacheSelclassTag
+     0.97%     0.00%  ldd              bash                       [.] execute_command_internal
+            |
+            ---execute_command_internal
+               execute_command
+               execute_command_internal
+               |          
+                --0.82%--0x55abaffaa907
+                          execute_command_internal
+                          execute_command
+                          execute_command_internal
+                          |          
+                           --0.82%--execute_command
+                                     execute_command_internal
+                                     execute_command
+                                     execute_command_internal
+
+     0.97%     0.00%  ldd              bash                       [.] execute_command
+            |
+            ---execute_command
+               execute_command_internal
+               |          
+                --0.97%--execute_command
+                          execute_command_internal
+                          0x55abaffaa907
+                          execute_command_internal
+                          execute_command
+                          execute_command_internal
+                          |          
+                           --0.82%--execute_command
+                                     execute_command_internal
+                                     execute_command
+                                     execute_command_internal
+
+     0.97%     0.00%  ldd              bash                       [.] 0x000055abaffaa907
+            |
+            ---0x55abaffaa907
+               execute_command_internal
+               execute_command
+               execute_command_internal
+               |          
+                --0.82%--execute_command
+                          execute_command_internal
+                          execute_command
+                          execute_command_internal
+
+     0.93%     0.00%  pharo            libPharoVMCore.so          [.] checkForEventsMayContextSwitch
+            |
+            ---checkForEventsMayContextSwitch
+               |          
+                --0.65%--sufficientSpaceAfterGC (inlined)
+                          scavengingGCTenuringIf
+                          doScavenge
+                          |          
+                           --0.58%--scavengeLoop (inlined)
+
+     0.91%     0.00%  pharo            libPharoVMCore.so          [.] assertValidExecutionPointersimbarline (inlined)
+            |
+            ---assertValidExecutionPointersimbarline (inlined)
+
+     0.84%     0.76%  pharo            libPharoVMCore.so          [.] synchronousSignal
+            |          
+             --0.53%--0x300125a5c
+                       primitiveSignal
+                       synchronousSignal
+
+     0.84%     0.84%  pharo            libpthread-2.31.so         [.] __GI___pthread_cleanup_upto
+     0.84%     0.00%  pharo            libpthread-2.31.so         [.] __pthread_cleanup_upto (inlined)
+            |
+            ---__pthread_cleanup_upto (inlined)
+
+     0.84%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAt (inlined)
+            |
+            ---unsignedLongAt (inlined)
+               unsignedLongAtPointer (inlined)
+
+     0.84%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointer (inlined)
+            |
+            ---unsignedLongAtPointer (inlined)
+
+     0.84%     0.84%  pharo            libPharoVMCore.so          [.] unmarkInitialImmobileObjectsFreeUnmarked
+            |
+            ---_start
+               __libc_start_main
+               vm_main
+               vm_main_with_parameters
+               vm_main_with_parameters
+               runOnMainThread (inlined)
+               runVMThread (inlined)
+               interpret
+               enterSmalltalkExecutiveImplementation
+               interpret
+               primitiveFullGC
+               fullGC
+               compact
+               |          
+                --0.76%--unmarkInitialImmobileObjectsFreeUnmarked
+
+     0.84%     0.15%  pharo            libPharoVMCore.so          [.] ceReturnToInterpreter
+            |          
+             --0.68%--ceReturnToInterpreter
+                       _longjmp (inlined)
+
+     0.82%     0.00%  ldd              bash                       [.] _start
+            |
+            ---_start
+               __libc_start_main
+               main
+               reader_loop
+               execute_command
+               execute_command_internal
+               execute_command
+               execute_command_internal
+               0x55abaffaa907
+               execute_command_internal
+               execute_command
+               execute_command_internal
+               execute_command
+               execute_command_internal
+               execute_command
+               execute_command_internal
+
+     0.82%     0.00%  ldd              libc-2.31.so               [.] __libc_start_main
+            |
+            ---__libc_start_main
+               main
+               reader_loop
+               execute_command
+               execute_command_internal
+               execute_command
+               execute_command_internal
+               0x55abaffaa907
+               execute_command_internal
+               execute_command
+               execute_command_internal
+               execute_command
+               execute_command_internal
+               execute_command
+               execute_command_internal
+
+     0.82%     0.00%  ldd              bash                       [.] main
+            |
+            ---main
+               reader_loop
+               execute_command
+               execute_command_internal
+               execute_command
+               execute_command_internal
+               0x55abaffaa907
+               execute_command_internal
+               execute_command
+               execute_command_internal
+               execute_command
+               execute_command_internal
+               execute_command
+               execute_command_internal
+
+     0.82%     0.00%  ldd              bash                       [.] reader_loop
+            |
+            ---reader_loop
+               execute_command
+               execute_command_internal
+               execute_command
+               execute_command_internal
+               0x55abaffaa907
+               execute_command_internal
+               execute_command
+               execute_command_internal
+               execute_command
+               execute_command_internal
+               execute_command
+               execute_command_internal
+
+     0.81%     0.00%  pharo            libPharoVMCore.so          [.] doScavenge
+            |
+            ---doScavenge
+               |          
+                --0.73%--scavengeLoop (inlined)
+
+     0.76%     0.00%  pharo            [JIT] tid 3380543          [.] 0x000000030012458d
+            |
+            ---0x30012458d
+               primitivePerform
+
+     0.76%     0.00%  pharo            [JIT] tid 3380543          [.] 0x00000003000013c4
+            |
+            ---0x3000013c4
+               ceReturnToInterpreter
+               |          
+                --0.68%--_longjmp (inlined)
+
+     0.73%     0.00%  pharo            libPharoVMCore.so          [.] scavengeLoop (inlined)
+            |
+            ---scavengeLoop (inlined)
+
+     0.72%     0.00%  ldd              bash                       [.] 0x000055abaffaa8ca
+            |
+            ---0x55abaffaa8ca
+               execute_command
+               execute_command_internal
+
+     0.72%     0.00%  ldd              bash                       [.] expand_words
+            |
+            ---expand_words
+               0x55abaffcab0b
+               0x55abaffca62d
+               0x55abaffd0bdb
+
+     0.72%     0.00%  ldd              bash                       [.] 0x000055abaffcab0b
+            |
+            ---0x55abaffcab0b
+               0x55abaffca62d
+               0x55abaffd0bdb
+
+     0.72%     0.00%  ldd              bash                       [.] 0x000055abaffca62d
+            |
+            ---0x55abaffca62d
+               0x55abaffd0bdb
+
+     0.72%     0.00%  ldd              bash                       [.] 0x000055abaffd0bdb
+            |
+            ---0x55abaffd0bdb
+
+     0.72%     0.00%  ldd              bash                       [.] command_substitute
+            |
+            ---command_substitute
+
+     0.68%     0.00%  pharo            anon                       [.] 0x000001000046425f
+            |
+            ---0x1000046425f
+
+     0.68%     0.00%  pharo            [JIT] tid 3380543          [.] 0x000000030013273e
+            |
+            ---0x30013273e
+               |          
+                --0.61%--primitiveWait
+
+     0.68%     0.68%  pharo            [JIT] tid 3380543          [.] 0x000000030013273f
+            |
+            ---0x30013273f
+
+     0.68%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtput (inlined)
+            |
+            ---unsignedLongAtput (inlined)
+               unsignedLongAtPointerput (inlined)
+
+     0.68%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointerput (inlined)
+            |
+            ---unsignedLongAtPointerput (inlined)
+
+     0.68%     0.00%  pharo            libPharoVMCore.so          [.] handleStackOverflowOrEventAllowContextSwitch (inlined)
+            |
+            ---handleStackOverflowOrEventAllowContextSwitch (inlined)
+               checkForEventsMayContextSwitch
+               |          
+                --0.61%--sufficientSpaceAfterGC (inlined)
+                          scavengingGCTenuringIf
+                          doScavenge
+                          |          
+                           --0.53%--scavengeLoop (inlined)
+
+     0.65%     0.00%  pharo            libPharoVMCore.so          [.] sufficientSpaceAfterGC (inlined)
+            |
+            ---sufficientSpaceAfterGC (inlined)
+               scavengingGCTenuringIf
+               doScavenge
+               |          
+                --0.58%--scavengeLoop (inlined)
+
+     0.65%     0.00%  pharo            libPharoVMCore.so          [.] scavengingGCTenuringIf
+            |
+            ---scavengingGCTenuringIf
+               doScavenge
+               |          
+                --0.58%--scavengeLoop (inlined)
+
+     0.65%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtput (inlined)
+            |
+            ---unsignedLongAtput (inlined)
+               unsignedLongAtPointerput (inlined)
+
+     0.65%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointerput (inlined)
+            |
+            ---unsignedLongAtPointerput (inlined)
+
+     0.61%     0.46%  pharo            libPharoVMCore.so          [.] returntoExecutive
+     0.61%     0.00%  pharo            [JIT] tid 3380543          [.] 0x00000003000047b4
+            |
+            ---0x3000047b4
+               primitiveFullClosureValue
+
+     0.61%     0.61%  pharo            [JIT] tid 3380543          [.] 0x000000030012506f
+            |
+            ---0x30012506f
+
+     0.61%     0.61%  pharo            libc-2.31.so               [.] __libc_siglongjmp
+     0.61%     0.61%  pharo            libPharoVMCore.so          [.] markAndTraceClassOf
+            |          
+             --0.53%--_start
+                       __libc_start_main
+                       vm_main
+                       vm_main_with_parameters
+                       vm_main_with_parameters
+                       runOnMainThread (inlined)
+                       runVMThread (inlined)
+                       interpret
+                       enterSmalltalkExecutiveImplementation
+                       interpret
+                       primitiveFullGC
+                       fullGC
+                       markObjects (inlined)
+                       markAndTraceHiddenRoots (inlined)
+                       markAndTrace
+                       markAndTraceClassOf
+
+     0.58%     0.30%  pharo            libPharoVMCore.so          [.] methodShouldBeCogged
+     0.56%     0.00%  pharo            [kernel.kallsyms]          [k] entry_SYSCALL_64_after_hwframe
+            |
+            ---entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+
+     0.56%     0.00%  pharo            [kernel.kallsyms]          [k] do_syscall_64
+            |
+            ---do_syscall_64
+
+     0.56%     0.00%  ldd              [kernel.kallsyms]          [k] entry_SYSCALL_64_after_hwframe
+            |
+            ---entry_SYSCALL_64_after_hwframe
+               do_syscall_64
+
+     0.56%     0.00%  ldd              [kernel.kallsyms]          [k] do_syscall_64
+            |
+            ---do_syscall_64
+
+     0.56%     0.00%  ldd              bash                       [.] 0x000055abaffaa950
+            |
+            ---0x55abaffaa950
+               execute_command
+               execute_command_internal
+
+     0.53%     0.53%  pharo            [JIT] tid 3380543          [.] 0x0000000300004331
+            |
+            ---0x300004331
+
+     0.53%     0.53%  pharo            [JIT] tid 3380543          [.] 0x0000000300125888
+            |
+            ---0x300125888
+
+     0.53%     0.00%  pharo            libPharoVMCore.so          [.] byteAtPointer (inlined)
+            |
+            ---byteAtPointer (inlined)
+
+     0.53%     0.00%  pharo            libPharoVMCore.so          [.] isMachineCodeIP (inlined)
+            |
+            ---isMachineCodeIP (inlined)
+
+     0.53%     0.00%  pharo            anon                       [.] 0x0000000280001f8f
+            |
+            ---0x280001f8f
+
+     0.53%     0.00%  pharo            libPharoVMCore.so          [.] frameStackedReceiverOffset (inlined)
+            |
+            ---frameStackedReceiverOffset (inlined)
+
+     0.53%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAt (inlined)
+            |
+            ---unsignedLongAt (inlined)
+               unsignedLongAtPointer (inlined)
+
+     0.53%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointer (inlined)
+            |
+            ---unsignedLongAtPointer (inlined)
+
+     0.53%     0.53%  pharo            libPharoVMCore.so          [.] reinitializeScanFrom
+            |
+            ---_start
+               __libc_start_main
+               vm_main
+               vm_main_with_parameters
+               vm_main_with_parameters
+               runOnMainThread (inlined)
+               runVMThread (inlined)
+               interpret
+               enterSmalltalkExecutiveImplementation
+               interpret
+               primitiveFullGC
+               fullGC
+               compact
+               initializeScanCheckingForFullyCompactedHeap (inlined)
+               reinitializeScanFrom
+               scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+
+     0.53%     0.00%  pharo            libPharoVMCore.so          [.] initializeScanCheckingForFullyCompactedHeap (inlined)
+            |
+            ---initializeScanCheckingForFullyCompactedHeap (inlined)
+               reinitializeScanFrom
+               scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+
+     0.53%     0.00%  pharo            libPharoVMCore.so          [.] scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+            |
+            ---scanForFirstFreeAndFirstMobileObjectFrom (inlined)
+
+     0.50%     0.15%  pharo            libPharoVMCore.so          [.] scavengeReferentsOfFromOldSpace
+     0.50%     0.50%  pharo            libPharoVMCore.so          [.] allocateNewSpaceSlotsformatclassIndex
+     0.46%     0.00%  pharo            anon                       [.] 0x000001000009b22f
+     0.46%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAt (inlined)
+     0.46%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointer (inlined)
+     0.46%     0.00%  pharo            libPharoVMCore.so          [.] isMachineCodeIP (inlined)
+     0.46%     0.00%  pharo            anon                       [.] 0x000001000005e0ef
+     0.46%     0.46%  pharo            [JIT] tid 3380543          [.] 0x0000000300125085
+     0.46%     0.46%  pharo            libPharoVMCore.so          [.] startOfObjectMemory
+     0.46%     0.46%  pharo            libPharoVMCore.so          [.] maxCogMethodAddress@plt
+     0.46%     0.46%  pharo            [JIT] tid 3380543          [.] 0x00000003001325d3
+     0.46%     0.00%  pharo            libPharoVMCore.so          [.] longAtput (inlined)
+     0.46%     0.00%  pharo            libPharoVMCore.so          [.] longAtPointerput (inlined)
+     0.45%     0.00%  ldd              bash                       [.] 0x000055abaffa9fdb
+     0.44%     0.00%  ldd              bash                       [.] 0x000055abaffa92d8
+     0.44%     0.00%  ldd              bash                       [.] parse_and_execute
+     0.44%     0.05%  pharo            [kernel.kallsyms]          [k] handle_mm_fault
+     0.44%     0.00%  pharo            [kernel.kallsyms]          [k] asm_exc_page_fault
+     0.44%     0.00%  pharo            [kernel.kallsyms]          [k] exc_page_fault
+     0.44%     0.00%  pharo            [kernel.kallsyms]          [k] do_user_addr_fault
+     0.43%     0.00%  pharo            libPharoVMCore.so          [.] scavengeFutureSurvivorSpaceStartingAt (inlined)
+     0.41%     0.00%  ldd              bash                       [.] 0x000055abaffce831
+     0.38%     0.38%  pharo            libPharoVMCore.so          [.] primitiveSmallFloatLessThan
+     0.38%     0.00%  pharo            [JIT] tid 3380543          [.] 0x000000030003b3c4
+     0.38%     0.38%  pharo            libPharoVMCore.so          [.] fetchIntegerofObject
+     0.38%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAt (inlined)
+     0.38%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointer (inlined)
+     0.38%     0.38%  pharo            libPharoVMCore.so          [.] popStack
+     0.38%     0.38%  pharo            libPharoVMCore.so          [.] primitiveSmallFloatEqual
+     0.38%     0.00%  pharo            [JIT] tid 3380543          [.] 0x000000030003d944
+     0.38%     0.38%  pharo            libPharoVMCore.so          [.] updatePointers
+     0.38%     0.00%  pharo            anon                       [.] 0x000001000000001f
+     0.37%     0.00%  pharo            libc-2.31.so               [.] clone (inlined)
+     0.36%     0.00%  pharo            libpthread-2.31.so         [.] start_thread
+     0.36%     0.00%  pharo            libPharoVMCore.so          [.] beatStateMachine
+     0.35%     0.08%  pharo            libPharoVMCore.so          [.] copyAndForward
+     0.33%     0.00%  pharo            libPharoVMCore.so          [.] ceStackOverflow
+     0.33%     0.00%  pharo            libPharoVMCore.so          [.] handleStackOverflowOrEventAllowContextSwitch (inlined)
+     0.33%     0.00%  pharo            libPharoVMCore.so          [.] assertValidExecutionPointersimbarline (inlined)
+     0.32%     0.00%  ldd              bash                       [.] make_child
+     0.32%     0.00%  ldd              libc-2.31.so               [.] __libc_fork
+     0.31%     0.00%  ldd              bash                       [.] 0x000055abaffce1c6
+     0.31%     0.00%  ldd              bash                       [.] 0x000055abaffcbcc4
+     0.31%     0.00%  ldd              [kernel.kallsyms]          [k] __do_sys_clone
+     0.31%     0.00%  ldd              [kernel.kallsyms]          [k] kernel_clone
+     0.31%     0.00%  ldd              [kernel.kallsyms]          [k] copy_process
+     0.31%     0.31%  pharo            [kernel.kallsyms]          [k] clear_page_rep
+     0.31%     0.00%  pharo            libPharoVMCore.so          [.] loadPharoImage
+     0.31%     0.00%  pharo            libPharoVMCore.so          [.] readImageNamed
+     0.31%     0.00%  pharo            libPharoVMCore.so          [.] basicImageFileRead
+     0.31%     0.00%  pharo            libc-2.31.so               [.] fread (inlined)
+     0.31%     0.00%  pharo            libc-2.31.so               [.] 0x00007f3ec0cd358d
+     0.31%     0.00%  pharo            libc-2.31.so               [.] 0x00007f3ec0cfaa06
+     0.31%     0.00%  pharo            [kernel.kallsyms]          [k] do_huge_pmd_anonymous_page
+     0.31%     0.00%  pharo            [kernel.kallsyms]          [k] clear_huge_page
+     0.31%     0.00%  pharo            [kernel.kallsyms]          [k] clear_subpage
+     0.30%     0.30%  pharo            [JIT] tid 3380543          [.] 0x0000000300123c63
+     0.30%     0.30%  pharo            [JIT] tid 3380543          [.] 0x0000000300002c2b
+     0.30%     0.00%  pharo            libPharoVMCore.so          [.] byteAt (inlined)
+     0.30%     0.30%  pharo            libPharoVMCore.so          [.] maxCogMethodAddress
+     0.30%     0.15%  pharo            libPharoVMCore.so          [.] findNewMethodInClassTag
+     0.30%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtput (inlined)
+     0.30%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointerput (inlined)
+     0.30%     0.30%  pharo            [JIT] tid 3380543          [.] 0x00000003001325ce
+     0.30%     0.00%  pharo            [unknown]                  [.] 0x0000000000000001
+     0.30%     0.30%  pharo            [JIT] tid 3380543          [.] 0x0000000300125a83
+     0.30%     0.00%  pharo            libPharoVMCore.so          [.] isMachineCodeIP (inlined)
+     0.30%     0.00%  pharo            libc-2.31.so               [.] nanosleep (inlined)
+     0.30%     0.00%  pharo            libc-2.31.so               [.] clock_nanosleep
+     0.30%     0.00%  pharo            [kernel.kallsyms]          [k] __x64_sys_clock_nanosleep
+     0.30%     0.00%  pharo            [kernel.kallsyms]          [k] common_nsleep
+     0.30%     0.00%  pharo            [kernel.kallsyms]          [k] hrtimer_nanosleep
+     0.30%     0.00%  pharo            [kernel.kallsyms]          [k] do_nanosleep
+     0.30%     0.00%  pharo            libPharoVMCore.so          [.] isMachineCodeIP (inlined)
+     0.27%     0.00%  ldd              [kernel.kallsyms]          [k] asm_exc_page_fault
+     0.27%     0.12%  ldd              [kernel.kallsyms]          [k] handle_mm_fault
+     0.27%     0.00%  ldd              [kernel.kallsyms]          [k] exc_page_fault
+     0.27%     0.00%  ldd              [kernel.kallsyms]          [k] do_user_addr_fault
+     0.23%     0.00%  pharo            anon                       [.] 0x000001000042c3df
+     0.23%     0.00%  pharo            libPharoVMCore.so          [.] isMachineCodeIP (inlined)
+     0.23%     0.23%  pharo            [JIT] tid 3380543          [.] 0x0000000300125a73
+     0.23%     0.23%  pharo            libPharoVMCore.so          [.] numSlotsOf
+     0.23%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAt (inlined)
+     0.23%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointer (inlined)
+     0.23%     0.23%  pharo            [JIT] tid 3380543          [.] 0x0000000300125a1c
+     0.23%     0.23%  pharo            [JIT] tid 3380543          [.] 0x00000003001325da
+     0.23%     0.00%  pharo            anon                       [.] 0x0000000280017eef
+     0.23%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtput (inlined)
+     0.23%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointerput (inlined)
+     0.23%     0.00%  pharo            anon                       [.] 0x0000000280019e5f
+     0.23%     0.23%  pharo            [JIT] tid 3380543          [.] 0x000000030000317e
+     0.23%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAt (inlined)
+     0.23%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointer (inlined)
+     0.23%     0.00%  pharo            libPharoVMCore.so          [.] isMachineCodeIP (inlined)
+     0.23%     0.23%  pharo            [JIT] tid 3380543          [.] 0x00000003001331cd
+     0.23%     0.00%  pharo            anon                       [.] 0x0000000280016eef
+     0.23%     0.23%  pharo            [JIT] tid 3380543          [.] 0x000000030000dffe
+     0.23%     0.00%  pharo            [unknown]                  [.] 0x000000ffffffffff
+     0.23%     0.23%  pharo            [JIT] tid 3380543          [.] 0x00000003000013c3
+     0.23%     0.23%  pharo            [JIT] tid 3380543          [.] 0x0000000300000e6c
+     0.23%     0.00%  pharo            libPharoVMCore.so          [.] mapInterpreterOops
+     0.23%     0.23%  pharo            [JIT] tid 3380543          [.] 0x0000000300125080
+     0.23%     0.23%  pharo            libPharoVMCore.so          [.] markAndTraceMachineCodeOfMarkedMethods
+     0.23%     0.00%  pharo            libPharoVMCore.so          [.] markWeaklingsAndMarkAndFireEphemerons (inlined)
+     0.23%     0.23%  pharo            [JIT] tid 3380543          [.] 0x000000030012418d
+     0.23%     0.23%  pharo            libPharoVMCore.so          [.] 0x000000000001e2e8
+     0.23%     0.00%  pharo            libPharoVMCore.so          [.] 0x00007f3ec0e492e8
+     0.23%     0.23%  pharo            [JIT] tid 3380543          [.] 0x0000000300002c2f
+     0.23%     0.00%  pharo            libPharoVMCore.so          [.] updatePointersInsavedFirstFieldPointer (inlined)
+     0.23%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAt (inlined)
+     0.23%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointer (inlined)
+     0.20%     0.00%  pharo            libPharoVMCore.so          [.] signalExternalSemaphores (inlined)
+     0.20%     0.05%  pharo            libPharoVMCore.so          [.] doSignalExternalSemaphores
+     0.20%     0.00%  pharo            [JIT] tid 3380543          [.] 0x0000000300000532
+     0.16%     0.00%  pharo            [JIT] tid 3380543          [.] 0x000000030000431c
+     0.16%     0.00%  ldd              bash                       [.] 0x000055abaffa51a5
+     0.16%     0.16%  ld-linux-x86-64  [kernel.kallsyms]          [k] copy_page
+     0.16%     0.00%  ld-linux-x86-64  ld-2.31.so                 [.] 0x00007f49dcb8a097
+     0.16%     0.00%  ld-linux-x86-64  ld-2.31.so                 [.] 0x00007f49dcb8ae04
+     0.16%     0.00%  ld-linux-x86-64  [kernel.kallsyms]          [k] asm_exc_page_fault
+     0.16%     0.00%  ld-linux-x86-64  [kernel.kallsyms]          [k] exc_page_fault
+     0.16%     0.00%  ld-linux-x86-64  [kernel.kallsyms]          [k] do_user_addr_fault
+     0.16%     0.00%  ld-linux-x86-64  [kernel.kallsyms]          [k] handle_mm_fault
+     0.16%     0.16%  ldd              [kernel.kallsyms]          [k] memset
+     0.16%     0.00%  ldd              [kernel.kallsyms]          [k] dup_mm
+     0.16%     0.00%  ldd              [kernel.kallsyms]          [k] vm_area_dup
+     0.16%     0.00%  ldd              [kernel.kallsyms]          [k] kmem_cache_alloc
+     0.15%     0.15%  ldd              [kernel.kallsyms]          [k] cpuset_fork
+     0.15%     0.00%  ldd              [kernel.kallsyms]          [k] cgroup_post_fork
+     0.15%     0.00%  ldd              [unknown]                  [k] 0xffffffffffffffff
+     0.15%     0.00%  ldd              bash                       [.] 0x000055abaffa30d4
+     0.15%     0.00%  ldd              bash                       [.] evalstring
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300002c1f
+     0.15%     0.00%  pharo            anon                       [.] 0x0000000280013b87
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x00000003001236af
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x000000030000294d
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x00000003000029a4
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300122009
+     0.15%     0.15%  pharo            libPharoVMCore.so          [.] primitiveSmallFloatDivide
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300002945
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAt (inlined)
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointer (inlined)
+     0.15%     0.15%  pharo            libPharoVMCore.so          [.] methodShouldBeCogged@plt
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x00000003001325ea
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x000000030013317d
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300124168
+     0.15%     0.00%  pharo            anon                       [.] 0x000000034000568f
+     0.15%     0.00%  pharo            anon                       [.] 0x0000000280015eef
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300132894
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x00000003001237a7
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] isEphemeron (inlined)
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] longAt (inlined)
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] longAtPointer (inlined)
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x00000003001338d6
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAt (inlined)
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointer (inlined)
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] markStackPageMostRecentlyUsed (inlined)
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300000e31
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300125999
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300132705
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300123796
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300133373
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x000000030000146e
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300000da3
+     0.15%     0.15%  pharo            libPharoVMCore.so          [.] putToSleepyieldingIf
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x000000030000471f
+     0.15%     0.00%  pharo            [unknown]                  [.] 0x000000033fffffff
+     0.15%     0.00%  pharo            [heap]                     [.] 0x00005627a18ee01f
+     0.15%     0.00%  pharo            anon                       [.] 0x0000000280019eef
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x00000003001258d3
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x00000003001034da
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x00000003001332f6
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300133434
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] markLiteralspcmethod (inlined)
+     0.15%     0.15%  pharo            libPharoVMCore.so          [.] noCheckPushonObjStack.isra.0
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] noCheckPushonObjStack (inlined)
+     0.15%     0.15%  pharo            libPharoVMCore.so          [.] popObjStack
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtput (inlined)
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointerput (inlined)
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300132c55
+     0.15%     0.15%  pharo            libPharoVMCore.so          [.] methodHeaderOf
+     0.15%     0.15%  pharo            libc-2.31.so               [.] 0x00000000000a39f6
+     0.15%     0.00%  pharo            libc-2.31.so               [.] 0x00007f3ec0cfa9f6
+     0.15%     0.15%  pharo            libc-2.31.so               [.] 0x0000000000038a2a
+     0.15%     0.00%  pharo            libc-2.31.so               [.] 0x00007f3ec0c8fa2a
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300125291
+     0.15%     0.15%  pharo            libPharoVMCore.so          [.] nilUnmarkedWeaklingSlots
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] long64At (inlined)
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] long64AtPointer (inlined)
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAt (inlined)
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointer (inlined)
+     0.15%     0.00%  pharo            anon                       [.] 0x0000000280016f27
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x00000003001258eb
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] longAtput (inlined)
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] longAtPointerput (inlined)
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300132570
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtput (inlined)
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointerput (inlined)
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] longAtput (inlined)
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] longAtPointerput (inlined)
+     0.15%     0.15%  pharo            libPharoVMCore.so          [.] processWeakSurvivor
+     0.15%     0.15%  pharo            libPharoVMCore.so          [.] retryPrimitiveOnFailure
+     0.15%     0.00%  pharo            [unknown]                  [.] 0x8000000008680020
+     0.15%     0.08%  pharo            libPharoVMCore.so          [.] mapObjectReferencesInMachineCode
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] mapObjectReferencesInMachineCodeForFullGC (inlined)
+     0.15%     0.00%  pharo            anon                       [.] 0x0000000340304f57
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300132c3f
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x000000030000148b
+     0.15%     0.15%  pharo            libPharoVMCore.so          [.] primitiveStringAtPut
+     0.15%     0.00%  pharo            [JIT] tid 3380543          [.] 0x00000003000fc335
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300124ee2
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x0000000300133194
+     0.15%     0.00%  pharo            libPharoVMCore.so          [.] copyAndUnmark
+     0.15%     0.15%  pharo            libPharoVMCore.so          [.] primitiveStringAt
+     0.15%     0.00%  pharo            anon                       [.] 0x00000100004680a7
+     0.15%     0.00%  pharo            libc-2.31.so               [.] sigprocmask
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x00000003001259e4
+     0.15%     0.00%  pharo            anon                       [.] 0x0000000280017e5f
+     0.15%     0.15%  pharo            [JIT] tid 3380543          [.] 0x000000030000258a
+     0.15%     0.15%  ldd              [kernel.kallsyms]          [k] wp_page_copy
+     0.15%     0.00%  ldd              bash                       [.] 0x000055abaffa515f
+     0.15%     0.00%  ldd              bash                       [.] 0x000055abaffb0882
+     0.15%     0.00%  ldd              bash                       [.] xrealloc
+     0.15%     0.00%  ldd              libc-2.31.so               [.] realloc
+     0.15%     0.00%  ldd              libc-2.31.so               [.] 0x00007fa1e5ac05d4
+     0.15%     0.00%  ldd              libc-2.31.so               [.] 0x00007fa1e5abd827
+     0.15%     0.15%  pharo            libPharoVMCore.so          [.] startOfObjectMemory
+     0.14%     0.14%  pharo            libPharoVMCore.so          [.] lookupOrdinaryNoMNUEtcInClass
+     0.14%     0.00%  pharo            libPharoVMCore.so          [.] ceSendFromInLineCacheMiss
+     0.14%     0.00%  pharo            libPharoVMCore.so          [.] lookupMNUInClass (inlined)
+     0.14%     0.14%  pharo            [JIT] tid 3380543          [.] 0x0000000300143688
+     0.13%     0.13%  ldd              bash                       [.] 0x000000000004507b
+     0.13%     0.00%  ldd              bash                       [.] 0x000055abaffa307b
+     0.13%     0.13%  ldd              [kernel.kallsyms]          [k] copy_user_generic_string
+     0.13%     0.00%  ldd              bash                       [.] 0x000055abaffa553b
+     0.13%     0.00%  ldd              bash                       [.] shell_execve
+     0.13%     0.00%  ldd              libc-2.31.so               [.] execve
+     0.13%     0.00%  ldd              [kernel.kallsyms]          [k] __x64_sys_execve
+     0.13%     0.00%  ldd              [kernel.kallsyms]          [k] do_execveat_common
+     0.13%     0.00%  ldd              [kernel.kallsyms]          [k] copy_strings.isra.0
+     0.13%     0.00%  ldd              [kernel.kallsyms]          [k] _copy_from_user
+     0.13%     0.13%  pharo            [kernel.kallsyms]          [k] _raw_spin_unlock_irqrestore
+     0.12%     0.12%  sed              [kernel.kallsyms]          [k] native_load_gs_index
+     0.12%     0.00%  sed              [kernel.kallsyms]          [k] entry_SYSCALL_64_after_hwframe
+     0.12%     0.00%  sed              [kernel.kallsyms]          [k] do_syscall_64
+     0.12%     0.00%  sed              [kernel.kallsyms]          [k] __x64_sys_execve
+     0.12%     0.00%  sed              [kernel.kallsyms]          [k] do_execveat_common
+     0.12%     0.00%  sed              [kernel.kallsyms]          [k] bprm_execve
+     0.12%     0.00%  sed              [kernel.kallsyms]          [k] load_elf_binary
+     0.12%     0.00%  sed              [kernel.kallsyms]          [k] start_thread_common.constprop.0
+     0.12%     0.12%  pharo            libPharoVMCore.so          [.] maybeFlagMethodAsInterpreted
+     0.12%     0.00%  pharo            dash                       [.] 0x000055b0f8a76799
+     0.12%     0.00%  pharo            dash                       [.] 0x000055b0f8a76724
+     0.12%     0.00%  pharo            dash                       [.] 0x000055b0f8a7f872
+     0.12%     0.00%  pharo            dash                       [.] 0x000055b0f8a7827d
+     0.12%     0.00%  pharo            dash                       [.] 0x000055b0f8a7cc06
+     0.12%     0.00%  pharo            dash                       [.] 0x000055b0f8a7c00e
+     0.12%     0.00%  pharo            dash                       [.] 0x000055b0f8a7f1e8
+     0.12%     0.00%  pharo            libc-2.31.so               [.] __libc_fork
+     0.12%     0.00%  pharo            dash                       [.] 0x000055b0f8a7924f
+     0.12%     0.00%  ldd              bash                       [.] begin_unwind_frame
+     0.12%     0.00%  ldd              bash                       [.] xmalloc
+     0.12%     0.00%  ldd              libc-2.31.so               [.] __libc_malloc (inlined)
+     0.12%     0.00%  ldd              libc-2.31.so               [.] 0x00007fa1e5abfb12
+     0.12%     0.12%  pharo            libpthread-2.31.so         [.] sem_wait@@GLIBC_2.2.5
+     0.12%     0.00%  pharo            libpthread-2.31.so         [.] __new_sem_wait (inlined)
+     0.12%     0.00%  pharo            [kernel.kallsyms]          [k] schedule
+     0.12%     0.00%  pharo            [kernel.kallsyms]          [k] __schedule
+     0.11%     0.11%  ldd              [kernel.kallsyms]          [k] uncharge_page
+     0.11%     0.00%  ldd              [kernel.kallsyms]          [k] __x64_sys_exit_group
+     0.11%     0.00%  ldd              [kernel.kallsyms]          [k] do_group_exit
+     0.11%     0.00%  ldd              [kernel.kallsyms]          [k] do_exit
+     0.11%     0.00%  ldd              [kernel.kallsyms]          [k] mmput
+     0.11%     0.00%  ldd              [kernel.kallsyms]          [k] exit_mmap
+     0.11%     0.00%  ldd              [kernel.kallsyms]          [k] tlb_finish_mmu
+     0.11%     0.00%  ldd              [kernel.kallsyms]          [k] release_pages
+     0.11%     0.00%  ldd              [kernel.kallsyms]          [k] mem_cgroup_uncharge_list
+     0.11%     0.11%  ldd              bash                       [.] hash_search
+     0.11%     0.00%  ldd              bash                       [.] 0x000055abaffaec8c
+     0.11%     0.00%  pharo            dash                       [.] 0x000055b0f8a79872
+     0.11%     0.00%  pharo            dash                       [.] 0x000055b0f8a78530
+     0.11%     0.11%  pharo            [kernel.kallsyms]          [k] kfree
+     0.11%     0.00%  pharo            [kernel.kallsyms]          [k] __do_sys_clone
+     0.11%     0.00%  pharo            [kernel.kallsyms]          [k] kernel_clone
+     0.11%     0.00%  pharo            [kernel.kallsyms]          [k] copy_process
+     0.11%     0.00%  pharo            [kernel.kallsyms]          [k] perf_event_init_task
+     0.11%     0.00%  pharo            [kernel.kallsyms]          [k] inherit_task_group.isra.0
+     0.11%     0.00%  pharo            [kernel.kallsyms]          [k] inherit_event.constprop.0
+     0.11%     0.00%  pharo            [kernel.kallsyms]          [k] perf_event_alloc
+     0.11%     0.00%  pharo            [kernel.kallsyms]          [k] perf_try_init_event
+     0.11%     0.00%  pharo            [kernel.kallsyms]          [k] x86_pmu_event_init
+     0.11%     0.00%  pharo            [kernel.kallsyms]          [k] intel_cpuc_finish
+     0.10%     0.10%  expr             [kernel.kallsyms]          [k] chacha_block_generic
+     0.10%     0.00%  expr             [kernel.kallsyms]          [k] entry_SYSCALL_64_after_hwframe
+     0.10%     0.00%  expr             [kernel.kallsyms]          [k] do_syscall_64
+     0.10%     0.00%  expr             [kernel.kallsyms]          [k] __x64_sys_execve
+     0.10%     0.00%  expr             [kernel.kallsyms]          [k] do_execveat_common
+     0.10%     0.00%  expr             [kernel.kallsyms]          [k] bprm_execve
+     0.10%     0.00%  expr             [kernel.kallsyms]          [k] load_elf_binary
+     0.10%     0.00%  expr             [kernel.kallsyms]          [k] _get_random_bytes.part.0
+     0.10%     0.00%  expr             [kernel.kallsyms]          [k] crng_make_state
+     0.10%     0.00%  expr             [kernel.kallsyms]          [k] crng_fast_key_erasure
+     0.10%     0.10%  uname            [kernel.kallsyms]          [k] apparmor_mmap_file
+     0.10%     0.00%  uname            [kernel.kallsyms]          [k] entry_SYSCALL_64_after_hwframe
+     0.10%     0.00%  uname            [kernel.kallsyms]          [k] do_syscall_64
+     0.10%     0.00%  uname            [kernel.kallsyms]          [k] __x64_sys_execve
+     0.10%     0.00%  uname            [kernel.kallsyms]          [k] do_execveat_common
+     0.10%     0.00%  uname            [kernel.kallsyms]          [k] bprm_execve
+     0.10%     0.00%  uname            [kernel.kallsyms]          [k] load_elf_binary
+     0.10%     0.00%  uname            [kernel.kallsyms]          [k] vm_mmap_pgoff
+     0.10%     0.00%  uname            [kernel.kallsyms]          [k] security_mmap_file
+     0.10%     0.10%  dirname          [kernel.kallsyms]          [k] __vma_rb_erase
+     0.10%     0.00%  dirname          [kernel.kallsyms]          [k] entry_SYSCALL_64_after_hwframe
+     0.10%     0.00%  dirname          [kernel.kallsyms]          [k] do_syscall_64
+     0.10%     0.00%  dirname          [kernel.kallsyms]          [k] __x64_sys_execve
+     0.10%     0.00%  dirname          [kernel.kallsyms]          [k] do_execveat_common
+     0.10%     0.00%  dirname          [kernel.kallsyms]          [k] bprm_execve
+     0.10%     0.00%  dirname          [kernel.kallsyms]          [k] load_elf_binary
+     0.10%     0.00%  dirname          [kernel.kallsyms]          [k] elf_map
+     0.10%     0.00%  dirname          [kernel.kallsyms]          [k] __vm_munmap
+     0.10%     0.00%  dirname          [kernel.kallsyms]          [k] __do_munmap
+     0.10%     0.10%  sh               [kernel.kallsyms]          [k] filemap_map_pages
+     0.10%     0.00%  sh               ld-2.31.so                 [.] 0x00007fc901410097
+     0.10%     0.00%  sh               ld-2.31.so                 [.] 0x00007fc901411033
+     0.10%     0.00%  sh               ld-2.31.so                 [.] 0x00007fc901428b6e
+     0.10%     0.00%  sh               ld-2.31.so                 [.] 0x00007fc901412f58
+     0.10%     0.00%  sh               ld-2.31.so                 [.] 0x00007fc90141d138
+     0.10%     0.00%  sh               ld-2.31.so                 [.] _dl_catch_exception
+     0.10%     0.00%  sh               ld-2.31.so                 [.] 0x00007fc90141cdc0
+     0.10%     0.00%  sh               ld-2.31.so                 [.] 0x00007fc901418776
+     0.10%     0.00%  sh               ld-2.31.so                 [.] 0x00007fc9014263cc
+     0.10%     0.00%  sh               [kernel.kallsyms]          [k] asm_exc_page_fault
+     0.10%     0.00%  sh               [kernel.kallsyms]          [k] exc_page_fault
+     0.10%     0.00%  sh               [kernel.kallsyms]          [k] do_user_addr_fault
+     0.10%     0.00%  sh               [kernel.kallsyms]          [k] handle_mm_fault
+     0.09%     0.09%  pharo            libMiscPrimitivePlugin.so  [.] primitiveStringHash
+     0.09%     0.09%  grep             [kernel.kallsyms]          [k] touch_atime
+     0.09%     0.00%  grep             [kernel.kallsyms]          [k] entry_SYSCALL_64_after_hwframe
+     0.09%     0.00%  grep             [kernel.kallsyms]          [k] do_syscall_64
+     0.09%     0.00%  grep             [kernel.kallsyms]          [k] __x64_sys_execve
+     0.09%     0.00%  grep             [kernel.kallsyms]          [k] do_execveat_common
+     0.09%     0.00%  grep             [kernel.kallsyms]          [k] bprm_execve
+     0.09%     0.00%  grep             [kernel.kallsyms]          [k] load_elf_binary
+     0.09%     0.00%  grep             [kernel.kallsyms]          [k] elf_map
+     0.09%     0.00%  grep             [kernel.kallsyms]          [k] vm_mmap_pgoff
+     0.09%     0.00%  grep             [kernel.kallsyms]          [k] do_mmap
+     0.09%     0.00%  grep             [kernel.kallsyms]          [k] mmap_region
+     0.09%     0.00%  grep             [kernel.kallsyms]          [k] ext4_file_mmap
+     0.09%     0.00%  pharo            [JIT] tid 3380543          [.] 0x00000003000005aa
+     0.09%     0.05%  pharo            libPharoVMCore.so          [.] handleStackOverflow
+     0.08%     0.08%  pharo            [kernel.kallsyms]          [k] lock_page_memcg
+     0.08%     0.00%  pharo            ld-2.31.so                 [.] 0x00007fb22f5ed097
+     0.08%     0.00%  pharo            ld-2.31.so                 [.] 0x00007fb22f5ee033
+     0.08%     0.00%  pharo            ld-2.31.so                 [.] 0x00007fb22f60577a
+     0.08%     0.00%  pharo            [kernel.kallsyms]          [k] filemap_map_pages
+     0.08%     0.00%  pharo            [kernel.kallsyms]          [k] alloc_set_pte
+     0.08%     0.00%  pharo            [kernel.kallsyms]          [k] page_add_file_rmap
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000fbfc4
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300002bff
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300123d0d
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001236a4
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000fc008
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030003b319
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000fc282
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300121325
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300002570
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300002c0d
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001244da
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300123df1
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300123bf8
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030003b3c3
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030012456d
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030012453a
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300121f7a
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030000291b
+     0.08%     0.08%  pharo            libPharoVMCore.so          [.] floatObjectOf
+     0.08%     0.00%  pharo            [JIT] tid 3380543          [.] 0x00000003001243dc
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] primitiveAsFloat
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] isSmallFloatValue (inlined)
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001236cb
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] assertValidExecutionPointersimbarline (inlined)
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300004097
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300002abb
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000029a9
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtput (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointerput (inlined)
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300123e1b
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030012427d
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300123b5e
+     0.08%     0.00%  pharo            anon                       [.] 0x0000010003c324e7
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030000255c
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300003373
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300123909
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030003b371
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300124197
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001239e0
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000fc213
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030012453b
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030003d947
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300124190
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300002921
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030003b345
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030000278e
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300003357
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300123a42
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030000dd7a
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000fc07a
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030012353e
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030000dce6
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000280014f07
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132812
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030000473c
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300133370
+     0.08%     0.08%  pharo            libc-2.31.so               [.] 0x0000000000038a2e
+     0.08%     0.00%  pharo            libc-2.31.so               [.] 0x00007f3ec0c8fa2e
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001259ae
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300124f3b
+     0.08%     0.00%  pharo            anon                       [.] 0x00000003407a621f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030013361d
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300123da3
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030013365f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300003397
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132fc3
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001338b2
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030000478d
+     0.08%     0.00%  pharo            anon                       [.] 0x00000003400053bf
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000341081f27
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000280016e5f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132eb5
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001337c9
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300003170
+     0.08%     0.08%  pharo            libPharoVMCore.so          [.] mapStackPages
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132fd2
+     0.08%     0.08%  pharo            libPharoVMCore.so          [.] minCogMethodAddress@plt
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030003d8b4
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000280015f27
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000280017d97
+     0.08%     0.00%  pharo            anon                       [.] 0x00000003400038cf
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300125231
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300133111
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001034e4
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001252a9
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300002bdd
+     0.08%     0.08%  pharo            libc-2.31.so               [.] 0x0000000000038a61
+     0.08%     0.00%  pharo            libc-2.31.so               [.] 0x00007f3ec0c8fa61
+     0.08%     0.00%  pharo            anon                       [.] 0x00000003403052c7
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300125a11
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030013349a
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132661
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000000d0
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132bdc
+     0.08%     0.00%  pharo            anon                       [.] 0x00000003412c5a1f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132c09
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132de0
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132c75
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132cbb
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300125250
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001325ef
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000fc099
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030013281c
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001337e5
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030012590f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030012522f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300004751
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001339fc
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300124efc
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132856
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300002ccd
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001259b9
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030013348a
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132e8f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001242c8
+     0.08%     0.08%  pharo            libPharoVMCore.so          [.] _longjmp@plt
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030012526b
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300124e98
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030003d96b
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300133ab8
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300124f15
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132e5e
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132e07
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000f509f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001259ed
+     0.08%     0.00%  pharo            anon                       [.] 0x00000003400055af
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132da8
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001332d8
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000340ee6727
+     0.08%     0.00%  pharo            anon                       [.] 0x00007f3ec0f3bfb7
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300133026
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] scavengeRememberedSetStartingAt (inlined)
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001338b6
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001337c7
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001324a4
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000340cbe48f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300133ac2
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001259d8
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300133152
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300000dc5
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAt (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointer (inlined)
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300000e59
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132c6a
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030013274d
+     0.08%     0.00%  pharo            anon                       [.] 0x00000003403058e7
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001339ed
+     0.08%     0.00%  pharo            [stack]                    [.] 0x00007ffc4bff42df
+     0.08%     0.08%  pharo            libPharoVMCore.so          [.] isNonImmediate
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001259d3
+     0.08%     0.08%  pharo            [kernel.kallsyms]          [k] entry_SYSCALL_64
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000340004d3f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132ab6
+     0.08%     0.00%  pharo            anon                       [.] 0x000000034000536f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132f68
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300125281
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300125993
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030000148a
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030000475a
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300000deb
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132d37
+     0.08%     0.00%  pharo            anon                       [.] 0x000000034030440f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132520
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000fc319
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300124f80
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001258b4
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300000de4
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132746
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300124ecf
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001338ba
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001333bc
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAt (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointer (inlined)
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030013384d
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] assertValidExecutionPointersimbarline (inlined)
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132d76
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAt (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] unsignedLongAtPointer (inlined)
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300124ea7
+     0.08%     0.08%  pharo            libc-2.31.so               [.] 0x0000000000038a3e
+     0.08%     0.00%  pharo            libc-2.31.so               [.] 0x00007f3ec0c8fa3e
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300124519
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] literalBeforeFollowingAddress (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] byteAt (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] byteAtPointer (inlined)
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300133997
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001337d5
+     0.08%     0.00%  pharo            anon                       [.] 0x00000100003dd98d
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001335ef
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001326b8
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000280018eef
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001330a9
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132de4
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132d85
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030013273a
+     0.08%     0.08%  pharo            libPharoVMCore.so          [.] maybeFlagMethodAsInterpreted@plt
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000340304bdf
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300000dee
+     0.08%     0.08%  pharo            libc-2.31.so               [.] 0x0000000000038a0d
+     0.08%     0.00%  pharo            libc-2.31.so               [.] 0x00007f3ec0c8fa0d
+     0.08%     0.08%  pharo            libPharoVMCore.so          [.] primitiveAsCharacter
+     0.08%     0.00%  pharo            [JIT] tid 3380543          [.] 0x0000000300100164
+     0.08%     0.00%  pharo            anon                       [.] 0x000001000009b227
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030013398e
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030013283e
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132e10
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300125088
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030012510e
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300121ff6
+     0.08%     0.08%  pharo            libc-2.31.so               [.] 0x00000000000a3aa1
+     0.08%     0.00%  pharo            libc-2.31.so               [.] 0x00007f3ec0cfaaa1
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001330f6
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300124ecd
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300123cbf
+     0.08%     0.08%  pharo            libPharoVMCore.so          [.] planCompactSavingForwarders
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000340de2997
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300121777
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001259b8
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300133b47
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300133842
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] processWeaklings (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] isMaybeOldScavengeSurvivor (inlined)
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030012e509
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000029bc
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001258a5
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] markStackPageMostRecentlyUsed (inlined)
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001251c0
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000f5096
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300092a5a
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000340304a8f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300123604
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300133412
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300133179
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132d45
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001251d2
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300133497
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] longAtput (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] longAtPointerput (inlined)
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300001486
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300133456
+     0.08%     0.08%  pharo            libPharoVMCore.so          [.] isSendReturnPC
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030013376f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001250f4
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000f7d34
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000280015e5f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300125930
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] 0x00007f3ec0ef889f
+     0.08%     0.00%  pharo            anon                       [.] 0x00000003405ff1af
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] copyAndUnmarkMobileObjects
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001243db
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001329c0
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] addressAfter (inlined)
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030013258d
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001250b1
+     0.08%     0.00%  pharo            [unknown]                  [.] 0x00000000000002f8
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132676
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132512
+     0.08%     0.08%  pharo            libc-2.31.so               [.] 0x00000000000a399e
+     0.08%     0.00%  pharo            libc-2.31.so               [.] 0x00007f3ec0cfa99e
+     0.08%     0.08%  pharo            libPharoVMCore.so          [.] remapIfObjectRefpchasYoung
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] literalBeforeFollowingAddress (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] longAt (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] longAtPointer (inlined)
+     0.08%     0.00%  pharo            anon                       [.] 0x000000028000dd87
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132b04
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300004710
+     0.08%     0.08%  pharo            [kernel.kallsyms]          [k] unmap_page_range
+     0.08%     0.00%  pharo            [kernel.kallsyms]          [k] __x64_sys_exit_group
+     0.08%     0.00%  pharo            [kernel.kallsyms]          [k] do_group_exit
+     0.08%     0.00%  pharo            [kernel.kallsyms]          [k] do_exit
+     0.08%     0.00%  pharo            [kernel.kallsyms]          [k] mmput
+     0.08%     0.00%  pharo            [kernel.kallsyms]          [k] exit_mmap
+     0.08%     0.00%  pharo            [kernel.kallsyms]          [k] unmap_vmas
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] isEnumerableObject (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] long64At (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] long64AtPointer (inlined)
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000280019ebf
+     0.08%     0.00%  pharo            [JIT] tid 3380543          [.] 0x00000003000fc7ac
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132f0b
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001236f6
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000340307147
+     0.08%     0.00%  pharo            [JIT] tid 3380543          [.] 0x000000030000dd77
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] ceCheckAndMaybeRetryPrimitive
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132802
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300132688
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030013326e
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001252e2
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300003178
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030013267b
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x000000030012145b
+     0.08%     0.08%  pharo            libPharoVMCore.so          [.] compactCogCompiledCode
+     0.08%     0.00%  pharo            [JIT] tid 3380543          [.] 0x00000003000000b9
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] commenceCogCompiledCodeCompaction
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] relocateMethodsPreCompaction (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] relocateCallsAndSelfReferencesInMethod (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] relocateIfCallOrMethodReferencemcpcdelta (inlined)
+     0.08%     0.00%  pharo            libPharoVMCore.so          [.] relocateCallBeforeReturnPCby (inlined)
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001331b2
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000340305a57
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300135eea
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300124eba
+     0.08%     0.00%  pharo            anon                       [.] 0x0000000340006337
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001234f2
+     0.08%     0.08%  pharo            [kernel.kallsyms]          [k] sigprocmask
+     0.08%     0.00%  pharo            [kernel.kallsyms]          [k] __x64_sys_rt_sigprocmask
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001437c6
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300124e77
+     0.08%     0.08%  pharo            libc-2.31.so               [.] 0x00000000000a39f2
+     0.08%     0.00%  pharo            libc-2.31.so               [.] 0x00007f3ec0cfa9f2
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001333a2
+     0.08%     0.08%  pharo            libc-2.31.so               [.] 0x00000000000389fc
+     0.08%     0.00%  pharo            libc-2.31.so               [.] 0x00007f3ec0c8f9fc
+     0.08%     0.00%  pharo            anon                       [.] 0x000000034000555f
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300125a10
+     0.08%     0.00%  pharo            anon                       [.] 0x00000003403056b7
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x0000000300000dfd
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003001327fe
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000042a6
+     0.08%     0.00%  pharo            anon                       [.] 0x00000003408c30cf
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000200fa
+     0.08%     0.08%  pharo            [JIT] tid 3380543          [.] 0x00000003000200f1
+     0.07%     0.07%  pharo            [JIT] tid 3380543          [.] 0x00000003000ce877
+     0.07%     0.07%  pharo            [JIT] tid 3380543          [.] 0x0000000300146340
+     0.07%     0.07%  pharo            [JIT] tid 3380543          [.] 0x0000000300015bbd
+     0.07%     0.07%  pharo            [JIT] tid 3380543          [.] 0x000000030000431b
+     0.06%     0.00%  pharo            [kernel.kallsyms]          [k] hrtimer_start_range_ns
+     0.06%     0.00%  pharo            libPharoVMCore.so          [.] heartbeat (inlined)
+     0.06%     0.00%  pharo            anon                       [.] 0x00000003407bad17
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x00000003000039dc
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300005ba8
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x00000003000075ec
+     0.05%     0.00%  pharo            anon                       [.] 0x000001000003e77f
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x000000030001e1a7
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x00000003000307b7
+     0.05%     0.05%  pharo            libPharoVMCore.so          [.] primitiveBehaviorHash
+     0.05%     0.00%  pharo            [JIT] tid 3380543          [.] 0x000000030001e18c
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300026af9
+     0.05%     0.00%  pharo            [JIT] tid 3380543          [.] 0x000000030001e3fd
+     0.05%     0.00%  pharo            [JIT] tid 3380543          [.] 0x0000000300044d68
+     0.05%     0.05%  pharo            libPharoVMCore.so          [.] minCogMethodAddress
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300015a09
+     0.05%     0.00%  pharo            [JIT] tid 3380543          [.] 0x00000003000456b7
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x000000030001529a
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300003c4a
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x000000030001541c
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300015820
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300015af8
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x00000003000158d4
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x000000030000253f
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x00000003000165f0
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x00000003000131ee
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x00000003000112de
+     0.05%     0.00%  pharo            [JIT] tid 3380543          [.] 0x000000030003e7a7
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x000000030001e030
+     0.05%     0.05%  pharo            libPharoVMCore.so          [.] cogselector
+     0.05%     0.00%  pharo            libPharoVMCore.so          [.] compileCogMethod (inlined)
+     0.05%     0.00%  pharo            libPharoVMCore.so          [.] generateCogMethod (inlined)
+     0.05%     0.00%  pharo            libPharoVMCore.so          [.] computeMaximumSizes (inlined)
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x00000003000b2396
+     0.05%     0.00%  pharo            libPharoVMCore.so          [.] moveFramesInthroughtoPage
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300014156
+     0.05%     0.00%  pharo            [JIT] tid 3380543          [.] 0x0000000300000622
+     0.05%     0.00%  pharo            libc-2.31.so               [.] 0x00007f3ec0cfaa09
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x00000003000028be
+     0.05%     0.05%  pharo            libPharoVMCore.so          [.] allInstancesOf
+     0.05%     0.00%  pharo            libPharoVMCore.so          [.] primitiveAllInstances
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300007833
+     0.05%     0.05%  pharo            libPharoVMCore.so          [.] primitiveAtPut
+     0.05%     0.00%  pharo            [JIT] tid 3380543          [.] 0x00000003000045fd
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300102574
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300003b9a
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300014496
+     0.05%     0.00%  pharo            anon                       [.] 0x000000034069727f
+     0.05%     0.00%  pharo            anon                       [.] 0x0000000280004def
+     0.05%     0.00%  pharo            anon                       [.] 0x0000000280020197
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x00000003000106e6
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300101e67
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300005bcf
+     0.05%     0.05%  pharo            libPharoVMCore.so          [.] gen_ReturnTopFromMethod
+     0.05%     0.00%  pharo            libPharoVMCore.so          [.] 0x00007f3ec0f186bf
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300001ec1
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300104ee1
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300068d72
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300025d47
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x0000000300001e10
+     0.05%     0.05%  pharo            [JIT] tid 3380543          [.] 0x00000003000495f1
+     0.04%     0.04%  pharo            [kernel.kallsyms]          [k] update_curr_rt
+     0.04%     0.00%  pharo            [kernel.kallsyms]          [k] put_prev_task_rt
+     0.04%     0.04%  pharo            [kernel.kallsyms]          [k] __update_load_avg_cfs_rq
+     0.04%     0.00%  pharo            [kernel.kallsyms]          [k] balance_fair
+     0.04%     0.00%  pharo            [kernel.kallsyms]          [k] newidle_balance
+     0.04%     0.00%  pharo            [kernel.kallsyms]          [k] _nohz_idle_balance
+     0.04%     0.00%  pharo            [kernel.kallsyms]          [k] update_blocked_averages
+     0.04%     0.00%  pharo            anon                       [.] 0x00007f3ec081867f
+     0.03%     0.03%  pharo            [kernel.kallsyms]          [k] ktime_get
+     0.03%     0.03%  pharo            [kernel.kallsyms]          [k] psi_group_change
+     0.03%     0.03%  pharo            libPharoVMCore.so          [.] updateMicrosecondClock
+     0.03%     0.00%  pharo            [kernel.kallsyms]          [k] psi_task_change
+     0.03%     0.03%  pharo            libPharoVMCore.so          [.] forceInterruptCheckFromHeartbeat
+     0.03%     0.03%  pharo            [kernel.kallsyms]          [k] rb_insert_color
+     0.03%     0.00%  pharo            [kernel.kallsyms]          [k] enqueue_hrtimer
+     0.03%     0.00%  pharo            [kernel.kallsyms]          [k] timerqueue_add
+     0.01%     0.00%  pharo            [kernel.kallsyms]          [k] finish_task_switch
+     0.01%     0.00%  pharo            [kernel.kallsyms]          [k] ret_from_fork
+     0.01%     0.00%  pharo            [kernel.kallsyms]          [k] schedule_tail
+     0.01%     0.00%  ldd              [kernel.kallsyms]          [k] finish_task_switch
+     0.01%     0.00%  ldd              [kernel.kallsyms]          [k] ret_from_fork
+     0.01%     0.00%  ldd              [kernel.kallsyms]          [k] schedule_tail
+     0.01%     0.00%  ldd              [kernel.kallsyms]          [k] __schedule
+     0.01%     0.00%  ldd              [kernel.kallsyms]          [k] schedule
+     0.01%     0.00%  pharo            dash                       [.] 0x000055b0f8a797ff
+     0.01%     0.00%  pharo            [kernel.kallsyms]          [k] native_write_msr
+     0.01%     0.00%  pharo            [kernel.kallsyms]          [k] __perf_event_task_sched_in
+     0.01%     0.00%  pharo            [kernel.kallsyms]          [k] __intel_pmu_enable_all.constprop.0
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] __put_user_nocheck_4
+     0.00%     0.00%  pharo            [kernel.kallsyms]          [k] end_repeat_nmi
+     0.00%     0.00%  ldd              bash                       [.] wait_for
+     0.00%     0.00%  ldd              bash                       [.] 0x000055abaffbb0b3
+     0.00%     0.00%  ldd              libc-2.31.so               [.] wait4
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] kernel_wait4
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] do_wait
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] native_write_msr
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] __intel_pmu_enable_all.constprop.0
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] __perf_event_task_sched_in
+     0.00%     0.00%  ldd              bash                       [.] zread
+     0.00%     0.00%  ldd              libc-2.31.so               [.] __read (inlined)
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] ksys_read
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] vfs_read
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] new_sync_read
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] pipe_read
+     0.00%     0.00%  sh               [kernel.kallsyms]          [k] native_write_msr
+     0.00%     0.00%  sh               dash                       [.] 0x0000555d1b84e799
+     0.00%     0.00%  sh               libc-2.31.so               [.] __libc_start_main
+     0.00%     0.00%  sh               dash                       [.] 0x0000555d1b84e724
+     0.00%     0.00%  sh               dash                       [.] 0x0000555d1b857872
+     0.00%     0.00%  sh               dash                       [.] 0x0000555d1b85027d
+     0.00%     0.00%  sh               [kernel.kallsyms]          [k] finish_task_switch
+     0.00%     0.00%  sh               [kernel.kallsyms]          [k] __perf_event_task_sched_in
+     0.00%     0.00%  sh               [kernel.kallsyms]          [k] __intel_pmu_enable_all.constprop.0
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] native_sched_clock
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] __list_del_entry_valid
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] __mmdrop
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] pgd_free
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] ghes_notify_nmi
+     0.00%     0.00%  pharo            [kernel.kallsyms]          [k] _raw_spin_lock
+     0.00%     0.00%  pharo            [kernel.kallsyms]          [k] __mmdrop
+     0.00%     0.00%  pharo            [kernel.kallsyms]          [k] pgd_free
+     0.00%     0.00%  pharo            [kernel.kallsyms]          [k] nmi_restore
+     0.00%     0.00%  pharo            dash                       [.] 0x000055b0f8a7830d
+     0.00%     0.00%  pharo            dash                       [.] 0x000055b0f8a790b7
+     0.00%     0.00%  pharo            dash                       [.] 0x000055b0f8a78480
+     0.00%     0.00%  sh               dash                       [.] 0x0000555d1b85132b
+     0.00%     0.00%  sh               dash                       [.] 0x0000555d1b85726a
+     0.00%     0.00%  sh               libc-2.31.so               [.] vfork (inlined)
+     0.00%     0.00%  sh               [kernel.kallsyms]          [k] ret_from_fork
+     0.00%     0.00%  sh               [kernel.kallsyms]          [k] schedule_tail
+     0.00%     0.00%  sh               [kernel.kallsyms]          [k] exc_nmi
+     0.00%     0.00%  perf_5.10        [kernel.kallsyms]          [k] native_write_msr
+     0.00%     0.00%  perf_5.10        [kernel.kallsyms]          [k] entry_SYSCALL_64_after_hwframe
+     0.00%     0.00%  perf_5.10        [kernel.kallsyms]          [k] do_syscall_64
+     0.00%     0.00%  perf_5.10        [kernel.kallsyms]          [k] __x64_sys_execve
+     0.00%     0.00%  perf_5.10        [kernel.kallsyms]          [k] do_execveat_common
+     0.00%     0.00%  perf_5.10        [kernel.kallsyms]          [k] bprm_execve
+     0.00%     0.00%  perf_5.10        [kernel.kallsyms]          [k] load_elf_binary
+     0.00%     0.00%  perf_5.10        [kernel.kallsyms]          [k] begin_new_exec
+     0.00%     0.00%  perf_5.10        [kernel.kallsyms]          [k] perf_event_exec
+     0.00%     0.00%  perf_5.10        [kernel.kallsyms]          [k] __intel_pmu_enable_all.constprop.0
+     0.00%     0.00%  perf_5.10        [kernel.kallsyms]          [k] __ghes_peek_estatus.isra.0
+     0.00%     0.00%  sh               dash                       [.] 0x0000555d1b851333
+     0.00%     0.00%  sh               dash                       [.] 0x0000555d1b8572ec
+     0.00%     0.00%  sh               dash                       [.] 0x0000555d1b855ce9
+     0.00%     0.00%  sh               dash                       [.] 0x0000555d1b855a7b
+     0.00%     0.00%  sh               libc-2.31.so               [.] wait4
+     0.00%     0.00%  sh               [kernel.kallsyms]          [k] entry_SYSCALL_64_after_hwframe
+     0.00%     0.00%  sh               [kernel.kallsyms]          [k] do_syscall_64
+     0.00%     0.00%  sh               [kernel.kallsyms]          [k] kernel_wait4
+     0.00%     0.00%  sh               [kernel.kallsyms]          [k] do_wait
+     0.00%     0.00%  sh               [kernel.kallsyms]          [k] schedule
+     0.00%     0.00%  sh               [kernel.kallsyms]          [k] __schedule
+     0.00%     0.00%  sh               [kernel.kallsyms]          [k] ghes_notify_nmi
+     0.00%     0.00%  ldd              [kernel.kallsyms]          [k] intel_bts_enable_local
+
+
+#
+# (Tip: To see list of saved events and attributes: perf evlist -v)
+#

@@ -2,7 +2,7 @@
 _build
 Rplots.pdf
 .DS_Store
-*.data
+rebench/**/*.data
 *.log
 *.fuel
 *-Test.xml
