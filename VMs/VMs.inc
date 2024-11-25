@@ -54,7 +54,7 @@ function updateVMRepo() {
 	then
 		cd $PHAROVM_REPO_DIR
 		git checkout $BRANCH
-		git pull
+		# git pull
 	else
 		[ ! -d $BUILD_REPOS_DIR ] && mkdir $BUILD_REPOS_DIR
 		cd $BUILD_REPOS_DIR && git clone --branch $BRANCH $PHAROVM_REPO_URI

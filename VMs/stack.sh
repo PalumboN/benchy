@@ -2,6 +2,6 @@
 
 source "$1/VMs.inc"
 
-updateVMRepo druid
+# updateVMRepo druid
 
 buildVM StackVM
