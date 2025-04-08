@@ -1,0 +1,1325 @@
+#!/home/npalumbo/.local/bin/rebench -v compile_size.conf
+# Execution Start: 2024-10-31T22:54:24.407862+00:00
+# Environment: {"userName": "npalumbo", "manualRun": true, "hostName": "rmod-bench", "osType": "Linux", "memory": 16783798272, "denoise": {}, "cpu": "Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz", "clockSpeed": 2400000000, "software": [{"name": "kernel", "version": "#1 SMP Debian 5.10.140-1 (2022-09-02)"}, {"name": "kernel-release", "version": "5.10.0-18-amd64"}, {"name": "architecture", "version": "x86_64"}]}
+# Source: {"repoURL": null, "branchOrTag": null, "commitId": null, "commitMsg": null, "authorName": null, "committerName": null, "authorEmail": null, "committerEmail": null}
+invocation	iteration	value	unit	criterion	benchmark	executor	suite	extraArgs	cores	inputSize	varValue	machine
+1	1	3619856000.000000	ms	total	File.*	BaseImage	Tests		1			
+2	1	3624200000.000000	ms	total	File.*	BaseImage	Tests		1			
+3	1	3613688000.000000	ms	total	File.*	BaseImage	Tests		1			
+4	1	3635912000.000000	ms	total	File.*	BaseImage	Tests		1			
+5	1	3608896000.000000	ms	total	File.*	BaseImage	Tests		1			
+6	1	3622968000.000000	ms	total	File.*	BaseImage	Tests		1			
+7	1	3616288000.000000	ms	total	File.*	BaseImage	Tests		1			
+8	1	3629624000.000000	ms	total	File.*	BaseImage	Tests		1			
+9	1	3608376000.000000	ms	total	File.*	BaseImage	Tests		1			
+10	1	3615584000.000000	ms	total	File.*	BaseImage	Tests		1			
+11	1	3631976000.000000	ms	total	File.*	BaseImage	Tests		1			
+12	1	3617512000.000000	ms	total	File.*	BaseImage	Tests		1			
+13	1	3636152000.000000	ms	total	File.*	BaseImage	Tests		1			
+14	1	3479984000.000000	ms	total	File.*	BaseImage	Tests		1			
+15	1	3610592000.000000	ms	total	File.*	BaseImage	Tests		1			
+16	1	3624440000.000000	ms	total	File.*	BaseImage	Tests		1			
+17	1	3630168000.000000	ms	total	File.*	BaseImage	Tests		1			
+18	1	3616904000.000000	ms	total	File.*	BaseImage	Tests		1			
+19	1	3617480000.000000	ms	total	File.*	BaseImage	Tests		1			
+20	1	3634016000.000000	ms	total	File.*	BaseImage	Tests		1			
+21	1	3616320000.000000	ms	total	File.*	BaseImage	Tests		1			
+22	1	3627720000.000000	ms	total	File.*	BaseImage	Tests		1			
+23	1	3613192000.000000	ms	total	File.*	BaseImage	Tests		1			
+24	1	3624824000.000000	ms	total	File.*	BaseImage	Tests		1			
+25	1	3630664000.000000	ms	total	File.*	BaseImage	Tests		1			
+26	1	3600056000.000000	ms	total	File.*	BaseImage	Tests		1			
+27	1	3611584000.000000	ms	total	File.*	BaseImage	Tests		1			
+28	1	3629504000.000000	ms	total	File.*	BaseImage	Tests		1			
+29	1	3619368000.000000	ms	total	File.*	BaseImage	Tests		1			
+30	1	3636536000.000000	ms	total	File.*	BaseImage	Tests		1			
+1	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+2	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+3	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+4	1	738184000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+5	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+6	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+7	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+8	1	738184000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+9	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+10	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+11	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+12	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+13	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+14	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+15	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+16	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+17	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+18	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+19	1	738184000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+20	1	738184000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+21	1	738184000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+22	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+23	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+24	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+25	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+26	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+27	1	738184000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+28	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+29	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+30	1	739136000.000000	ms	total	benchChameleons	SameQuick	BenchmarkGameSuite-VeryShort		1			
+1	1	711528000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+2	1	712496000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+3	1	712496000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+4	1	712496000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+5	1	712496000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+6	1	728264000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+7	1	727000000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+8	1	712496000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+9	1	726032000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+10	1	727000000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+11	1	727000000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+12	1	712496000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+13	1	728264000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+14	1	711528000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+15	1	712496000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+16	1	712496000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+17	1	728264000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+18	1	712496000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+19	1	711528000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+20	1	727000000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+21	1	711528000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+22	1	728264000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+23	1	727704000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+24	1	728264000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+25	1	711528000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+26	1	728264000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+27	1	712496000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+28	1	712496000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+29	1	711528000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+30	1	712496000.000000	ms	total	benchReverseComplement	SameQuick	BenchmarkGameSuite-VeryShort		1			
+1	1	579344000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+2	1	579344000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+3	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+4	1	579344000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+5	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+6	1	579344000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+7	1	579344000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+8	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+9	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+10	1	579344000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+11	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+12	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+13	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+14	1	579344000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+15	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+16	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+17	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+18	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+19	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+20	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+21	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+22	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+23	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+24	1	579344000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+25	1	579344000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+26	1	579344000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+27	1	579344000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+28	1	579344000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+29	1	582792000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+30	1	579344000.000000	ms	total	Opal.* AST.*	BaseImage	Tests		1			
+1	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+2	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+3	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+4	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+5	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+6	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+7	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+8	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+9	1	716200000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+10	1	716200000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+11	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+12	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+13	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+14	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+15	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+16	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+17	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+18	1	716200000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+19	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+20	1	716200000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+21	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+22	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+23	1	716200000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+24	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+25	1	716200000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+26	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+27	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+28	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+29	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+30	1	715584000.000000	ms	total	benchChameleons	BaseImage	BenchmarkGameSuite-VeryShort		1			
+1	1	731872000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+2	1	731872000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+3	1	746376000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+4	1	748048000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+5	1	731872000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+6	1	746376000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+7	1	748048000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+8	1	748048000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+9	1	731872000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+10	1	730232000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+11	1	730232000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+12	1	731872000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+13	1	746376000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+14	1	746408000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+15	1	748048000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+16	1	731872000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+17	1	730232000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+18	1	746376000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+19	1	746376000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+20	1	731872000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+21	1	746376000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+22	1	730232000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+23	1	744736000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+24	1	748048000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+25	1	748048000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+26	1	748048000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+27	1	746376000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+28	1	731872000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+29	1	744736000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+30	1	746376000.000000	ms	total	SMarkRichards	SameQuick	Smark-Richards		1			
+1	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+2	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+3	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+4	1	720992000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+5	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+6	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+7	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+8	1	721072000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+9	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+10	1	721072000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+11	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+12	1	721072000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+13	1	720152000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+14	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+15	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+16	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+17	1	721072000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+18	1	721072000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+19	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+20	1	721072000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+21	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+22	1	721072000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+23	1	721072000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+24	1	720152000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+25	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+26	1	721072000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+27	1	721072000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+28	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+29	1	720992000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+30	1	719400000.000000	ms	total	benchBinaryTrees	SameQuick	BenchmarkGameSuite-VeryLong		1			
+1	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+2	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+3	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+4	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+5	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+6	1	734960000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+7	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+8	1	734960000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+9	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+10	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+11	1	735280000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+12	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+13	1	734960000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+14	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+15	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+16	1	735280000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+17	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+18	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+19	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+20	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+21	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+22	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+23	1	734960000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+24	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+25	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+26	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+27	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+28	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+29	1	734032000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+30	1	735280000.000000	ms	total	benchChameneosRedux	BaseImage	BenchmarkGameSuite-Short		1			
+1	1	9555456000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+2	1	9571952000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+3	1	9574472000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+4	1	9564152000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+5	1	9571616000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+6	1	9586760000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+7	1	9569776000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+8	1	9589680000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+9	1	9573992000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+10	1	9605392000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+11	1	9560592000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+12	1	9587680000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+13	1	9580048000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+14	1	9571992000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+15	1	9579520000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+16	1	9556632000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+17	1	9588256000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+18	1	9582608000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+19	1	9578608000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+20	1	9574296000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+21	1	9580328000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+22	1	9570328000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+23	1	9583840000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+24	1	9584648000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+25	1	9595152000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+26	1	9590768000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+27	1	9592888000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+28	1	9577344000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+29	1	9609408000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+30	1	9562200000.000000	ms	total	Kernel.*	BaseImage	Tests		1			
+1	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+2	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+3	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+4	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+5	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+6	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+7	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+8	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+9	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+10	1	708128000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+11	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+12	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+13	1	708128000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+14	1	708128000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+15	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+16	1	708128000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+17	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+18	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+19	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+20	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+21	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+22	1	708128000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+23	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+24	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+25	1	708128000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+26	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+27	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+28	1	708128000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+29	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+30	1	707424000.000000	ms	total	benchMandelbrot	BaseImage	BenchmarkGameSuite-Long		1			
+1	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+2	1	705192000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+3	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+4	1	703680000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+5	1	703680000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+6	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+7	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+8	1	690144000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+9	1	705808000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+10	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+11	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+12	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+13	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+14	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+15	1	703680000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+16	1	705192000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+17	1	705192000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+18	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+19	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+20	1	703680000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+21	1	705808000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+22	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+23	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+24	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+25	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+26	1	705192000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+27	1	705808000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+28	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+29	1	689528000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+30	1	703680000.000000	ms	total	benchReverseComplement	BaseImage	BenchmarkGameSuite-VeryShort		1			
+1	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+2	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+3	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+4	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+5	1	697544000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+6	1	697176000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+7	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+8	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+9	1	697176000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+10	1	697176000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+11	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+12	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+13	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+14	1	696032000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+15	1	697544000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+16	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+17	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+18	1	696032000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+19	1	697176000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+20	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+21	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+22	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+23	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+24	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+25	1	697176000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+26	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+27	1	697544000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+28	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+29	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+30	1	695664000.000000	ms	total	benchBinaryTrees	BaseImage	BenchmarkGameSuite-VeryLong		1			
+1	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+2	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+3	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+4	1	729968000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+5	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+6	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+7	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+8	1	729968000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+9	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+10	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+11	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+12	1	729968000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+13	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+14	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+15	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+16	1	729968000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+17	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+18	1	729968000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+19	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+20	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+21	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+22	1	729968000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+23	1	729968000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+24	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+25	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+26	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+27	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+28	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+29	1	729968000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+30	1	730920000.000000	ms	total	benchThreadRing	SameQuick	BenchmarkGameSuite-VeryShort		1			
+1	1	599544000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+2	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+3	1	599544000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+4	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+5	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+6	1	599544000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+7	1	599544000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+8	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+9	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+10	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+11	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+12	1	599544000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+13	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+14	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+15	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+16	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+17	1	599544000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+18	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+19	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+20	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+21	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+22	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+23	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+24	1	599544000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+25	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+26	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+27	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+28	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+29	1	599544000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+30	1	597064000.000000	ms	total	Network.* Zinc.* Zodiac.*	SameQuick	Tests		1			
+1	1	756968000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+2	1	756968000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+3	1	756968000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+4	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+5	1	756968000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+6	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+7	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+8	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+9	1	756408000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+10	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+11	1	754736000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+12	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+13	1	756968000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+14	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+15	1	756968000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+16	1	754736000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+17	1	754736000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+18	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+19	1	754736000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+20	1	754736000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+21	1	756968000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+22	1	754736000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+23	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+24	1	754736000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+25	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+26	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+27	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+28	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+29	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+30	1	755296000.000000	ms	total	benchMeteor	SameQuick	BenchmarkGameSuite-Long		1			
+1	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+2	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+3	1	708392000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+4	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+5	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+6	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+7	1	708392000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+8	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+9	1	708392000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+10	1	708392000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+11	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+12	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+13	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+14	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+15	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+16	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+17	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+18	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+19	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+20	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+21	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+22	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+23	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+24	1	708392000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+25	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+26	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+27	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+28	1	708392000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+29	1	708392000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+30	1	707776000.000000	ms	total	benchThreadRing	BaseImage	BenchmarkGameSuite-VeryShort		1			
+1	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+2	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+3	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+4	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+5	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+6	1	721472000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+7	1	721472000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+8	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+9	1	721472000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+10	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+11	1	720728000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+12	1	722240000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+13	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+14	1	720728000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+15	1	720728000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+16	1	721472000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+17	1	721472000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+18	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+19	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+20	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+21	1	721472000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+22	1	721472000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+23	1	721472000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+24	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+25	1	721472000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+26	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+27	1	720728000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+28	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+29	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+30	1	719960000.000000	ms	total	SMarkDeltaBlue	BaseImage	Smark-DeltaBlue		1			
+1	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+2	1	708392000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+3	1	709288000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+4	1	708392000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+5	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+6	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+7	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+8	1	709288000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+9	1	709288000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+10	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+11	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+12	1	708392000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+13	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+14	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+15	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+16	1	709288000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+17	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+18	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+19	1	708392000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+20	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+21	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+22	1	709288000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+23	1	709288000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+24	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+25	1	708392000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+26	1	708392000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+27	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+28	1	709288000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+29	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+30	1	707776000.000000	ms	total	benchNBody	BaseImage	BenchmarkGameSuite-VeryShort		1			
+1	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+2	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+3	1	724872000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+4	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+5	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+6	1	724872000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+7	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+8	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+9	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+10	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+11	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+12	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+13	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+14	1	724872000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+15	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+16	1	726448000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+17	1	724872000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+18	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+19	1	726448000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+20	1	726536000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+21	1	724872000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+22	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+23	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+24	1	725888000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+25	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+26	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+27	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+28	1	724872000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+29	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+30	1	725432000.000000	ms	total	benchSpectralNorm	SameQuick	BenchmarkGameSuite-Long		1			
+1	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+2	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+3	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+4	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+5	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+6	1	701728000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+7	1	701728000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+8	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+9	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+10	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+11	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+12	1	701728000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+13	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+14	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+15	1	701728000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+16	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+17	1	701728000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+18	1	701728000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+19	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+20	1	701728000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+21	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+22	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+23	1	701728000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+24	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+25	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+26	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+27	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+28	1	701728000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+29	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+30	1	700960000.000000	ms	total	SMarkSlopstone	BaseImage	Smark-Slopstone		1			
+1	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+2	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+3	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+4	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+5	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+6	1	731312000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+7	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+8	1	731312000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+9	1	731312000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+10	1	731312000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+11	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+12	1	731312000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+13	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+14	1	731312000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+15	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+16	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+17	1	731312000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+18	1	731312000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+19	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+20	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+21	1	731312000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+22	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+23	1	731312000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+24	1	731312000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+25	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+26	1	731312000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+27	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+28	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+29	1	731312000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+30	1	730696000.000000	ms	total	benchMeteor	BaseImage	BenchmarkGameSuite-Long		1			
+1	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+2	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+3	1	721864000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+4	1	720192000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+5	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+6	1	720192000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+7	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+8	1	720192000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+9	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+10	1	720192000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+11	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+12	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+13	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+14	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+15	1	720192000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+16	1	720192000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+17	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+18	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+19	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+20	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+21	1	722424000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+22	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+23	1	722424000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+24	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+25	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+26	1	720192000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+27	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+28	1	720192000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+29	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+30	1	721160000.000000	ms	total	benchFasta	SameQuick	BenchmarkGameSuite-VeryShort		1			
+1	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+2	1	653840000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+3	1	653840000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+4	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+5	1	653840000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+6	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+7	1	653840000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+8	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+9	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+10	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+11	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+12	1	653840000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+13	1	653840000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+14	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+15	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+16	1	653840000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+17	1	653840000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+18	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+19	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+20	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+21	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+22	1	653840000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+23	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+24	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+25	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+26	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+27	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+28	1	653840000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+29	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+30	1	649208000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	SameQuick	StartUp		1			
+1	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+2	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+3	1	727448000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+4	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+5	1	730760000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+6	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+7	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+8	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+9	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+10	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+11	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+12	1	730760000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+13	1	729120000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+14	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+15	1	730760000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+16	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+17	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+18	1	730760000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+19	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+20	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+21	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+22	1	727448000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+23	1	727448000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+24	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+25	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+26	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+27	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+28	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+29	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+30	1	729088000.000000	ms	total	SMarkSlopstone	SameQuick	Smark-Slopstone		1			
+1	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+2	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+3	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+4	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+5	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+6	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+7	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+8	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+9	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+10	1	765544000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+11	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+12	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+13	1	765864000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+14	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+15	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+16	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+17	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+18	1	765544000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+19	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+20	1	765544000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+21	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+22	1	765544000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+23	1	765544000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+24	1	765544000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+25	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+26	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+27	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+28	1	765864000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+29	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+30	1	765160000.000000	ms	total	benchRegexDNA	BaseImage	BenchmarkGameSuite-Short		1			
+1	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+2	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+3	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+4	1	698544000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+5	1	700056000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+6	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+7	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+8	1	700056000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+9	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+10	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+11	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+12	1	698544000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+13	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+14	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+15	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+16	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+17	1	700056000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+18	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+19	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+20	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+21	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+22	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+23	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+24	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+25	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+26	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+27	1	699440000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+28	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+29	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+30	1	697928000.000000	ms	total	benchFasta	BaseImage	BenchmarkGameSuite-VeryShort		1			
+1	1	4970280000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+2	1	4954424000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+3	1	4592640000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+4	1	4960720000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+5	1	5680576000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+6	1	4898704000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+7	1	4988408000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+8	1	4979840000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+9	1	4975600000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+10	1	4953064000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+11	1	4936408000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+12	1	5651808000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+13	1	4972080000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+14	1	4987024000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+15	1	4967960000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+16	1	4961040000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+17	1	4955840000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+18	1	4980400000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+19	1	4365752000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+20	1	4972816000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+21	1	4962640000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+22	1	4978040000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+23	1	4980096000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+24	1	5015352000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+25	1	4944544000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+26	1	4932288000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+27	1	4929000000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+28	1	4948904000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+29	1	4851992000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+30	1	4770584000.000000	ms	total	Microdown.*	SameQuick	Tests		1			
+1	1	757816000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+2	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+3	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+4	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+5	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+6	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+7	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+8	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+9	1	757816000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+10	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+11	1	757816000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+12	1	757816000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+13	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+14	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+15	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+16	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+17	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+18	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+19	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+20	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+21	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+22	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+23	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+24	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+25	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+26	1	757816000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+27	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+28	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+29	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+30	1	758768000.000000	ms	total	benchChameneosRedux	SameQuick	BenchmarkGameSuite-Short		1			
+1	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+2	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+3	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+4	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+5	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+6	1	579344000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+7	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+8	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+9	1	579344000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+10	1	579344000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+11	1	579344000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+12	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+13	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+14	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+15	1	579344000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+16	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+17	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+18	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+19	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+20	1	579344000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+21	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+22	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+23	1	579344000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+24	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+25	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+26	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+27	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+28	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+29	1	579344000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+30	1	582792000.000000	ms	total	Network.* Zinc.* Zodiac.*	BaseImage	Tests		1			
+1	1	706704000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+2	1	720856000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+3	1	720856000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+4	1	722368000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+5	1	706704000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+6	1	721472000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+7	1	706704000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+8	1	722368000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+9	1	722368000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+10	1	720856000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+11	1	722368000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+12	1	721472000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+13	1	706704000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+14	1	720856000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+15	1	706704000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+16	1	707320000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+17	1	720856000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+18	1	720856000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+19	1	722368000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+20	1	706704000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+21	1	721472000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+22	1	706704000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+23	1	706704000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+24	1	720856000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+25	1	722368000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+26	1	720856000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+27	1	721472000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+28	1	720856000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+29	1	707320000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+30	1	720856000.000000	ms	total	benchPiDigits	BaseImage	BenchmarkGameSuite-Mid		1			
+1	1	4083432000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+2	1	4100000000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+3	1	4107808000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+4	1	4095120000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+5	1	4098456000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+6	1	4096968000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+7	1	4100584000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+8	1	4091744000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+9	1	4098304000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+10	1	4096008000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+11	1	4097304000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+12	1	4096776000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+13	1	4706552000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+14	1	4099248000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+15	1	4098928000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+16	1	4097384000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+17	1	4094288000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+18	1	4087456000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+19	1	4096248000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+20	1	4096016000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+21	1	4093968000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+22	1	4093944000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+23	1	4096624000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+24	1	4098432000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+25	1	4096760000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+26	1	4695064000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+27	1	4102992000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+28	1	4085296000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+29	1	4098536000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+30	1	4104064000.000000	ms	total	Microdown.*	BaseImage	Tests		1			
+1	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+2	1	722264000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+3	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+4	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+5	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+6	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+7	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+8	1	722264000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+9	1	722264000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+10	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+11	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+12	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+13	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+14	1	722264000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+15	1	722264000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+16	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+17	1	722264000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+18	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+19	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+20	1	722264000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+21	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+22	1	722648000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+23	1	722264000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+24	1	722648000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+25	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+26	1	722264000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+27	1	722648000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+28	1	722264000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+29	1	722264000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+30	1	720752000.000000	ms	total	benchKNucleotide	BaseImage	BenchmarkGameSuite-Short		1			
+1	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+2	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+3	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+4	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+5	1	730360000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+6	1	732592000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+7	1	732512000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+8	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+9	1	730360000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+10	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+11	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+12	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+13	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+14	1	730360000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+15	1	730360000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+16	1	730360000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+17	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+18	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+19	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+20	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+21	1	732592000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+22	1	732512000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+23	1	732592000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+24	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+25	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+26	1	730360000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+27	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+28	1	730360000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+29	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+30	1	731328000.000000	ms	total	benchNBody	SameQuick	BenchmarkGameSuite-VeryShort		1			
+1	1	16023552000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+2	1	16450328000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+3	1	16635200000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+4	1	16258328000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+5	1	16399504000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+6	1	15959600000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+7	1	16072784000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+8	1	16247800000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+9	1	15959896000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+10	1	16230584000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+11	1	16177696000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+12	1	15945040000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+13	1	15760200000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+14	1	15783248000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+15	1	16179480000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+16	1	16133040000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+17	1	16203320000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+18	1	16690544000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+19	1	16094472000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+20	1	16050976000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+21	1	15911048000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+22	1	16111272000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+23	1	16649568000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+24	1	16797360000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+25	1	16315280000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+26	1	16300144000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+27	1	15989992000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+28	1	16115328000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+29	1	16817224000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+30	1	15925456000.000000	ms	total	Kernel.*	SameQuick	Tests		1			
+1	1	703064000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+2	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+3	1	703384000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+4	1	703064000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+5	1	703064000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+6	1	703384000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+7	1	704000000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+8	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+9	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+10	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+11	1	704000000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+12	1	703064000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+13	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+14	1	703064000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+15	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+16	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+17	1	703384000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+18	1	703384000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+19	1	703064000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+20	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+21	1	703064000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+22	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+23	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+24	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+25	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+26	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+27	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+28	1	703064000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+29	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+30	1	702448000.000000	ms	total	benchSpectralNorm	BaseImage	BenchmarkGameSuite-Long		1			
+1	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+2	1	755264000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+3	1	755264000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+4	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+5	1	755264000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+6	1	756936000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+7	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+8	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+9	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+10	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+11	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+12	1	758576000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+13	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+14	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+15	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+16	1	755264000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+17	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+18	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+19	1	756936000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+20	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+21	1	755264000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+22	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+23	1	755264000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+24	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+25	1	755264000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+26	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+27	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+28	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+29	1	756904000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+30	1	755264000.000000	ms	total	SMarkDeltaBlue	SameQuick	Smark-DeltaBlue		1			
+1	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+2	1	730808000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+3	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+4	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+5	1	730808000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+6	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+7	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+8	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+9	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+10	1	730808000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+11	1	730808000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+12	1	730808000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+13	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+14	1	730808000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+15	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+16	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+17	1	730808000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+18	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+19	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+20	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+21	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+22	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+23	1	730808000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+24	1	730808000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+25	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+26	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+27	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+28	1	731368000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+29	1	730808000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+30	1	730808000.000000	ms	total	benchMandelbrot	SameQuick	BenchmarkGameSuite-Long		1			
+1	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+2	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+3	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+4	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+5	1	599544000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+6	1	599544000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+7	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+8	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+9	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+10	1	599544000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+11	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+12	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+13	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+14	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+15	1	599544000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+16	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+17	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+18	1	599544000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+19	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+20	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+21	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+22	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+23	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+24	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+25	1	599544000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+26	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+27	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+28	1	599544000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+29	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+30	1	597064000.000000	ms	total	Opal.* AST.*	SameQuick	Tests		1			
+1	1	720552000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+2	1	720552000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+3	1	720552000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+4	1	722832000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+5	1	706400000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+6	1	722064000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+7	1	722064000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+8	1	707168000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+9	1	722064000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+10	1	720552000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+11	1	720552000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+12	1	706400000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+13	1	721320000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+14	1	720552000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+15	1	722064000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+16	1	722064000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+17	1	722064000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+18	1	720552000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+19	1	720552000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+20	1	721320000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+21	1	707168000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+22	1	706400000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+23	1	721320000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+24	1	707168000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+25	1	720552000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+26	1	722064000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+27	1	721320000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+28	1	721320000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+29	1	720552000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+30	1	722064000.000000	ms	total	SMarkRichards	BaseImage	Smark-Richards		1			
+1	1	3665568000.000000	ms	total	File.*	SameQuick	Tests		1			
+2	1	3681184000.000000	ms	total	File.*	SameQuick	Tests		1			
+3	1	3654520000.000000	ms	total	File.*	SameQuick	Tests		1			
+4	1	3672488000.000000	ms	total	File.*	SameQuick	Tests		1			
+5	1	3660720000.000000	ms	total	File.*	SameQuick	Tests		1			
+6	1	3669000000.000000	ms	total	File.*	SameQuick	Tests		1			
+7	1	3669800000.000000	ms	total	File.*	SameQuick	Tests		1			
+8	1	3671856000.000000	ms	total	File.*	SameQuick	Tests		1			
+9	1	3638816000.000000	ms	total	File.*	SameQuick	Tests		1			
+10	1	3661536000.000000	ms	total	File.*	SameQuick	Tests		1			
+11	1	3700744000.000000	ms	total	File.*	SameQuick	Tests		1			
+12	1	3666192000.000000	ms	total	File.*	SameQuick	Tests		1			
+13	1	3659688000.000000	ms	total	File.*	SameQuick	Tests		1			
+14	1	3669136000.000000	ms	total	File.*	SameQuick	Tests		1			
+15	1	3656008000.000000	ms	total	File.*	SameQuick	Tests		1			
+16	1	3665048000.000000	ms	total	File.*	SameQuick	Tests		1			
+17	1	3686088000.000000	ms	total	File.*	SameQuick	Tests		1			
+18	1	3675936000.000000	ms	total	File.*	SameQuick	Tests		1			
+19	1	3683032000.000000	ms	total	File.*	SameQuick	Tests		1			
+20	1	3684448000.000000	ms	total	File.*	SameQuick	Tests		1			
+21	1	3634240000.000000	ms	total	File.*	SameQuick	Tests		1			
+22	1	3677768000.000000	ms	total	File.*	SameQuick	Tests		1			
+23	1	3664304000.000000	ms	total	File.*	SameQuick	Tests		1			
+24	1	3668904000.000000	ms	total	File.*	SameQuick	Tests		1			
+25	1	3670576000.000000	ms	total	File.*	SameQuick	Tests		1			
+26	1	3675576000.000000	ms	total	File.*	SameQuick	Tests		1			
+27	1	3675992000.000000	ms	total	File.*	SameQuick	Tests		1			
+28	1	3666400000.000000	ms	total	File.*	SameQuick	Tests		1			
+29	1	3669376000.000000	ms	total	File.*	SameQuick	Tests		1			
+30	1	3674768000.000000	ms	total	File.*	SameQuick	Tests		1			
+1	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+2	1	793920000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+3	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+4	1	793920000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+5	1	793920000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+6	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+7	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+8	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+9	1	794640000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+10	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+11	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+12	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+13	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+14	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+15	1	794560000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+16	1	793920000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+17	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+18	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+19	1	794560000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+20	1	794080000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+21	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+22	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+23	1	793920000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+24	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+25	1	793920000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+26	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+27	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+28	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+29	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+30	1	794480000.000000	ms	total	benchRegexDNA	SameQuick	BenchmarkGameSuite-Short		1			
+1	1	744312000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+2	1	745576000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+3	1	744312000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+4	1	745016000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+5	1	745576000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+6	1	745576000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+7	1	743344000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+8	1	744312000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+9	1	745576000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+10	1	744312000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+11	1	745576000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+12	1	743344000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+13	1	744312000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+14	1	744312000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+15	1	744312000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+16	1	744312000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+17	1	744312000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+18	1	745576000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+19	1	745016000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+20	1	745576000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+21	1	745576000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+22	1	745576000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+23	1	745576000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+24	1	745576000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+25	1	745576000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+26	1	744312000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+27	1	744312000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+28	1	743344000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+29	1	744312000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+30	1	744312000.000000	ms	total	benchKNucleotide	SameQuick	BenchmarkGameSuite-Short		1			
+1	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+2	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+3	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+4	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+5	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+6	1	637720000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+7	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+8	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+9	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+10	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+11	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+12	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+13	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+14	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+15	1	637720000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+16	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+17	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+18	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+19	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+20	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+21	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+22	1	637720000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+23	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+24	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+25	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+26	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+27	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+28	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+29	1	637720000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+30	1	639872000.000000	ms	total	1+1. (Smalltalk vm parameterAt: 86) + (Smalltalk vm parameterAt: 87)	BaseImage	StartUp		1			
+1	1	745624000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+2	1	747296000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+3	1	746736000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+4	1	730560000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+5	1	745624000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+6	1	731120000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+7	1	746736000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+8	1	731120000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+9	1	745624000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+10	1	731120000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+11	1	731120000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+12	1	745624000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+13	1	747296000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+14	1	747296000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+15	1	747296000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+16	1	746736000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+17	1	745624000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+18	1	745624000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+19	1	747296000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+20	1	747296000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+21	1	745624000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+22	1	745064000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+23	1	745624000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+24	1	747296000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+25	1	745624000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+26	1	747296000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+27	1	745064000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+28	1	747296000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+29	1	747296000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			
+30	1	730560000.000000	ms	total	benchPiDigits	SameQuick	BenchmarkGameSuite-Mid		1			

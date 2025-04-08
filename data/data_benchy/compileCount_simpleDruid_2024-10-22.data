@@ -1,0 +1,527 @@
+#!/home/npalumbo/.local/bin/rebench -v compile_count.conf
+# Execution Start: 2024-10-18T08:34:59.101305+00:00
+# Environment: {"userName": "npalumbo", "manualRun": true, "hostName": "rmod-bench", "osType": "Linux", "memory": 16783798272, "denoise": {}, "cpu": "Intel(R) Xeon(R) CPU           E5620  @ 2.40GHz", "clockSpeed": 2400000000, "software": [{"name": "kernel", "version": "#1 SMP Debian 5.10.140-1 (2022-09-02)"}, {"name": "kernel-release", "version": "5.10.0-18-amd64"}, {"name": "architecture", "version": "x86_64"}]}
+# Source: {"repoURL": null, "branchOrTag": null, "commitId": null, "commitMsg": null, "authorName": null, "committerName": null, "authorEmail": null, "committerEmail": null}
+invocation	iteration	value	unit	criterion	benchmark	executor	suite	extraArgs	cores	inputSize	varValue	machine
+1	1	28610000.000000	ms	total	Microdown.*	Simple	Tests		1			
+2	1	31837000.000000	ms	total	Microdown.*	Simple	Tests		1			
+3	1	28775000.000000	ms	total	Microdown.*	Simple	Tests		1			
+4	1	30817000.000000	ms	total	Microdown.*	Simple	Tests		1			
+5	1	31937000.000000	ms	total	Microdown.*	Simple	Tests		1			
+1	1	4155000.000000	ms	total	benchMandelbrot	Stock	BenchmarkGameSuite-Long		1			
+2	1	4154000.000000	ms	total	benchMandelbrot	Stock	BenchmarkGameSuite-Long		1			
+3	1	4142000.000000	ms	total	benchMandelbrot	Stock	BenchmarkGameSuite-Long		1			
+4	1	4152000.000000	ms	total	benchMandelbrot	Stock	BenchmarkGameSuite-Long		1			
+5	1	4153000.000000	ms	total	benchMandelbrot	Stock	BenchmarkGameSuite-Long		1			
+1	1	22409000.000000	ms	total	File.*	DruidSTP	Tests		1			
+2	1	21306000.000000	ms	total	File.*	DruidSTP	Tests		1			
+3	1	21765000.000000	ms	total	File.*	DruidSTP	Tests		1			
+4	1	20341000.000000	ms	total	File.*	DruidSTP	Tests		1			
+5	1	21083000.000000	ms	total	File.*	DruidSTP	Tests		1			
+1	1	4363000.000000	ms	total	benchMeteor	DruidSTP	BenchmarkGameSuite-Long		1			
+2	1	4372000.000000	ms	total	benchMeteor	DruidSTP	BenchmarkGameSuite-Long		1			
+3	1	4381000.000000	ms	total	benchMeteor	DruidSTP	BenchmarkGameSuite-Long		1			
+4	1	4452000.000000	ms	total	benchMeteor	DruidSTP	BenchmarkGameSuite-Long		1			
+5	1	4354000.000000	ms	total	benchMeteor	DruidSTP	BenchmarkGameSuite-Long		1			
+1	1	2091000.000000	ms	total	1+1	Druid	StartUp		1			
+2	1	2090000.000000	ms	total	1+1	Druid	StartUp		1			
+3	1	2090000.000000	ms	total	1+1	Druid	StartUp		1			
+4	1	2090000.000000	ms	total	1+1	Druid	StartUp		1			
+5	1	2090000.000000	ms	total	1+1	Druid	StartUp		1			
+1	1	4175000.000000	ms	total	benchRegexDNA	Simple	BenchmarkGameSuite-Mid		1			
+2	1	4168000.000000	ms	total	benchRegexDNA	Simple	BenchmarkGameSuite-Mid		1			
+3	1	4168000.000000	ms	total	benchRegexDNA	Simple	BenchmarkGameSuite-Mid		1			
+4	1	4175000.000000	ms	total	benchRegexDNA	Simple	BenchmarkGameSuite-Mid		1			
+5	1	4175000.000000	ms	total	benchRegexDNA	Simple	BenchmarkGameSuite-Mid		1			
+1	1	3685000.000000	ms	total	SMarkRichards	Stock	Smark-Richards		1			
+2	1	3685000.000000	ms	total	SMarkRichards	Stock	Smark-Richards		1			
+3	1	3721000.000000	ms	total	SMarkRichards	Stock	Smark-Richards		1			
+4	1	3650000.000000	ms	total	SMarkRichards	Stock	Smark-Richards		1			
+5	1	3650000.000000	ms	total	SMarkRichards	Stock	Smark-Richards		1			
+1	1	3852000.000000	ms	total	benchPiDigits	Simple	BenchmarkGameSuite-Mid		1			
+2	1	3852000.000000	ms	total	benchPiDigits	Simple	BenchmarkGameSuite-Mid		1			
+3	1	3903000.000000	ms	total	benchPiDigits	Simple	BenchmarkGameSuite-Mid		1			
+4	1	3869000.000000	ms	total	benchPiDigits	Simple	BenchmarkGameSuite-Mid		1			
+5	1	3852000.000000	ms	total	benchPiDigits	Simple	BenchmarkGameSuite-Mid		1			
+1	1	4553000.000000	ms	total	benchSpectralNorm	Druid	BenchmarkGameSuite-Long		1			
+2	1	4551000.000000	ms	total	benchSpectralNorm	Druid	BenchmarkGameSuite-Long		1			
+3	1	4564000.000000	ms	total	benchSpectralNorm	Druid	BenchmarkGameSuite-Long		1			
+4	1	4563000.000000	ms	total	benchSpectralNorm	Druid	BenchmarkGameSuite-Long		1			
+5	1	4567000.000000	ms	total	benchSpectralNorm	Druid	BenchmarkGameSuite-Long		1			
+1	1	3629000.000000	ms	total	benchPiDigits	Stock	BenchmarkGameSuite-Mid		1			
+2	1	3629000.000000	ms	total	benchPiDigits	Stock	BenchmarkGameSuite-Mid		1			
+3	1	3611000.000000	ms	total	benchPiDigits	Stock	BenchmarkGameSuite-Mid		1			
+4	1	3629000.000000	ms	total	benchPiDigits	Stock	BenchmarkGameSuite-Mid		1			
+5	1	3619000.000000	ms	total	benchPiDigits	Stock	BenchmarkGameSuite-Mid		1			
+1	1	4529000.000000	ms	total	benchSpectralNorm	DruidSTP	BenchmarkGameSuite-Long		1			
+2	1	4522000.000000	ms	total	benchSpectralNorm	DruidSTP	BenchmarkGameSuite-Long		1			
+3	1	4522000.000000	ms	total	benchSpectralNorm	DruidSTP	BenchmarkGameSuite-Long		1			
+4	1	4501000.000000	ms	total	benchSpectralNorm	DruidSTP	BenchmarkGameSuite-Long		1			
+5	1	4509000.000000	ms	total	benchSpectralNorm	DruidSTP	BenchmarkGameSuite-Long		1			
+1	1	4548000.000000	ms	total	benchBinaryTrees	Druid	BenchmarkGameSuite-VeryLong		1			
+2	1	4546000.000000	ms	total	benchBinaryTrees	Druid	BenchmarkGameSuite-VeryLong		1			
+3	1	4537000.000000	ms	total	benchBinaryTrees	Druid	BenchmarkGameSuite-VeryLong		1			
+4	1	4535000.000000	ms	total	benchBinaryTrees	Druid	BenchmarkGameSuite-VeryLong		1			
+5	1	4535000.000000	ms	total	benchBinaryTrees	Druid	BenchmarkGameSuite-VeryLong		1			
+1	1	1906000.000000	ms	total	Network.* Zinc.* Zodiac.*	Stock	Tests		1			
+2	1	1906000.000000	ms	total	Network.* Zinc.* Zodiac.*	Stock	Tests		1			
+3	1	1906000.000000	ms	total	Network.* Zinc.* Zodiac.*	Stock	Tests		1			
+4	1	1906000.000000	ms	total	Network.* Zinc.* Zodiac.*	Stock	Tests		1			
+5	1	1906000.000000	ms	total	Network.* Zinc.* Zodiac.*	Stock	Tests		1			
+1	1	4408000.000000	ms	total	benchChameleons	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+2	1	4405000.000000	ms	total	benchChameleons	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+3	1	4427000.000000	ms	total	benchChameleons	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+4	1	4409000.000000	ms	total	benchChameleons	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+5	1	4405000.000000	ms	total	benchChameleons	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+1	1	4210000.000000	ms	total	benchChameneosRedux	Simple	BenchmarkGameSuite-Short		1			
+2	1	4203000.000000	ms	total	benchChameneosRedux	Simple	BenchmarkGameSuite-Short		1			
+3	1	4209000.000000	ms	total	benchChameneosRedux	Simple	BenchmarkGameSuite-Short		1			
+4	1	4209000.000000	ms	total	benchChameneosRedux	Simple	BenchmarkGameSuite-Short		1			
+5	1	4206000.000000	ms	total	benchChameneosRedux	Simple	BenchmarkGameSuite-Short		1			
+1	1	4153000.000000	ms	total	benchSpectralNorm	Stock	BenchmarkGameSuite-Long		1			
+2	1	4158000.000000	ms	total	benchSpectralNorm	Stock	BenchmarkGameSuite-Long		1			
+3	1	4154000.000000	ms	total	benchSpectralNorm	Stock	BenchmarkGameSuite-Long		1			
+4	1	4168000.000000	ms	total	benchSpectralNorm	Stock	BenchmarkGameSuite-Long		1			
+5	1	4168000.000000	ms	total	benchSpectralNorm	Stock	BenchmarkGameSuite-Long		1			
+1	1	4488000.000000	ms	total	benchKNucleotide	DruidSTP	BenchmarkGameSuite-Short		1			
+2	1	4490000.000000	ms	total	benchKNucleotide	DruidSTP	BenchmarkGameSuite-Short		1			
+3	1	4487000.000000	ms	total	benchKNucleotide	DruidSTP	BenchmarkGameSuite-Short		1			
+4	1	4498000.000000	ms	total	benchKNucleotide	DruidSTP	BenchmarkGameSuite-Short		1			
+5	1	4508000.000000	ms	total	benchKNucleotide	DruidSTP	BenchmarkGameSuite-Short		1			
+1	1	4427000.000000	ms	total	SMarkDeltaBlue	DruidSTP	Smark-DeltaBlue		1			
+2	1	4428000.000000	ms	total	SMarkDeltaBlue	DruidSTP	Smark-DeltaBlue		1			
+3	1	4394000.000000	ms	total	SMarkDeltaBlue	DruidSTP	Smark-DeltaBlue		1			
+4	1	4430000.000000	ms	total	SMarkDeltaBlue	DruidSTP	Smark-DeltaBlue		1			
+5	1	4392000.000000	ms	total	SMarkDeltaBlue	DruidSTP	Smark-DeltaBlue		1			
+1	1	4236000.000000	ms	total	SMarkSlopstone	Druid	Smark-Slopstone		1			
+2	1	4242000.000000	ms	total	SMarkSlopstone	Druid	Smark-Slopstone		1			
+3	1	4244000.000000	ms	total	SMarkSlopstone	Druid	Smark-Slopstone		1			
+4	1	4257000.000000	ms	total	SMarkSlopstone	Druid	Smark-Slopstone		1			
+5	1	4221000.000000	ms	total	SMarkSlopstone	Druid	Smark-Slopstone		1			
+1	1	4344000.000000	ms	total	SMarkDeltaBlue	SimpleDruid	Smark-DeltaBlue		1			
+2	1	4343000.000000	ms	total	SMarkDeltaBlue	SimpleDruid	Smark-DeltaBlue		1			
+3	1	4361000.000000	ms	total	SMarkDeltaBlue	SimpleDruid	Smark-DeltaBlue		1			
+4	1	4363000.000000	ms	total	SMarkDeltaBlue	SimpleDruid	Smark-DeltaBlue		1			
+5	1	4369000.000000	ms	total	SMarkDeltaBlue	SimpleDruid	Smark-DeltaBlue		1			
+1	1	3716000.000000	ms	total	benchNBody	Stock	BenchmarkGameSuite-VeryShort		1			
+2	1	3716000.000000	ms	total	benchNBody	Stock	BenchmarkGameSuite-VeryShort		1			
+3	1	3684000.000000	ms	total	benchNBody	Stock	BenchmarkGameSuite-VeryShort		1			
+4	1	3714000.000000	ms	total	benchNBody	Stock	BenchmarkGameSuite-VeryShort		1			
+5	1	3685000.000000	ms	total	benchNBody	Stock	BenchmarkGameSuite-VeryShort		1			
+1	1	4273000.000000	ms	total	benchReverseComplement	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+2	1	4274000.000000	ms	total	benchReverseComplement	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+3	1	4273000.000000	ms	total	benchReverseComplement	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+4	1	4222000.000000	ms	total	benchReverseComplement	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+5	1	4247000.000000	ms	total	benchReverseComplement	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+1	1	1907000.000000	ms	total	Network.* Zinc.* Zodiac.*	Druid	Tests		1			
+2	1	1908000.000000	ms	total	Network.* Zinc.* Zodiac.*	Druid	Tests		1			
+3	1	1908000.000000	ms	total	Network.* Zinc.* Zodiac.*	Druid	Tests		1			
+4	1	1908000.000000	ms	total	Network.* Zinc.* Zodiac.*	Druid	Tests		1			
+5	1	1908000.000000	ms	total	Network.* Zinc.* Zodiac.*	Druid	Tests		1			
+1	1	3938000.000000	ms	total	benchThreadRing	Simple	BenchmarkGameSuite-VeryShort		1			
+2	1	3934000.000000	ms	total	benchThreadRing	Simple	BenchmarkGameSuite-VeryShort		1			
+3	1	3943000.000000	ms	total	benchThreadRing	Simple	BenchmarkGameSuite-VeryShort		1			
+4	1	3943000.000000	ms	total	benchThreadRing	Simple	BenchmarkGameSuite-VeryShort		1			
+5	1	3943000.000000	ms	total	benchThreadRing	Simple	BenchmarkGameSuite-VeryShort		1			
+1	1	4198000.000000	ms	total	benchThreadRing	Druid	BenchmarkGameSuite-VeryShort		1			
+2	1	4194000.000000	ms	total	benchThreadRing	Druid	BenchmarkGameSuite-VeryShort		1			
+3	1	4208000.000000	ms	total	benchThreadRing	Druid	BenchmarkGameSuite-VeryShort		1			
+4	1	4194000.000000	ms	total	benchThreadRing	Druid	BenchmarkGameSuite-VeryShort		1			
+5	1	4198000.000000	ms	total	benchThreadRing	Druid	BenchmarkGameSuite-VeryShort		1			
+1	1	4042000.000000	ms	total	benchChameleons	Simple	BenchmarkGameSuite-VeryShort		1			
+2	1	4050000.000000	ms	total	benchChameleons	Simple	BenchmarkGameSuite-VeryShort		1			
+3	1	4114000.000000	ms	total	benchChameleons	Simple	BenchmarkGameSuite-VeryShort		1			
+4	1	4087000.000000	ms	total	benchChameleons	Simple	BenchmarkGameSuite-VeryShort		1			
+5	1	4066000.000000	ms	total	benchChameleons	Simple	BenchmarkGameSuite-VeryShort		1			
+1	1	1911000.000000	ms	total	Opal.* AST.*	Simple	Tests		1			
+2	1	1911000.000000	ms	total	Opal.* AST.*	Simple	Tests		1			
+3	1	1911000.000000	ms	total	Opal.* AST.*	Simple	Tests		1			
+4	1	1911000.000000	ms	total	Opal.* AST.*	Simple	Tests		1			
+5	1	1911000.000000	ms	total	Opal.* AST.*	Simple	Tests		1			
+1	1	3719000.000000	ms	total	SMarkDeltaBlue	Stock	Smark-DeltaBlue		1			
+2	1	3720000.000000	ms	total	SMarkDeltaBlue	Stock	Smark-DeltaBlue		1			
+3	1	3722000.000000	ms	total	SMarkDeltaBlue	Stock	Smark-DeltaBlue		1			
+4	1	3722000.000000	ms	total	SMarkDeltaBlue	Stock	Smark-DeltaBlue		1			
+5	1	3720000.000000	ms	total	SMarkDeltaBlue	Stock	Smark-DeltaBlue		1			
+1	1	102822000.000000	ms	total	Microdown.*	SimpleDruid	Tests		1			
+2	1	101511000.000000	ms	total	Microdown.*	SimpleDruid	Tests		1			
+3	1	101857000.000000	ms	total	Microdown.*	SimpleDruid	Tests		1			
+4	1	101106000.000000	ms	total	Microdown.*	SimpleDruid	Tests		1			
+5	1	101757000.000000	ms	total	Microdown.*	SimpleDruid	Tests		1			
+1	1	3654000.000000	ms	total	benchThreadRing	Stock	BenchmarkGameSuite-VeryShort		1			
+2	1	3657000.000000	ms	total	benchThreadRing	Stock	BenchmarkGameSuite-VeryShort		1			
+3	1	3657000.000000	ms	total	benchThreadRing	Stock	BenchmarkGameSuite-VeryShort		1			
+4	1	3654000.000000	ms	total	benchThreadRing	Stock	BenchmarkGameSuite-VeryShort		1			
+5	1	3654000.000000	ms	total	benchThreadRing	Stock	BenchmarkGameSuite-VeryShort		1			
+1	1	4645000.000000	ms	total	benchSpectralNorm	SimpleDruid	BenchmarkGameSuite-Long		1			
+2	1	4645000.000000	ms	total	benchSpectralNorm	SimpleDruid	BenchmarkGameSuite-Long		1			
+3	1	4646000.000000	ms	total	benchSpectralNorm	SimpleDruid	BenchmarkGameSuite-Long		1			
+4	1	4683000.000000	ms	total	benchSpectralNorm	SimpleDruid	BenchmarkGameSuite-Long		1			
+5	1	4683000.000000	ms	total	benchSpectralNorm	SimpleDruid	BenchmarkGameSuite-Long		1			
+1	1	3988000.000000	ms	total	SMarkRichards	Simple	Smark-Richards		1			
+2	1	4051000.000000	ms	total	SMarkRichards	Simple	Smark-Richards		1			
+3	1	4046000.000000	ms	total	SMarkRichards	Simple	Smark-Richards		1			
+4	1	4049000.000000	ms	total	SMarkRichards	Simple	Smark-Richards		1			
+5	1	4030000.000000	ms	total	SMarkRichards	Simple	Smark-Richards		1			
+1	1	4373000.000000	ms	total	SMarkSlopstone	DruidSTP	Smark-Slopstone		1			
+2	1	4373000.000000	ms	total	SMarkSlopstone	DruidSTP	Smark-Slopstone		1			
+3	1	4368000.000000	ms	total	SMarkSlopstone	DruidSTP	Smark-Slopstone		1			
+4	1	4374000.000000	ms	total	SMarkSlopstone	DruidSTP	Smark-Slopstone		1			
+5	1	4374000.000000	ms	total	SMarkSlopstone	DruidSTP	Smark-Slopstone		1			
+1	1	4088000.000000	ms	total	benchBinaryTrees	Simple	BenchmarkGameSuite-VeryLong		1			
+2	1	4121000.000000	ms	total	benchBinaryTrees	Simple	BenchmarkGameSuite-VeryLong		1			
+3	1	4121000.000000	ms	total	benchBinaryTrees	Simple	BenchmarkGameSuite-VeryLong		1			
+4	1	4092000.000000	ms	total	benchBinaryTrees	Simple	BenchmarkGameSuite-VeryLong		1			
+5	1	4129000.000000	ms	total	benchBinaryTrees	Simple	BenchmarkGameSuite-VeryLong		1			
+1	1	4442000.000000	ms	total	benchChameleons	Druid	BenchmarkGameSuite-VeryShort		1			
+2	1	4414000.000000	ms	total	benchChameleons	Druid	BenchmarkGameSuite-VeryShort		1			
+3	1	4422000.000000	ms	total	benchChameleons	Druid	BenchmarkGameSuite-VeryShort		1			
+4	1	4426000.000000	ms	total	benchChameleons	Druid	BenchmarkGameSuite-VeryShort		1			
+5	1	4425000.000000	ms	total	benchChameleons	Druid	BenchmarkGameSuite-VeryShort		1			
+1	1	4510000.000000	ms	total	benchBinaryTrees	DruidSTP	BenchmarkGameSuite-VeryLong		1			
+2	1	4528000.000000	ms	total	benchBinaryTrees	DruidSTP	BenchmarkGameSuite-VeryLong		1			
+3	1	4525000.000000	ms	total	benchBinaryTrees	DruidSTP	BenchmarkGameSuite-VeryLong		1			
+4	1	4509000.000000	ms	total	benchBinaryTrees	DruidSTP	BenchmarkGameSuite-VeryLong		1			
+5	1	4507000.000000	ms	total	benchBinaryTrees	DruidSTP	BenchmarkGameSuite-VeryLong		1			
+1	1	4504000.000000	ms	total	benchRegexDNA	Druid	BenchmarkGameSuite-Mid		1			
+2	1	4501000.000000	ms	total	benchRegexDNA	Druid	BenchmarkGameSuite-Mid		1			
+3	1	4502000.000000	ms	total	benchRegexDNA	Druid	BenchmarkGameSuite-Mid		1			
+4	1	4519000.000000	ms	total	benchRegexDNA	Druid	BenchmarkGameSuite-Mid		1			
+5	1	4501000.000000	ms	total	benchRegexDNA	Druid	BenchmarkGameSuite-Mid		1			
+1	1	3946000.000000	ms	total	benchBinaryTrees	Stock	BenchmarkGameSuite-VeryLong		1			
+2	1	3695000.000000	ms	total	benchBinaryTrees	Stock	BenchmarkGameSuite-VeryLong		1			
+3	1	3946000.000000	ms	total	benchBinaryTrees	Stock	BenchmarkGameSuite-VeryLong		1			
+4	1	3946000.000000	ms	total	benchBinaryTrees	Stock	BenchmarkGameSuite-VeryLong		1			
+5	1	3946000.000000	ms	total	benchBinaryTrees	Stock	BenchmarkGameSuite-VeryLong		1			
+1	1	4247000.000000	ms	total	SMarkRichards	SimpleDruid	Smark-Richards		1			
+2	1	4319000.000000	ms	total	SMarkRichards	SimpleDruid	Smark-Richards		1			
+3	1	4247000.000000	ms	total	SMarkRichards	SimpleDruid	Smark-Richards		1			
+4	1	4297000.000000	ms	total	SMarkRichards	SimpleDruid	Smark-Richards		1			
+5	1	4253000.000000	ms	total	SMarkRichards	SimpleDruid	Smark-Richards		1			
+1	1	4344000.000000	ms	total	benchMeteor	SimpleDruid	BenchmarkGameSuite-Long		1			
+2	1	4317000.000000	ms	total	benchMeteor	SimpleDruid	BenchmarkGameSuite-Long		1			
+3	1	4317000.000000	ms	total	benchMeteor	SimpleDruid	BenchmarkGameSuite-Long		1			
+4	1	4363000.000000	ms	total	benchMeteor	SimpleDruid	BenchmarkGameSuite-Long		1			
+5	1	4363000.000000	ms	total	benchMeteor	SimpleDruid	BenchmarkGameSuite-Long		1			
+1	1	2089000.000000	ms	total	1+1	Stock	StartUp		1			
+2	1	2089000.000000	ms	total	1+1	Stock	StartUp		1			
+3	1	2088000.000000	ms	total	1+1	Stock	StartUp		1			
+4	1	2089000.000000	ms	total	1+1	Stock	StartUp		1			
+5	1	2089000.000000	ms	total	1+1	Stock	StartUp		1			
+1	1	22215000.000000	ms	total	Microdown.*	Stock	Tests		1			
+2	1	23746000.000000	ms	total	Microdown.*	Stock	Tests		1			
+3	1	22249000.000000	ms	total	Microdown.*	Stock	Tests		1			
+4	1	22202000.000000	ms	total	Microdown.*	Stock	Tests		1			
+5	1	23896000.000000	ms	total	Microdown.*	Stock	Tests		1			
+1	1	3690000.000000	ms	total	benchFasta	Stock	BenchmarkGameSuite-VeryShort		1			
+2	1	3696000.000000	ms	total	benchFasta	Stock	BenchmarkGameSuite-VeryShort		1			
+3	1	3698000.000000	ms	total	benchFasta	Stock	BenchmarkGameSuite-VeryShort		1			
+4	1	3690000.000000	ms	total	benchFasta	Stock	BenchmarkGameSuite-VeryShort		1			
+5	1	3689000.000000	ms	total	benchFasta	Stock	BenchmarkGameSuite-VeryShort		1			
+1	1	4345000.000000	ms	total	benchReverseComplement	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+2	1	4362000.000000	ms	total	benchReverseComplement	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+3	1	4332000.000000	ms	total	benchReverseComplement	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+4	1	4361000.000000	ms	total	benchReverseComplement	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+5	1	4351000.000000	ms	total	benchReverseComplement	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+1	1	1903000.000000	ms	total	Network.* Zinc.* Zodiac.*	DruidSTP	Tests		1			
+2	1	1903000.000000	ms	total	Network.* Zinc.* Zodiac.*	DruidSTP	Tests		1			
+3	1	1903000.000000	ms	total	Network.* Zinc.* Zodiac.*	DruidSTP	Tests		1			
+4	1	1903000.000000	ms	total	Network.* Zinc.* Zodiac.*	DruidSTP	Tests		1			
+5	1	1903000.000000	ms	total	Network.* Zinc.* Zodiac.*	DruidSTP	Tests		1			
+1	1	4454000.000000	ms	total	benchRegexDNA	DruidSTP	BenchmarkGameSuite-Mid		1			
+2	1	4458000.000000	ms	total	benchRegexDNA	DruidSTP	BenchmarkGameSuite-Mid		1			
+3	1	4458000.000000	ms	total	benchRegexDNA	DruidSTP	BenchmarkGameSuite-Mid		1			
+4	1	4454000.000000	ms	total	benchRegexDNA	DruidSTP	BenchmarkGameSuite-Mid		1			
+5	1	4458000.000000	ms	total	benchRegexDNA	DruidSTP	BenchmarkGameSuite-Mid		1			
+1	1	3713000.000000	ms	total	benchMeteor	Stock	BenchmarkGameSuite-Long		1			
+2	1	3730000.000000	ms	total	benchMeteor	Stock	BenchmarkGameSuite-Long		1			
+3	1	3727000.000000	ms	total	benchMeteor	Stock	BenchmarkGameSuite-Long		1			
+4	1	3730000.000000	ms	total	benchMeteor	Stock	BenchmarkGameSuite-Long		1			
+5	1	3713000.000000	ms	total	benchMeteor	Stock	BenchmarkGameSuite-Long		1			
+1	1	4640000.000000	ms	total	benchBinaryTrees	SimpleDruid	BenchmarkGameSuite-VeryLong		1			
+2	1	4636000.000000	ms	total	benchBinaryTrees	SimpleDruid	BenchmarkGameSuite-VeryLong		1			
+3	1	4639000.000000	ms	total	benchBinaryTrees	SimpleDruid	BenchmarkGameSuite-VeryLong		1			
+4	1	4643000.000000	ms	total	benchBinaryTrees	SimpleDruid	BenchmarkGameSuite-VeryLong		1			
+5	1	4656000.000000	ms	total	benchBinaryTrees	SimpleDruid	BenchmarkGameSuite-VeryLong		1			
+1	1	4283000.000000	ms	total	SMarkRichards	Druid	Smark-Richards		1			
+2	1	4331000.000000	ms	total	SMarkRichards	Druid	Smark-Richards		1			
+3	1	4283000.000000	ms	total	SMarkRichards	Druid	Smark-Richards		1			
+4	1	4331000.000000	ms	total	SMarkRichards	Druid	Smark-Richards		1			
+5	1	4273000.000000	ms	total	SMarkRichards	Druid	Smark-Richards		1			
+1	1	4500000.000000	ms	total	benchChameneosRedux	DruidSTP	BenchmarkGameSuite-Short		1			
+2	1	4497000.000000	ms	total	benchChameneosRedux	DruidSTP	BenchmarkGameSuite-Short		1			
+3	1	4498000.000000	ms	total	benchChameneosRedux	DruidSTP	BenchmarkGameSuite-Short		1			
+4	1	4506000.000000	ms	total	benchChameneosRedux	DruidSTP	BenchmarkGameSuite-Short		1			
+5	1	4499000.000000	ms	total	benchChameneosRedux	DruidSTP	BenchmarkGameSuite-Short		1			
+1	1	3955000.000000	ms	total	benchFasta	Simple	BenchmarkGameSuite-VeryShort		1			
+2	1	3944000.000000	ms	total	benchFasta	Simple	BenchmarkGameSuite-VeryShort		1			
+3	1	3929000.000000	ms	total	benchFasta	Simple	BenchmarkGameSuite-VeryShort		1			
+4	1	3931000.000000	ms	total	benchFasta	Simple	BenchmarkGameSuite-VeryShort		1			
+5	1	3931000.000000	ms	total	benchFasta	Simple	BenchmarkGameSuite-VeryShort		1			
+1	1	1908000.000000	ms	total	Network.* Zinc.* Zodiac.*	SimpleDruid	Tests		1			
+2	1	1907000.000000	ms	total	Network.* Zinc.* Zodiac.*	SimpleDruid	Tests		1			
+3	1	1908000.000000	ms	total	Network.* Zinc.* Zodiac.*	SimpleDruid	Tests		1			
+4	1	1908000.000000	ms	total	Network.* Zinc.* Zodiac.*	SimpleDruid	Tests		1			
+5	1	1907000.000000	ms	total	Network.* Zinc.* Zodiac.*	SimpleDruid	Tests		1			
+1	1	1908000.000000	ms	total	Opal.* AST.*	Druid	Tests		1			
+2	1	1907000.000000	ms	total	Opal.* AST.*	Druid	Tests		1			
+3	1	1908000.000000	ms	total	Opal.* AST.*	Druid	Tests		1			
+4	1	1907000.000000	ms	total	Opal.* AST.*	Druid	Tests		1			
+5	1	1907000.000000	ms	total	Opal.* AST.*	Druid	Tests		1			
+1	1	4155000.000000	ms	total	benchPiDigits	Druid	BenchmarkGameSuite-Mid		1			
+2	1	4163000.000000	ms	total	benchPiDigits	Druid	BenchmarkGameSuite-Mid		1			
+3	1	4133000.000000	ms	total	benchPiDigits	Druid	BenchmarkGameSuite-Mid		1			
+4	1	4149000.000000	ms	total	benchPiDigits	Druid	BenchmarkGameSuite-Mid		1			
+5	1	4155000.000000	ms	total	benchPiDigits	Druid	BenchmarkGameSuite-Mid		1			
+1	1	4554000.000000	ms	total	benchMandelbrot	Druid	BenchmarkGameSuite-Long		1			
+2	1	4540000.000000	ms	total	benchMandelbrot	Druid	BenchmarkGameSuite-Long		1			
+3	1	4541000.000000	ms	total	benchMandelbrot	Druid	BenchmarkGameSuite-Long		1			
+4	1	4540000.000000	ms	total	benchMandelbrot	Druid	BenchmarkGameSuite-Long		1			
+5	1	4554000.000000	ms	total	benchMandelbrot	Druid	BenchmarkGameSuite-Long		1			
+1	1	4687000.000000	ms	total	benchMandelbrot	SimpleDruid	BenchmarkGameSuite-Long		1			
+2	1	4684000.000000	ms	total	benchMandelbrot	SimpleDruid	BenchmarkGameSuite-Long		1			
+3	1	4690000.000000	ms	total	benchMandelbrot	SimpleDruid	BenchmarkGameSuite-Long		1			
+4	1	4690000.000000	ms	total	benchMandelbrot	SimpleDruid	BenchmarkGameSuite-Long		1			
+5	1	4689000.000000	ms	total	benchMandelbrot	SimpleDruid	BenchmarkGameSuite-Long		1			
+1	1	46325000.000000	ms	total	Kernel.*	Simple	Tests		1			
+2	1	46383000.000000	ms	total	Kernel.*	Simple	Tests		1			
+3	1	46878000.000000	ms	total	Kernel.*	Simple	Tests		1			
+4	1	46383000.000000	ms	total	Kernel.*	Simple	Tests		1			
+5	1	46369000.000000	ms	total	Kernel.*	Simple	Tests		1			
+1	1	4630000.000000	ms	total	benchNBody	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+2	1	4631000.000000	ms	total	benchNBody	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+3	1	4641000.000000	ms	total	benchNBody	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+4	1	4632000.000000	ms	total	benchNBody	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+5	1	4669000.000000	ms	total	benchNBody	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+1	1	4471000.000000	ms	total	benchMeteor	Druid	BenchmarkGameSuite-Long		1			
+2	1	4420000.000000	ms	total	benchMeteor	Druid	BenchmarkGameSuite-Long		1			
+3	1	4557000.000000	ms	total	benchMeteor	Druid	BenchmarkGameSuite-Long		1			
+4	1	4533000.000000	ms	total	benchMeteor	Druid	BenchmarkGameSuite-Long		1			
+5	1	4533000.000000	ms	total	benchMeteor	Druid	BenchmarkGameSuite-Long		1			
+1	1	4638000.000000	ms	total	benchFasta	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+2	1	4654000.000000	ms	total	benchFasta	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+3	1	4650000.000000	ms	total	benchFasta	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+4	1	4649000.000000	ms	total	benchFasta	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+5	1	4644000.000000	ms	total	benchFasta	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+1	1	4052000.000000	ms	total	SMarkDeltaBlue	Simple	Smark-DeltaBlue		1			
+2	1	4051000.000000	ms	total	SMarkDeltaBlue	Simple	Smark-DeltaBlue		1			
+3	1	4046000.000000	ms	total	SMarkDeltaBlue	Simple	Smark-DeltaBlue		1			
+4	1	4051000.000000	ms	total	SMarkDeltaBlue	Simple	Smark-DeltaBlue		1			
+5	1	4073000.000000	ms	total	SMarkDeltaBlue	Simple	Smark-DeltaBlue		1			
+1	1	4221000.000000	ms	total	SMarkSlopstone	SimpleDruid	Smark-Slopstone		1			
+2	1	4268000.000000	ms	total	SMarkSlopstone	SimpleDruid	Smark-Slopstone		1			
+3	1	4241000.000000	ms	total	SMarkSlopstone	SimpleDruid	Smark-Slopstone		1			
+4	1	4261000.000000	ms	total	SMarkSlopstone	SimpleDruid	Smark-Slopstone		1			
+5	1	4259000.000000	ms	total	SMarkSlopstone	SimpleDruid	Smark-Slopstone		1			
+1	1	3622000.000000	ms	total	benchReverseComplement	Stock	BenchmarkGameSuite-VeryShort		1			
+2	1	3628000.000000	ms	total	benchReverseComplement	Stock	BenchmarkGameSuite-VeryShort		1			
+3	1	3616000.000000	ms	total	benchReverseComplement	Stock	BenchmarkGameSuite-VeryShort		1			
+4	1	3628000.000000	ms	total	benchReverseComplement	Stock	BenchmarkGameSuite-VeryShort		1			
+5	1	3628000.000000	ms	total	benchReverseComplement	Stock	BenchmarkGameSuite-VeryShort		1			
+1	1	77779000.000000	ms	total	Microdown.*	DruidSTP	Tests		1			
+2	1	78262000.000000	ms	total	Microdown.*	DruidSTP	Tests		1			
+3	1	77075000.000000	ms	total	Microdown.*	DruidSTP	Tests		1			
+4	1	82059000.000000	ms	total	Microdown.*	DruidSTP	Tests		1			
+5	1	79542000.000000	ms	total	Microdown.*	DruidSTP	Tests		1			
+1	1	4624000.000000	ms	total	benchKNucleotide	SimpleDruid	BenchmarkGameSuite-Short		1			
+2	1	4622000.000000	ms	total	benchKNucleotide	SimpleDruid	BenchmarkGameSuite-Short		1			
+3	1	4654000.000000	ms	total	benchKNucleotide	SimpleDruid	BenchmarkGameSuite-Short		1			
+4	1	4687000.000000	ms	total	benchKNucleotide	SimpleDruid	BenchmarkGameSuite-Short		1			
+5	1	4680000.000000	ms	total	benchKNucleotide	SimpleDruid	BenchmarkGameSuite-Short		1			
+1	1	15007000.000000	ms	total	File.*	Stock	Tests		1			
+2	1	14419000.000000	ms	total	File.*	Stock	Tests		1			
+3	1	14479000.000000	ms	total	File.*	Stock	Tests		1			
+4	1	14485000.000000	ms	total	File.*	Stock	Tests		1			
+5	1	14546000.000000	ms	total	File.*	Stock	Tests		1			
+1	1	1906000.000000	ms	total	Opal.* AST.*	Stock	Tests		1			
+2	1	1906000.000000	ms	total	Opal.* AST.*	Stock	Tests		1			
+3	1	1906000.000000	ms	total	Opal.* AST.*	Stock	Tests		1			
+4	1	1906000.000000	ms	total	Opal.* AST.*	Stock	Tests		1			
+5	1	1906000.000000	ms	total	Opal.* AST.*	Stock	Tests		1			
+1	1	4526000.000000	ms	total	benchChameneosRedux	Druid	BenchmarkGameSuite-Short		1			
+2	1	4528000.000000	ms	total	benchChameneosRedux	Druid	BenchmarkGameSuite-Short		1			
+3	1	4515000.000000	ms	total	benchChameneosRedux	Druid	BenchmarkGameSuite-Short		1			
+4	1	4534000.000000	ms	total	benchChameneosRedux	Druid	BenchmarkGameSuite-Short		1			
+5	1	4533000.000000	ms	total	benchChameneosRedux	Druid	BenchmarkGameSuite-Short		1			
+1	1	4505000.000000	ms	total	benchFasta	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+2	1	4492000.000000	ms	total	benchFasta	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+3	1	4498000.000000	ms	total	benchFasta	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+4	1	4492000.000000	ms	total	benchFasta	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+5	1	4497000.000000	ms	total	benchFasta	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+1	1	4225000.000000	ms	total	benchThreadRing	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+2	1	4243000.000000	ms	total	benchThreadRing	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+3	1	4217000.000000	ms	total	benchThreadRing	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+4	1	4217000.000000	ms	total	benchThreadRing	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+5	1	4217000.000000	ms	total	benchThreadRing	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+1	1	3988000.000000	ms	total	benchReverseComplement	Simple	BenchmarkGameSuite-VeryShort		1			
+2	1	3579000.000000	ms	total	benchReverseComplement	Simple	BenchmarkGameSuite-VeryShort		1			
+3	1	3950000.000000	ms	total	benchReverseComplement	Simple	BenchmarkGameSuite-VeryShort		1			
+4	1	3902000.000000	ms	total	benchReverseComplement	Simple	BenchmarkGameSuite-VeryShort		1			
+5	1	3977000.000000	ms	total	benchReverseComplement	Simple	BenchmarkGameSuite-VeryShort		1			
+1	1	4158000.000000	ms	total	benchMandelbrot	Simple	BenchmarkGameSuite-Long		1			
+2	1	4162000.000000	ms	total	benchMandelbrot	Simple	BenchmarkGameSuite-Long		1			
+3	1	4155000.000000	ms	total	benchMandelbrot	Simple	BenchmarkGameSuite-Long		1			
+4	1	4146000.000000	ms	total	benchMandelbrot	Simple	BenchmarkGameSuite-Long		1			
+5	1	4169000.000000	ms	total	benchMandelbrot	Simple	BenchmarkGameSuite-Long		1			
+1	1	4529000.000000	ms	total	benchNBody	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+2	1	4509000.000000	ms	total	benchNBody	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+3	1	4516000.000000	ms	total	benchNBody	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+4	1	4531000.000000	ms	total	benchNBody	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+5	1	4519000.000000	ms	total	benchNBody	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+1	1	15100000.000000	ms	total	File.*	Simple	Tests		1			
+2	1	15400000.000000	ms	total	File.*	Simple	Tests		1			
+3	1	14896000.000000	ms	total	File.*	Simple	Tests		1			
+4	1	15492000.000000	ms	total	File.*	Simple	Tests		1			
+5	1	15344000.000000	ms	total	File.*	Simple	Tests		1			
+1	1	4754000.000000	ms	total	benchRegexDNA	SimpleDruid	BenchmarkGameSuite-Mid		1			
+2	1	4744000.000000	ms	total	benchRegexDNA	SimpleDruid	BenchmarkGameSuite-Mid		1			
+3	1	4796000.000000	ms	total	benchRegexDNA	SimpleDruid	BenchmarkGameSuite-Mid		1			
+4	1	4790000.000000	ms	total	benchRegexDNA	SimpleDruid	BenchmarkGameSuite-Mid		1			
+5	1	4770000.000000	ms	total	benchRegexDNA	SimpleDruid	BenchmarkGameSuite-Mid		1			
+1	1	4198000.000000	ms	total	benchPiDigits	SimpleDruid	BenchmarkGameSuite-Mid		1			
+2	1	4177000.000000	ms	total	benchPiDigits	SimpleDruid	BenchmarkGameSuite-Mid		1			
+3	1	4218000.000000	ms	total	benchPiDigits	SimpleDruid	BenchmarkGameSuite-Mid		1			
+4	1	4183000.000000	ms	total	benchPiDigits	SimpleDruid	BenchmarkGameSuite-Mid		1			
+5	1	4163000.000000	ms	total	benchPiDigits	SimpleDruid	BenchmarkGameSuite-Mid		1			
+1	1	4156000.000000	ms	total	benchSpectralNorm	Simple	BenchmarkGameSuite-Long		1			
+2	1	4155000.000000	ms	total	benchSpectralNorm	Simple	BenchmarkGameSuite-Long		1			
+3	1	4174000.000000	ms	total	benchSpectralNorm	Simple	BenchmarkGameSuite-Long		1			
+4	1	4173000.000000	ms	total	benchSpectralNorm	Simple	BenchmarkGameSuite-Long		1			
+5	1	4175000.000000	ms	total	benchSpectralNorm	Simple	BenchmarkGameSuite-Long		1			
+1	1	1908000.000000	ms	total	Opal.* AST.*	SimpleDruid	Tests		1			
+2	1	1907000.000000	ms	total	Opal.* AST.*	SimpleDruid	Tests		1			
+3	1	1908000.000000	ms	total	Opal.* AST.*	SimpleDruid	Tests		1			
+4	1	1908000.000000	ms	total	Opal.* AST.*	SimpleDruid	Tests		1			
+5	1	1908000.000000	ms	total	Opal.* AST.*	SimpleDruid	Tests		1			
+1	1	3942000.000000	ms	total	SMarkSlopstone	Simple	Smark-Slopstone		1			
+2	1	3961000.000000	ms	total	SMarkSlopstone	Simple	Smark-Slopstone		1			
+3	1	3951000.000000	ms	total	SMarkSlopstone	Simple	Smark-Slopstone		1			
+4	1	3964000.000000	ms	total	SMarkSlopstone	Simple	Smark-Slopstone		1			
+5	1	3951000.000000	ms	total	SMarkSlopstone	Simple	Smark-Slopstone		1			
+1	1	4430000.000000	ms	total	SMarkRichards	DruidSTP	Smark-Richards		1			
+2	1	4420000.000000	ms	total	SMarkRichards	DruidSTP	Smark-Richards		1			
+3	1	4422000.000000	ms	total	SMarkRichards	DruidSTP	Smark-Richards		1			
+4	1	4422000.000000	ms	total	SMarkRichards	DruidSTP	Smark-Richards		1			
+5	1	4424000.000000	ms	total	SMarkRichards	DruidSTP	Smark-Richards		1			
+1	1	2093000.000000	ms	total	1+1	DruidSTP	StartUp		1			
+2	1	2093000.000000	ms	total	1+1	DruidSTP	StartUp		1			
+3	1	2093000.000000	ms	total	1+1	DruidSTP	StartUp		1			
+4	1	2093000.000000	ms	total	1+1	DruidSTP	StartUp		1			
+5	1	2093000.000000	ms	total	1+1	DruidSTP	StartUp		1			
+1	1	4521000.000000	ms	total	benchKNucleotide	Druid	BenchmarkGameSuite-Short		1			
+2	1	4542000.000000	ms	total	benchKNucleotide	Druid	BenchmarkGameSuite-Short		1			
+3	1	4558000.000000	ms	total	benchKNucleotide	Druid	BenchmarkGameSuite-Short		1			
+4	1	4544000.000000	ms	total	benchKNucleotide	Druid	BenchmarkGameSuite-Short		1			
+5	1	4523000.000000	ms	total	benchKNucleotide	Druid	BenchmarkGameSuite-Short		1			
+1	1	3685000.000000	ms	total	SMarkSlopstone	Stock	Smark-Slopstone		1			
+2	1	3683000.000000	ms	total	SMarkSlopstone	Stock	Smark-Slopstone		1			
+3	1	3655000.000000	ms	total	SMarkSlopstone	Stock	Smark-Slopstone		1			
+4	1	3652000.000000	ms	total	SMarkSlopstone	Stock	Smark-Slopstone		1			
+5	1	3655000.000000	ms	total	SMarkSlopstone	Stock	Smark-Slopstone		1			
+1	1	4320000.000000	ms	total	SMarkDeltaBlue	Druid	Smark-DeltaBlue		1			
+2	1	4291000.000000	ms	total	SMarkDeltaBlue	Druid	Smark-DeltaBlue		1			
+3	1	4460000.000000	ms	total	SMarkDeltaBlue	Druid	Smark-DeltaBlue		1			
+4	1	4320000.000000	ms	total	SMarkDeltaBlue	Druid	Smark-DeltaBlue		1			
+5	1	4476000.000000	ms	total	SMarkDeltaBlue	Druid	Smark-DeltaBlue		1			
+1	1	2093000.000000	ms	total	1+1	Simple	StartUp		1			
+2	1	2093000.000000	ms	total	1+1	Simple	StartUp		1			
+3	1	2093000.000000	ms	total	1+1	Simple	StartUp		1			
+4	1	2093000.000000	ms	total	1+1	Simple	StartUp		1			
+5	1	2093000.000000	ms	total	1+1	Simple	StartUp		1			
+1	1	64520000.000000	ms	total	Kernel.*	Druid	Tests		1			
+2	1	62817000.000000	ms	total	Kernel.*	Druid	Tests		1			
+1	1	1911000.000000	ms	total	Network.* Zinc.* Zodiac.*	Simple	Tests		1			
+2	1	1911000.000000	ms	total	Network.* Zinc.* Zodiac.*	Simple	Tests		1			
+3	1	1911000.000000	ms	total	Network.* Zinc.* Zodiac.*	Simple	Tests		1			
+4	1	1911000.000000	ms	total	Network.* Zinc.* Zodiac.*	Simple	Tests		1			
+5	1	1911000.000000	ms	total	Network.* Zinc.* Zodiac.*	Simple	Tests		1			
+1	1	4113000.000000	ms	total	benchKNucleotide	Simple	BenchmarkGameSuite-Short		1			
+2	1	4170000.000000	ms	total	benchKNucleotide	Simple	BenchmarkGameSuite-Short		1			
+3	1	4110000.000000	ms	total	benchKNucleotide	Simple	BenchmarkGameSuite-Short		1			
+4	1	4157000.000000	ms	total	benchKNucleotide	Simple	BenchmarkGameSuite-Short		1			
+5	1	4178000.000000	ms	total	benchKNucleotide	Simple	BenchmarkGameSuite-Short		1			
+1	1	4097000.000000	ms	total	benchRegexDNA	Stock	BenchmarkGameSuite-Mid		1			
+2	1	4136000.000000	ms	total	benchRegexDNA	Stock	BenchmarkGameSuite-Mid		1			
+3	1	4184000.000000	ms	total	benchRegexDNA	Stock	BenchmarkGameSuite-Mid		1			
+4	1	4087000.000000	ms	total	benchRegexDNA	Stock	BenchmarkGameSuite-Mid		1			
+5	1	4067000.000000	ms	total	benchRegexDNA	Stock	BenchmarkGameSuite-Mid		1			
+1	1	1903000.000000	ms	total	Opal.* AST.*	DruidSTP	Tests		1			
+2	1	1903000.000000	ms	total	Opal.* AST.*	DruidSTP	Tests		1			
+3	1	1903000.000000	ms	total	Opal.* AST.*	DruidSTP	Tests		1			
+4	1	1903000.000000	ms	total	Opal.* AST.*	DruidSTP	Tests		1			
+5	1	1903000.000000	ms	total	Opal.* AST.*	DruidSTP	Tests		1			
+1	1	42478000.000000	ms	total	Kernel.*	Stock	Tests		1			
+2	1	43793000.000000	ms	total	Kernel.*	Stock	Tests		1			
+3	1	44319000.000000	ms	total	Kernel.*	Stock	Tests		1			
+4	1	42750000.000000	ms	total	Kernel.*	Stock	Tests		1			
+5	1	42586000.000000	ms	total	Kernel.*	Stock	Tests		1			
+1	1	4266000.000000	ms	total	benchPiDigits	DruidSTP	BenchmarkGameSuite-Mid		1			
+2	1	4166000.000000	ms	total	benchPiDigits	DruidSTP	BenchmarkGameSuite-Mid		1			
+3	1	4161000.000000	ms	total	benchPiDigits	DruidSTP	BenchmarkGameSuite-Mid		1			
+4	1	4142000.000000	ms	total	benchPiDigits	DruidSTP	BenchmarkGameSuite-Mid		1			
+5	1	4119000.000000	ms	total	benchPiDigits	DruidSTP	BenchmarkGameSuite-Mid		1			
+1	1	64575000.000000	ms	total	Kernel.*	DruidSTP	Tests		1			
+2	1	66293000.000000	ms	total	Kernel.*	DruidSTP	Tests		1			
+3	1	65776000.000000	ms	total	Kernel.*	DruidSTP	Tests		1			
+4	1	65388000.000000	ms	total	Kernel.*	DruidSTP	Tests		1			
+1	1	21447000.000000	ms	total	File.*	Druid	Tests		1			
+2	1	20828000.000000	ms	total	File.*	Druid	Tests		1			
+3	1	20232000.000000	ms	total	File.*	Druid	Tests		1			
+4	1	22251000.000000	ms	total	File.*	Druid	Tests		1			
+5	1	20517000.000000	ms	total	File.*	Druid	Tests		1			
+1	1	4532000.000000	ms	total	benchFasta	Druid	BenchmarkGameSuite-VeryShort		1			
+2	1	4526000.000000	ms	total	benchFasta	Druid	BenchmarkGameSuite-VeryShort		1			
+3	1	4537000.000000	ms	total	benchFasta	Druid	BenchmarkGameSuite-VeryShort		1			
+4	1	4533000.000000	ms	total	benchFasta	Druid	BenchmarkGameSuite-VeryShort		1			
+5	1	4537000.000000	ms	total	benchFasta	Druid	BenchmarkGameSuite-VeryShort		1			
+1	1	2090000.000000	ms	total	1+1	SimpleDruid	StartUp		1			
+2	1	2091000.000000	ms	total	1+1	SimpleDruid	StartUp		1			
+3	1	2091000.000000	ms	total	1+1	SimpleDruid	StartUp		1			
+4	1	2091000.000000	ms	total	1+1	SimpleDruid	StartUp		1			
+5	1	2091000.000000	ms	total	1+1	SimpleDruid	StartUp		1			
+1	1	26449000.000000	ms	total	File.*	SimpleDruid	Tests		1			
+2	1	25923000.000000	ms	total	File.*	SimpleDruid	Tests		1			
+3	1	26013000.000000	ms	total	File.*	SimpleDruid	Tests		1			
+4	1	26467000.000000	ms	total	File.*	SimpleDruid	Tests		1			
+5	1	26135000.000000	ms	total	File.*	SimpleDruid	Tests		1			
+1	1	3732000.000000	ms	total	benchKNucleotide	Stock	BenchmarkGameSuite-Short		1			
+2	1	3731000.000000	ms	total	benchKNucleotide	Stock	BenchmarkGameSuite-Short		1			
+3	1	3733000.000000	ms	total	benchKNucleotide	Stock	BenchmarkGameSuite-Short		1			
+4	1	3731000.000000	ms	total	benchKNucleotide	Stock	BenchmarkGameSuite-Short		1			
+5	1	3737000.000000	ms	total	benchKNucleotide	Stock	BenchmarkGameSuite-Short		1			
+1	1	71609000.000000	ms	total	Kernel.*	SimpleDruid	Tests		1			
+1	1	4195000.000000	ms	total	benchThreadRing	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+2	1	4198000.000000	ms	total	benchThreadRing	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+3	1	4191000.000000	ms	total	benchThreadRing	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+4	1	4198000.000000	ms	total	benchThreadRing	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+5	1	4198000.000000	ms	total	benchThreadRing	DruidSTP	BenchmarkGameSuite-VeryShort		1			
+1	1	4555000.000000	ms	total	benchNBody	Druid	BenchmarkGameSuite-VeryShort		1			
+2	1	4555000.000000	ms	total	benchNBody	Druid	BenchmarkGameSuite-VeryShort		1			
+3	1	4563000.000000	ms	total	benchNBody	Druid	BenchmarkGameSuite-VeryShort		1			
+4	1	4557000.000000	ms	total	benchNBody	Druid	BenchmarkGameSuite-VeryShort		1			
+5	1	4557000.000000	ms	total	benchNBody	Druid	BenchmarkGameSuite-VeryShort		1			
+1	1	3743000.000000	ms	total	benchChameleons	Stock	BenchmarkGameSuite-VeryShort		1			
+2	1	3740000.000000	ms	total	benchChameleons	Stock	BenchmarkGameSuite-VeryShort		1			
+3	1	3741000.000000	ms	total	benchChameleons	Stock	BenchmarkGameSuite-VeryShort		1			
+4	1	3743000.000000	ms	total	benchChameleons	Stock	BenchmarkGameSuite-VeryShort		1			
+5	1	3743000.000000	ms	total	benchChameleons	Stock	BenchmarkGameSuite-VeryShort		1			
+1	1	4152000.000000	ms	total	benchReverseComplement	Druid	BenchmarkGameSuite-VeryShort		1			
+2	1	4245000.000000	ms	total	benchReverseComplement	Druid	BenchmarkGameSuite-VeryShort		1			
+3	1	4228000.000000	ms	total	benchReverseComplement	Druid	BenchmarkGameSuite-VeryShort		1			
+4	1	4259000.000000	ms	total	benchReverseComplement	Druid	BenchmarkGameSuite-VeryShort		1			
+5	1	4253000.000000	ms	total	benchReverseComplement	Druid	BenchmarkGameSuite-VeryShort		1			
+1	1	4141000.000000	ms	total	benchNBody	Simple	BenchmarkGameSuite-VeryShort		1			
+2	1	4158000.000000	ms	total	benchNBody	Simple	BenchmarkGameSuite-VeryShort		1			
+3	1	4143000.000000	ms	total	benchNBody	Simple	BenchmarkGameSuite-VeryShort		1			
+4	1	4139000.000000	ms	total	benchNBody	Simple	BenchmarkGameSuite-VeryShort		1			
+5	1	4155000.000000	ms	total	benchNBody	Simple	BenchmarkGameSuite-VeryShort		1			
+1	1	4532000.000000	ms	total	benchMandelbrot	DruidSTP	BenchmarkGameSuite-Long		1			
+2	1	4516000.000000	ms	total	benchMandelbrot	DruidSTP	BenchmarkGameSuite-Long		1			
+3	1	4514000.000000	ms	total	benchMandelbrot	DruidSTP	BenchmarkGameSuite-Long		1			
+4	1	4517000.000000	ms	total	benchMandelbrot	DruidSTP	BenchmarkGameSuite-Long		1			
+5	1	4514000.000000	ms	total	benchMandelbrot	DruidSTP	BenchmarkGameSuite-Long		1			
+1	1	4078000.000000	ms	total	benchChameneosRedux	Stock	BenchmarkGameSuite-Short		1			
+2	1	4078000.000000	ms	total	benchChameneosRedux	Stock	BenchmarkGameSuite-Short		1			
+3	1	4090000.000000	ms	total	benchChameneosRedux	Stock	BenchmarkGameSuite-Short		1			
+4	1	4085000.000000	ms	total	benchChameneosRedux	Stock	BenchmarkGameSuite-Short		1			
+5	1	4081000.000000	ms	total	benchChameneosRedux	Stock	BenchmarkGameSuite-Short		1			

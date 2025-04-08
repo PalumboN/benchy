@@ -1,0 +1,111 @@
+#!/opt/homebrew/bin/rebench compile_time.conf
+# Execution Start: 2024-09-05T12:02:21.267426+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+invocation	iteration	value	unit	criterion	benchmark	executor	suite	extraArgs	cores	inputSize	varValue	machine
+1	1	10000.000000	ms	total	benchMandelbrot	Simple	BenchmarkGameSuite-Long		1			
+1	1	15000.000000	ms	total	benchSpectralNorm	Druid	BenchmarkGameSuite-Long		1			
+1	1	0.000000	ms	total	benchKNucleotide	SimpleDruid	BenchmarkGameSuite-Short		1			
+1	1	12000.000000	ms	total	benchRegexDNA	Stock	BenchmarkGameSuite-Short		1			
+1	1	16000.000000	ms	total	benchMeteor	Druid	BenchmarkGameSuite-Long		1			
+1	1	9000.000000	ms	total	benchChameleons	Simple	BenchmarkGameSuite-VeryShort		1			
+1	1	9000.000000	ms	total	SMarkDeltaBlue	Simple	Smark-DeltaBlue		1			
+1	1	10000.000000	ms	total	benchSpectralNorm	Stock	BenchmarkGameSuite-Long		1			
+1	1	9000.000000	ms	total	benchKNucleotide	Stock	BenchmarkGameSuite-Short		1			
+1	1	9000.000000	ms	total	benchNBody	Stock	BenchmarkGameSuite-VeryShort		1			
+1	1	0.000000	ms	total	SMarkDeltaBlue	SimpleDruid	Smark-DeltaBlue		1			
+1	1	12000.000000	ms	total	benchRegexDNA	Simple	BenchmarkGameSuite-Short		1			
+1	1	15000.000000	ms	total	benchThreadRing	Druid	BenchmarkGameSuite-VeryShort		1			
+1	1	0.000000	ms	total	benchThreadRing	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+1	1	14000.000000	ms	total	benchChameleons	Druid	BenchmarkGameSuite-VeryShort		1			
+1	1	9000.000000	ms	total	SMarkRichards	Stock	Smark-Richards		1			
+1	1	14000.000000	ms	total	benchChameneosRedux	Druid	BenchmarkGameSuite-Short		1			
+1	1	0.000000	ms	total	SMarkRichards	SimpleDruid	Smark-Richards		1			
+1	1	10000.000000	ms	total	benchFasta	Stock	BenchmarkGameSuite-VeryShort		1			
+1	1	15000.000000	ms	total	benchNBody	Druid	BenchmarkGameSuite-VeryShort		1			
+1	1	9000.000000	ms	total	benchThreadRing	Stock	BenchmarkGameSuite-VeryShort		1			
+1	1	10000.000000	ms	total	benchFasta	Simple	BenchmarkGameSuite-VeryShort		1			
+1	1	10000.000000	ms	total	benchNBody	Simple	BenchmarkGameSuite-VeryShort		1			
+1	1	0.000000	ms	total	benchRegexDNA	SimpleDruid	BenchmarkGameSuite-Short		1			
+1	1	0.000000	ms	total	benchChameneosRedux	SimpleDruid	BenchmarkGameSuite-Short		1			
+1	1	10000.000000	ms	total	benchReverseComplement	Stock	BenchmarkGameSuite-VeryShort		1			
+1	1	23000.000000	ms	total	benchRegexDNA	Druid	BenchmarkGameSuite-Short		1			
+1	1	0.000000	ms	total	benchFasta	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+1	1	0.000000	ms	total	benchNBody	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+1	1	10000.000000	ms	total	benchMeteor	Stock	BenchmarkGameSuite-Long		1			
+1	1	13000.000000	ms	total	benchFasta	Druid	BenchmarkGameSuite-VeryShort		1			
+1	1	10000.000000	ms	total	benchChameneosRedux	Simple	BenchmarkGameSuite-Short		1			
+1	1	13000.000000	ms	total	benchPiDigits	Druid	BenchmarkGameSuite-Mid		1			
+1	1	13000.000000	ms	total	SMarkRichards	Druid	Smark-Richards		1			
+1	1	15000.000000	ms	total	benchBinaryTrees	Druid	BenchmarkGameSuite-VeryLong		1			
+1	1	0.000000	ms	total	benchSpectralNorm	SimpleDruid	BenchmarkGameSuite-Long		1			
+1	1	0.000000	ms	total	benchChameleons	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+1	1	10000.000000	ms	total	benchChameneosRedux	Stock	BenchmarkGameSuite-Short		1			
+1	1	11000.000000	ms	total	benchSpectralNorm	Simple	BenchmarkGameSuite-Long		1			
+1	1	17000.000000	ms	total	benchKNucleotide	Druid	BenchmarkGameSuite-Short		1			
+1	1	17000.000000	ms	total	benchMandelbrot	Druid	BenchmarkGameSuite-Long		1			
+1	1	0.000000	ms	total	benchMeteor	SimpleDruid	BenchmarkGameSuite-Long		1			
+1	1	0.000000	ms	total	benchMandelbrot	SimpleDruid	BenchmarkGameSuite-Long		1			
+1	1	15000.000000	ms	total	benchReverseComplement	Druid	BenchmarkGameSuite-VeryShort		1			
+1	1	10000.000000	ms	total	benchPiDigits	Stock	BenchmarkGameSuite-Mid		1			
+1	1	10000.000000	ms	total	SMarkDeltaBlue	Stock	Smark-DeltaBlue		1			
+1	1	11000.000000	ms	total	benchBinaryTrees	Simple	BenchmarkGameSuite-VeryLong		1			
+1	1	10000.000000	ms	total	benchThreadRing	Simple	BenchmarkGameSuite-VeryShort		1			
+1	1	9000.000000	ms	total	benchPiDigits	Simple	BenchmarkGameSuite-Mid		1			
+1	1	9000.000000	ms	total	SMarkRichards	Simple	Smark-Richards		1			
+1	1	0.000000	ms	total	benchReverseComplement	SimpleDruid	BenchmarkGameSuite-VeryShort		1			
+1	1	9000.000000	ms	total	benchReverseComplement	Simple	BenchmarkGameSuite-VeryShort		1			
+1	1	10000.000000	ms	total	benchBinaryTrees	Stock	BenchmarkGameSuite-VeryLong		1			
+1	1	10000.000000	ms	total	benchKNucleotide	Simple	BenchmarkGameSuite-Short		1			
+1	1	16000.000000	ms	total	SMarkDeltaBlue	Druid	Smark-DeltaBlue		1			
+1	1	0.000000	ms	total	benchPiDigits	SimpleDruid	BenchmarkGameSuite-Mid		1			
+1	1	11000.000000	ms	total	benchMandelbrot	Stock	BenchmarkGameSuite-Long		1			
+1	1	10000.000000	ms	total	benchChameleons	Stock	BenchmarkGameSuite-VeryShort		1			
+1	1	0.000000	ms	total	benchBinaryTrees	SimpleDruid	BenchmarkGameSuite-VeryLong		1			
+#!/opt/homebrew/bin/rebench compile_time.conf
+# Execution Start: 2024-09-05T12:02:21.267426+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+1	1	49000.000000	ms	total	File.*	Simple	Tests		1			
+1	1	53000.000000	ms	total	File.*	Stock	Tests		1			
+1	1	169000.000000	ms	total	Kernel.*	Simple	Tests		1			
+1	1	0.000000	ms	total	Opal.* AST.*	SimpleDruid	Tests		1			
+1	1	4000.000000	ms	total	Network.* Zinc.* Zodiac.*	Simple	Tests		1			
+1	1	8000.000000	ms	total	Opal.* AST.*	Druid	Tests		1			
+1	1	4000.000000	ms	total	Opal.* AST.*	Simple	Tests		1			
+1	1	227000.000000	ms	total	Microdown.*	Simple	Tests		1			
+1	1	1000.000000	ms	total	File.*	SimpleDruid	Tests		1			
+1	1	383000.000000	ms	total	Microdown.*	Druid	Tests		1			
+1	1	0.000000	ms	total	Network.* Zinc.* Zodiac.*	SimpleDruid	Tests		1			
+1	1	175000.000000	ms	total	Microdown.*	Stock	Tests		1			
+1	1	1000.000000	ms	total	Microdown.*	SimpleDruid	Tests		1			
+1	1	7000.000000	ms	total	Network.* Zinc.* Zodiac.*	Druid	Tests		1			
+1	1	164000.000000	ms	total	Kernel.*	Stock	Tests		1			
+1	1	5000.000000	ms	total	Opal.* AST.*	Stock	Tests		1			
+1	1	1000.000000	ms	total	Kernel.*	SimpleDruid	Tests		1			
+1	1	5000.000000	ms	total	Network.* Zinc.* Zodiac.*	Stock	Tests		1			
+1	1	93000.000000	ms	total	File.*	Druid	Tests		1			
+#!/opt/homebrew/bin/rebench compile_time.conf
+# Execution Start: 2024-09-05T12:02:21.267426+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+1	1	220.000000	ms	user	1+1. Smalltalk vm totalJITCompileTime	Druid	StartUp		1			
+1	1	10.000000	ms	sys	1+1. Smalltalk vm totalJITCompileTime	Druid	StartUp		1			
+1	1	240.000000	ms	total	1+1. Smalltalk vm totalJITCompileTime	Druid	StartUp		1			
+1	1	120.000000	ms	user	1+1. Smalltalk vm totalJITCompileTime	Stock	StartUp		1			
+1	1	10.000000	ms	sys	1+1. Smalltalk vm totalJITCompileTime	Stock	StartUp		1			
+1	1	140.000000	ms	total	1+1. Smalltalk vm totalJITCompileTime	Stock	StartUp		1			
+1	1	140.000000	ms	user	1+1. Smalltalk vm totalJITCompileTime	Simple	StartUp		1			
+1	1	20.000000	ms	sys	1+1. Smalltalk vm totalJITCompileTime	Simple	StartUp		1			
+1	1	180.000000	ms	total	1+1. Smalltalk vm totalJITCompileTime	Simple	StartUp		1			
+1	1	480.000000	ms	user	1+1. Smalltalk vm totalJITCompileTime	SimpleDruid	StartUp		1			
+1	1	20.000000	ms	sys	1+1. Smalltalk vm totalJITCompileTime	SimpleDruid	StartUp		1			
+1	1	520.000000	ms	total	1+1. Smalltalk vm totalJITCompileTime	SimpleDruid	StartUp		1			
+#!/opt/homebrew/bin/rebench compile_time.conf
+# Execution Start: 2024-09-05T12:02:21.267426+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+1	1	216.000000	ms	total	SMarkSlopstone	Stock	Smark-Slopstone		1			
+1	1	355.300000	ms	total	SMarkSlopstone	SimpleDruid	Smark-Slopstone		1			
+1	1	283.600000	ms	total	SMarkSlopstone	Simple	Smark-Slopstone		1			
+1	1	287.300000	ms	total	SMarkSlopstone	Druid	Smark-Slopstone		1			

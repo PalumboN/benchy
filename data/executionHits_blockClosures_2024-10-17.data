@@ -1,0 +1,96 @@
+#!/opt/homebrew/bin/rebench execution_hits.conf
+# Execution Start: 2024-10-10T14:42:03.936022+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_hits.conf --rerun
+# Execution Start: 2024-10-10T14:42:03.936022+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_hits.conf --rerun
+# Execution Start: 2024-10-10T14:42:03.936022+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_hits.conf --rerun
+# Execution Start: 2024-10-10T14:42:03.936022+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_hits.conf --rerun
+# Execution Start: 2024-10-10T14:42:03.936022+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_hits.conf --rerun
+# Execution Start: 2024-10-10T14:42:03.936022+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_hits.conf --rerun
+# Execution Start: 2024-10-10T14:42:03.936022+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_hits.conf --rerun
+# Execution Start: 2024-10-10T14:42:03.936022+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_hits.conf --rerun
+# Execution Start: 2024-10-10T14:42:03.936022+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_hits.conf --rerun
+# Execution Start: 2024-10-10T14:42:03.936022+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_hits.conf --rerun
+# Execution Start: 2024-10-10T14:42:03.936022+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_hits.conf --rerun
+# Execution Start: 2024-10-10T14:42:03.936022+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+#!/opt/homebrew/bin/rebench execution_hits.conf --rerun
+# Execution Start: 2024-10-10T14:42:03.936022+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.6.0: Mon Jun 24 00:58:06 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.6.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+1	1	1	hits	total	benchSpectralNorm	ConstantBlocks	BenchmarkGameSuite-Long		1			
+1	1	1	hits	total	1+1. ClosureValueProfiler instance hits.	CleanConstantBlocks	StartUp		1			
+1	1	1	hits	total	benchMeteor	ConstantBlocks	BenchmarkGameSuite-Long		1			
+1	1	1	hits	total	benchRegexDNA	CleanConstantBlocks	BenchmarkGameSuite-Short		1			
+1	1	1	hits	total	Opal.* AST.*	CleanConstantBlocks	Tests		1			
+1	1	1	hits	total	Microdown.*	ConstantBlocks	Tests		1			
+1	1	1	hits	total	benchReverseComplement	ConstantBlocks	BenchmarkGameSuite-VeryShort		1			
+1	1	1	hits	total	SMarkDeltaBlue	ConstantBlocks	Smark-DeltaBlue		1			
+1	1	1	hits	total	benchKNucleotide	ConstantBlocks	BenchmarkGameSuite-Short		1			
+1	1	1	hits	total	benchChameleons	ConstantBlocks	BenchmarkGameSuite-VeryShort		1			
+1	1	1	hits	total	benchPiDigits	CleanConstantBlocks	BenchmarkGameSuite-Mid		1			
+1	1	1	hits	total	benchBinaryTrees	CleanConstantBlocks	BenchmarkGameSuite-VeryLong		1			
+1	1	1	hits	total	benchRegexDNA	ConstantBlocks	BenchmarkGameSuite-Short		1			
+1	1	1	hits	total	Microdown.*	CleanConstantBlocks	Tests		1			
+1	1	1	hits	total	Kernel.*	ConstantBlocks	Tests		1			
+1	1	1	hits	total	benchMandelbrot	ConstantBlocks	BenchmarkGameSuite-Long		1			
+1	1	1	hits	total	SMarkRichards	ConstantBlocks	Smark-Richards		1			
+1	1	1	hits	total	benchNBody	ConstantBlocks	BenchmarkGameSuite-VeryShort		1			
+1	1	1	hits	total	benchFasta	ConstantBlocks	BenchmarkGameSuite-VeryShort		1			
+1	1	1	hits	total	File.*	ConstantBlocks	Tests		1			
+1	1	1	hits	total	SMarkSlopstone	ConstantBlocks	Smark-Slopstone		1			
+1	1	1	hits	total	benchNBody	CleanConstantBlocks	BenchmarkGameSuite-VeryShort		1			
+1	1	1	hits	total	benchChameneosRedux	CleanConstantBlocks	BenchmarkGameSuite-Short		1			
+1	1	1	hits	total	benchSpectralNorm	CleanConstantBlocks	BenchmarkGameSuite-Long		1			
+1	1	1	hits	total	benchFasta	CleanConstantBlocks	BenchmarkGameSuite-VeryShort		1			
+1	1	1	hits	total	benchKNucleotide	CleanConstantBlocks	BenchmarkGameSuite-Short		1			
+1	1	1	hits	total	SMarkSlopstone	CleanConstantBlocks	Smark-Slopstone		1			
+1	1	1	hits	total	benchPiDigits	ConstantBlocks	BenchmarkGameSuite-Mid		1			
+1	1	1	hits	total	benchChameneosRedux	ConstantBlocks	BenchmarkGameSuite-Short		1			
+1	1	1	hits	total	benchMandelbrot	CleanConstantBlocks	BenchmarkGameSuite-Long		1			
+1	1	1	hits	total	benchMeteor	CleanConstantBlocks	BenchmarkGameSuite-Long		1			
+1	1	1	hits	total	SMarkDeltaBlue	CleanConstantBlocks	Smark-DeltaBlue		1			
+1	1	1	hits	total	benchThreadRing	CleanConstantBlocks	BenchmarkGameSuite-VeryShort		1			
+1	1	1	hits	total	benchBinaryTrees	ConstantBlocks	BenchmarkGameSuite-VeryLong		1			
+1	1	1	hits	total	File.*	CleanConstantBlocks	Tests		1			
+1	1	1	hits	total	Network.* Zinc.* Zodiac.*	ConstantBlocks	Tests		1			
+1	1	1	hits	total	benchChameleons	CleanConstantBlocks	BenchmarkGameSuite-VeryShort		1			
+1	1	1	hits	total	benchThreadRing	ConstantBlocks	BenchmarkGameSuite-VeryShort		1			
+1	1	1	hits	total	benchReverseComplement	CleanConstantBlocks	BenchmarkGameSuite-VeryShort		1			
+1	1	1	hits	total	Network.* Zinc.* Zodiac.*	CleanConstantBlocks	Tests		1			
+1	1	1	hits	total	Kernel.*	CleanConstantBlocks	Tests		1			
+1	1	1	hits	total	1+1. ClosureValueProfiler instance hits.	ConstantBlocks	StartUp		1			
+1	1	1	hits	total	Opal.* AST.*	ConstantBlocks	Tests		1			
+1	1	1	hits	total	SMarkRichards	CleanConstantBlocks	Smark-Richards		1			

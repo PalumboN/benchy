@@ -2,10 +2,14 @@ import seaborn as sns
 import numpy as np
 import json
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 from matplotlib.ticker import MaxNLocator
 from matplotlib.ticker import FormatStrFormatter
+
+# Configure Matplotlib for scalable fonts
+matplotlib.rcParams['pdf.fonttype'] = 42  # Use TrueType fonts
 
 # What to plot?
 vmsToPlot = ['Druid', 'SimpleDruid', 'DruidSTP', 'SimpleDruidSTP']
@@ -69,10 +73,9 @@ executorNames = {
   'CleanConstantBlocks': 'C&C'
 }
 
-## CHARTS ##
+font = { "fontsize": 8 }
 
-nrows = 6
-ncols = 4
+## CHARTS ##
 
 def next():
   global row
@@ -85,13 +88,10 @@ def next():
 def buildChart(plotter, data, column, benchName):
   plot = plotter(data[data['executor'].isin(vmsToPlot)], x='executor', y=column, ax=axs[row, col], hue="executor")
   title = sanitizeBenchName(benchName)
-  fontdict = { "fontsize": 8 }
 
   plot.set(title=title, xlabel=None, ylabel=None)
   plot.title.set_size(10)
-  plot.set_xticklabels(map(lambda x : executorNames[x.get_text()], plot.get_xticklabels()), rotation=30, fontdict=fontdict)
-  # plot.set_yticks([1,3,5,7])
-  plot.set_yticklabels(plot.get_yticklabels(), fontdict=fontdict)
+  plot.set_xticklabels(map(lambda x : executorNames[x.get_text()], plot.get_xticklabels()), rotation=30, fontdict=font)
   return plot
 
 
@@ -99,12 +99,17 @@ def buildChart(plotter, data, column, benchName):
 
 def plotBoxes(data, column, benchName):
   boxplot = buildChart(getattr(sns, 'boxplot'), data, column, benchName)
+  # plot.set_yticks([1,3,5,7])
+  boxplot.set_yticklabels(boxplot.get_yticklabels(), fontdict=font)
   boxplot.yaxis.set_major_formatter(FormatStrFormatter("%.1f"))
   # boxplot.yaxis.set_major_locator(MaxNLocator(integer=True))
   return boxplot
 
 def plotBars(data, column, benchName):
-  return buildChart(getattr(sns, 'barplot'), data, column, benchName)
+  barplot = buildChart(getattr(sns, 'barplot'), data, column, benchName)
+  barplot.set(ylim=(data[column].min() - 10, None))
+  barplot.set_yticklabels(barplot.get_yticklabels(), fontdict=font)
+  return barplot
 
 
 def boxplot_speedup_execution(df):
@@ -135,14 +140,17 @@ def barplot_size(df):
 
 def sanitizeDF():
   global df
-  # df = df.loc[(df['benchmark'].str.contains("bench")) | (df['benchmark'].str.contains("SMark"))]
-  # df = df.loc[~(df['benchmark'].str.contains("Kernel") | df['benchmark'].str.contains("File"))]
+  interestVMs = vmsToPlot + ['Stack']
+  df = df.loc[~df['benchmark'].str.contains("Network")]
   df = df.loc[~(df['criterion'] == 'MaxRSS')]
-  df.sort_values(by=['executor'], inplace=True)
-  # .sort_values(
-  #   by="benchmark",
-  #   key=lambda col: col.map(lambda value: sorted_benches.index(value))
-  # )
+  df = df.loc[df['executor'].isin(interestVMs)]
+  # df = df.loc[(df['benchmark'].str.contains("bench")) | (df['benchmark'].str.contains("SMark"))]
+
+  # df.sort_values(by=['executor'], inplace=True)
+  df = df.sort_values(
+    by="executor",
+    key=lambda col: col.map(lambda value: interestVMs.index(value))
+  )
  
 def initializeDF(path):
   global f, axs, row, col, df
@@ -156,15 +164,16 @@ def initializeDF(path):
 
 ## SCRIPT ##
 
+nrows = 6
+ncols = 4
+
 df = initializeDF('../data/new_posta/executionTime_simple.data')
 boxplot_speedup_execution(df)
-plt.savefig('chart-box.pdf')
-
-
+plt.savefig('chart-box.pdf', format='pdf')
 
 df = initializeDF('../data/new_posta/compileSize_simple.data')
 barplot_size(df)
-plt.savefig('chart-bar.pdf')
+plt.savefig('chart-bar.pdf', format='pdf')
 
 # Show 
 # plt.show()

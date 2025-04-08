@@ -1,0 +1,135 @@
+#!/opt/homebrew/bin/rebench execution_time.conf
+# Execution Start: 2024-06-14T10:29:44.729915+00:00
+# Environment: {"userName": "palumbon", "manualRun": true, "hostName": "Drown-2.local", "osType": "Darwin", "memory": 17179869184, "denoise": {}, "cpu": "Apple M1 Pro", "clockSpeed": 0, "software": [{"name": "kernel", "version": "Darwin Kernel Version 21.3.0: Wed Jan  5 21:37:58 PST 2022; root:xnu-8019.80.24~20/RELEASE_ARM64_T6000"}, {"name": "kernel-release", "version": "21.3.0"}, {"name": "architecture", "version": "arm64"}]}
+# Source: {"repoURL": "git@github.com:tesonep/benchy.git", "branchOrTag": "server", "commitId": "53a18461c98390ae6b404e17d99c61d7ac74b963", "commitMsg": "Conf and Data for paper\n", "authorName": "palumbon", "committerName": "palumbon", "authorEmail": "nahuel.palumbo@gmail.com", "committerEmail": "nahuel.palumbo@gmail.com"}
+invocation	iteration	value	unit	criterion	benchmark	executor	suite	extraArgs	cores	inputSize	varValue	machine
+1	1	362.000000	ms	total	benchKNucleotide	NoPermi	BenchmarkGameSuite-Short		1			
+1	1	747.800000	ms	total	benchSpectralNorm	PermiAll	BenchmarkGameSuite-Long		1			
+1	1	146.200000	ms	total	benchMeteor	PermiClasses	BenchmarkGameSuite-Long		1			
+1	1	76.500000	ms	total	SMarkSlopstone	PermiAll	Smark-Slopstone		1			
+1	1	140.000000	ms	user	Network.* Zinc.* Zodiac.*	PermiAll	Tests		1			
+1	1	10.000000	ms	sys	Network.* Zinc.* Zodiac.*	PermiAll	Tests		1			
+1	1	170.000000	ms	total	Network.* Zinc.* Zodiac.*	PermiAll	Tests		1			
+1	1	422.500000	ms	total	benchNBody	NoPermi	BenchmarkGameSuite-VeryShort		1			
+1	1	1323.900000	ms	total	benchRegexDNA	PermiAll	BenchmarkGameSuite-Short		1			
+1	1	173.200000	ms	total	benchFasta	NoPermi	BenchmarkGameSuite-VeryShort		1			
+1	1	25.300000	ms	total	benchThreadRing	EmptyPermi	BenchmarkGameSuite-VeryShort		1			
+1	1	477.000000	ms	total	benchBinaryTrees	EmptyPermi	BenchmarkGameSuite-VeryLong		1			
+1	1	100.000000	ms	user	1+1	EmptyPermi	StartUp		1			
+1	1	10.000000	ms	sys	1+1	EmptyPermi	StartUp		1			
+1	1	120.000000	ms	total	1+1	EmptyPermi	StartUp		1			
+1	1	786.000000	ms	total	benchMandelbrot	NoPermi	BenchmarkGameSuite-Long		1			
+1	1	140.000000	ms	user	Network.* Zinc.* Zodiac.*	NoPermi	Tests		1			
+1	1	10.000000	ms	sys	Network.* Zinc.* Zodiac.*	NoPermi	Tests		1			
+1	1	170.000000	ms	total	Network.* Zinc.* Zodiac.*	NoPermi	Tests		1			
+1	1	104.300000	ms	total	SMarkDeltaBlue	NoPermi	Smark-DeltaBlue		1			
+1	1	50.600000	ms	total	benchReverseComplement	PermiAll	BenchmarkGameSuite-VeryShort		1			
+1	1	761.000000	ms	total	benchMandelbrot	EmptyPermi	BenchmarkGameSuite-Long		1			
+1	1	84.900000	ms	total	benchChameleons	PermiClasses	BenchmarkGameSuite-VeryShort		1			
+1	1	99.900000	ms	total	SMarkDeltaBlue	PermiAll	Smark-DeltaBlue		1			
+1	1	776.000000	ms	total	benchMandelbrot	PermiAll	BenchmarkGameSuite-Long		1			
+1	1	94.000000	ms	total	benchChameleons	EmptyPermi	BenchmarkGameSuite-VeryShort		1			
+1	1	52.300000	ms	total	benchReverseComplement	PermiClasses	BenchmarkGameSuite-VeryShort		1			
+1	1	61.500000	ms	total	benchChameneosRedux	PermiClasses	BenchmarkGameSuite-Short		1			
+1	1	178.000000	ms	total	benchFasta	PermiClasses	BenchmarkGameSuite-VeryShort		1			
+1	1	69.100000	ms	total	SMarkRichards	NoPermi	Smark-Richards		1			
+1	1	86.000000	ms	total	SMarkSlopstone	EmptyPermi	Smark-Slopstone		1			
+1	1	60.500000	ms	total	benchChameneosRedux	PermiAll	BenchmarkGameSuite-Short		1			
+1	1	87.000000	ms	total	SMarkSlopstone	PermiClasses	Smark-Slopstone		1			
+1	1	1570.000000	ms	user	Microdown.*	PermiAll	Tests		1			
+1	1	90.000000	ms	sys	Microdown.*	PermiAll	Tests		1			
+1	1	3030.000000	ms	total	Microdown.*	PermiAll	Tests		1			
+1	1	749.000000	ms	total	benchSpectralNorm	PermiClasses	BenchmarkGameSuite-Long		1			
+1	1	140.000000	ms	user	Network.* Zinc.* Zodiac.*	EmptyPermi	Tests		1			
+1	1	10.000000	ms	sys	Network.* Zinc.* Zodiac.*	EmptyPermi	Tests		1			
+1	1	160.000000	ms	total	Network.* Zinc.* Zodiac.*	EmptyPermi	Tests		1			
+1	1	69.400000	ms	total	SMarkRichards	PermiClasses	Smark-Richards		1			
+1	1	63.500000	ms	total	benchChameneosRedux	EmptyPermi	BenchmarkGameSuite-Short		1			
+1	1	3580.000000	ms	user	File.*	EmptyPermi	Tests		1			
+1	1	120.000000	ms	sys	File.*	EmptyPermi	Tests		1			
+1	1	8130.000000	ms	total	File.*	EmptyPermi	Tests		1			
+1	1	1570.000000	ms	user	Microdown.*	NoPermi	Tests		1			
+1	1	70.000000	ms	sys	Microdown.*	NoPermi	Tests		1			
+1	1	2210.000000	ms	total	Microdown.*	NoPermi	Tests		1			
+1	1	888.000000	ms	total	benchBinaryTrees	PermiClasses	BenchmarkGameSuite-VeryLong		1			
+1	1	140.000000	ms	user	Opal.* AST.*	PermiClasses	Tests		1			
+1	1	10.000000	ms	sys	Opal.* AST.*	PermiClasses	Tests		1			
+1	1	160.000000	ms	total	Opal.* AST.*	PermiClasses	Tests		1			
+1	1	95.300000	ms	total	benchPiDigits	NoPermi	BenchmarkGameSuite-Mid		1			
+1	1	2440.000000	ms	user	File.*	PermiClasses	Tests		1			
+1	1	110.000000	ms	sys	File.*	PermiClasses	Tests		1			
+1	1	7020.000000	ms	total	File.*	PermiClasses	Tests		1			
+1	1	140.000000	ms	user	Network.* Zinc.* Zodiac.*	PermiClasses	Tests		1			
+1	1	20.000000	ms	sys	Network.* Zinc.* Zodiac.*	PermiClasses	Tests		1			
+1	1	170.000000	ms	total	Network.* Zinc.* Zodiac.*	PermiClasses	Tests		1			
+1	1	1443.000000	ms	total	benchRegexDNA	PermiClasses	BenchmarkGameSuite-Short		1			
+1	1	100.000000	ms	user	1+1	PermiAll	StartUp		1			
+1	1	20.000000	ms	sys	1+1	PermiAll	StartUp		1			
+1	1	130.000000	ms	total	1+1	PermiAll	StartUp		1			
+1	1	96.300000	ms	total	benchPiDigits	EmptyPermi	BenchmarkGameSuite-Mid		1			
+1	1	5840.000000	ms	user	Kernel.*	EmptyPermi	Tests		1			
+1	1	1080.000000	ms	sys	Kernel.*	EmptyPermi	Tests		1			
+1	1	10640.000000	ms	total	Kernel.*	EmptyPermi	Tests		1			
+1	1	169.000000	ms	total	benchFasta	PermiAll	BenchmarkGameSuite-VeryShort		1			
+1	1	390.000000	ms	total	benchKNucleotide	PermiClasses	BenchmarkGameSuite-Short		1			
+1	1	3570.000000	ms	user	File.*	NoPermi	Tests		1			
+1	1	140.000000	ms	sys	File.*	NoPermi	Tests		1			
+1	1	8210.000000	ms	total	File.*	NoPermi	Tests		1			
+1	1	146.000000	ms	total	benchMeteor	NoPermi	BenchmarkGameSuite-Long		1			
+1	1	1374.000000	ms	total	benchRegexDNA	EmptyPermi	BenchmarkGameSuite-Short		1			
+1	1	61.600000	ms	total	benchChameleons	PermiAll	BenchmarkGameSuite-VeryShort		1			
+1	1	146.900000	ms	total	benchMeteor	PermiAll	BenchmarkGameSuite-Long		1			
+1	1	27.600000	ms	total	benchThreadRing	NoPermi	BenchmarkGameSuite-VeryShort		1			
+1	1	421.500000	ms	total	benchNBody	EmptyPermi	BenchmarkGameSuite-VeryShort		1			
+1	1	140.000000	ms	user	Opal.* AST.*	PermiAll	Tests		1			
+1	1	10.000000	ms	sys	Opal.* AST.*	PermiAll	Tests		1			
+1	1	160.000000	ms	total	Opal.* AST.*	PermiAll	Tests		1			
+1	1	1387.000000	ms	total	benchRegexDNA	NoPermi	BenchmarkGameSuite-Short		1			
+1	1	140.000000	ms	user	Opal.* AST.*	EmptyPermi	Tests		1			
+1	1	20.000000	ms	sys	Opal.* AST.*	EmptyPermi	Tests		1			
+1	1	190.000000	ms	total	Opal.* AST.*	EmptyPermi	Tests		1			
+1	1	5940.000000	ms	user	Kernel.*	NoPermi	Tests		1			
+1	1	1120.000000	ms	sys	Kernel.*	NoPermi	Tests		1			
+1	1	10980.000000	ms	total	Kernel.*	NoPermi	Tests		1			
+1	1	68.800000	ms	total	SMarkRichards	PermiAll	Smark-Richards		1			
+1	1	244.800000	ms	total	benchBinaryTrees	PermiAll	BenchmarkGameSuite-VeryLong		1			
+1	1	367.000000	ms	total	benchKNucleotide	PermiAll	BenchmarkGameSuite-Short		1			
+1	1	63.000000	ms	total	benchReverseComplement	NoPermi	BenchmarkGameSuite-VeryShort		1			
+1	1	863.000000	ms	total	benchMandelbrot	PermiClasses	BenchmarkGameSuite-Long		1			
+1	1	100.000000	ms	user	1+1	NoPermi	StartUp		1			
+1	1	10.000000	ms	sys	1+1	NoPermi	StartUp		1			
+1	1	130.000000	ms	total	1+1	NoPermi	StartUp		1			
+1	1	101.500000	ms	total	SMarkDeltaBlue	PermiClasses	Smark-DeltaBlue		1			
+1	1	93.600000	ms	total	benchPiDigits	PermiClasses	BenchmarkGameSuite-Mid		1			
+1	1	447.000000	ms	total	benchNBody	PermiAll	BenchmarkGameSuite-VeryShort		1			
+1	1	182.700000	ms	total	benchFasta	EmptyPermi	BenchmarkGameSuite-VeryShort		1			
+1	1	22.600000	ms	total	benchThreadRing	PermiClasses	BenchmarkGameSuite-VeryShort		1			
+1	1	95.300000	ms	total	benchReverseComplement	EmptyPermi	BenchmarkGameSuite-VeryShort		1			
+1	1	773.000000	ms	total	benchSpectralNorm	EmptyPermi	BenchmarkGameSuite-Long		1			
+1	1	81.000000	ms	total	benchChameleons	NoPermi	BenchmarkGameSuite-VeryShort		1			
+1	1	140.000000	ms	user	Opal.* AST.*	NoPermi	Tests		1			
+1	1	10.000000	ms	sys	Opal.* AST.*	NoPermi	Tests		1			
+1	1	160.000000	ms	total	Opal.* AST.*	NoPermi	Tests		1			
+1	1	418.700000	ms	total	benchNBody	PermiClasses	BenchmarkGameSuite-VeryShort		1			
+1	1	71.000000	ms	total	benchChameneosRedux	NoPermi	BenchmarkGameSuite-Short		1			
+1	1	769.000000	ms	total	benchSpectralNorm	NoPermi	BenchmarkGameSuite-Long		1			
+1	1	706.000000	ms	total	benchBinaryTrees	NoPermi	BenchmarkGameSuite-VeryLong		1			
+1	1	1610.000000	ms	user	Microdown.*	PermiClasses	Tests		1			
+1	1	70.000000	ms	sys	Microdown.*	PermiClasses	Tests		1			
+1	1	2600.000000	ms	total	Microdown.*	PermiClasses	Tests		1			
+1	1	1750.000000	ms	user	File.*	PermiAll	Tests		1			
+1	1	90.000000	ms	sys	File.*	PermiAll	Tests		1			
+1	1	6340.000000	ms	total	File.*	PermiAll	Tests		1			
+1	1	146.700000	ms	total	benchMeteor	EmptyPermi	BenchmarkGameSuite-Long		1			
+1	1	105.300000	ms	total	SMarkDeltaBlue	EmptyPermi	Smark-DeltaBlue		1			
+1	1	74.700000	ms	total	SMarkRichards	EmptyPermi	Smark-Richards		1			
+1	1	97.500000	ms	total	benchPiDigits	PermiAll	BenchmarkGameSuite-Mid		1			
+1	1	87.000000	ms	total	SMarkSlopstone	NoPermi	Smark-Slopstone		1			
+1	1	21.500000	ms	total	benchThreadRing	PermiAll	BenchmarkGameSuite-VeryShort		1			
+1	1	1550.000000	ms	user	Microdown.*	EmptyPermi	Tests		1			
+1	1	70.000000	ms	sys	Microdown.*	EmptyPermi	Tests		1			
+1	1	2260.000000	ms	total	Microdown.*	EmptyPermi	Tests		1			
+1	1	100.000000	ms	user	1+1	PermiClasses	StartUp		1			
+1	1	10.000000	ms	sys	1+1	PermiClasses	StartUp		1			
+1	1	120.000000	ms	total	1+1	PermiClasses	StartUp		1			
+1	1	408.000000	ms	total	benchKNucleotide	EmptyPermi	BenchmarkGameSuite-Short		1			
