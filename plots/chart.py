@@ -12,8 +12,11 @@ from matplotlib.ticker import FormatStrFormatter
 matplotlib.rcParams['pdf.fonttype'] = 42  # Use TrueType fonts
 
 # What to plot?
-vmsToPlot = ['Druid', 'SimpleDruid', 'DruidSTP', 'SimpleDruidSTP']
-# vmsToPlot = ['FullBlocks', 'ConstantBlocks', 'CleanConstantBlocks']
+# vmsToPlot = ['Druid', 'SimpleDruid', 'DruidSTP', 'SimpleDruidSTP']
+vmsToPlot = ['FullBlocks', 'CleanBlocks', 'CleanConstantBlocks']
+vmsToPlot = ['CleanConstantBlocks']
+# baseline = 'Stack'
+baseline = 'FullBlocks'
 
 # Sort benches
 sorted_benches = [
@@ -69,8 +72,12 @@ executorNames = {
   'SimpleDruidSTP': 'SDSTP',
 
   'FullBlocks': 'Full', 
-  'ConstantBlocks': 'Const', 
-  'CleanConstantBlocks': 'C&C'
+  'CleanBlocks': 'Clean', 
+  'CleanConstantBlocks': 'C&C',
+
+  'FullBlockClosure': 'Full', 
+  'CleanBlockClosure': 'Clean', 
+  'ConstantBlockClosure': 'Const',
 }
 
 font = { "fontsize": 8 }
@@ -84,9 +91,12 @@ def next():
   if col == ncols:
     row +=1
     col = 0
+    if row == nrows:
+      row -=1
 
-def buildChart(plotter, data, column, benchName):
-  plot = plotter(data[data['executor'].isin(vmsToPlot)], x='executor', y=column, ax=axs[row, col], hue="executor")
+def buildChart(plotter, data, column, benchName, **kwargs):
+  if not 'hue' in kwargs.keys(): kwargs['hue'] = 'executor'
+  plot = plotter(data[data['executor'].isin(vmsToPlot)], x='unit', y=column, ax=axs[row, col], **kwargs)
   title = sanitizeBenchName(benchName)
 
   plot.set(title=title, xlabel=None, ylabel=None)
@@ -98,7 +108,7 @@ def buildChart(plotter, data, column, benchName):
 ## PLOTS ##
 
 def plotBoxes(data, column, benchName):
-  boxplot = buildChart(getattr(sns, 'boxplot'), data, column, benchName)
+  boxplot = buildChart(getattr(sns, 'boxplot'), data, column, benchName, showfliers=False)
   # plot.set_yticks([1,3,5,7])
   boxplot.set_yticklabels(boxplot.get_yticklabels(), fontdict=font)
   boxplot.yaxis.set_major_formatter(FormatStrFormatter("%.1f"))
@@ -106,21 +116,27 @@ def plotBoxes(data, column, benchName):
   return boxplot
 
 def plotBars(data, column, benchName):
-  barplot = buildChart(getattr(sns, 'barplot'), data, column, benchName)
-  barplot.set(ylim=(data[column].min() - 10, None))
+  barplot = buildChart(getattr(sns, 'barplot'), data, column, benchName, hue="unit", legend=False)
+  # barplot.set(ylim=(data[column].min() - 10, None))
+  barplot.set(ylim=(None, data[column].max() + 10 ))
   barplot.set_yticklabels(barplot.get_yticklabels(), fontdict=font)
+  for container in barplot.containers:
+    barplot.bar_label(container, fontsize=5)
   return barplot
 
 
 def boxplot_speedup_execution(df):
+  log('boxplot_speedup_execution')
   for benchName, data in df.groupby('benchmark'):
-    # Relative to Stack time
-    stack = data[data['executor'] == 'Stack']['value'].mean()
-    data['speedup'] = data['value'].rdiv(stack)
+    # Relative to baseline time
+    base = data[data['executor'] == baseline]['value'].mean()
+    data['speedup'] = data['value'].rdiv(base)
     plotBoxes(data, 'speedup', benchName)
+    logLines(benchName, data, 'speedup')
     next()
 
 def boxplot_speedup_compilation(df):
+  log('boxplot_speedup_compilation')
   for benchName, data in df.groupby('benchmark'):
     # Relative to Druid time 
     data['time'] = data['value'].div(1000) # Remove extras '000' by Rebench
@@ -130,50 +146,77 @@ def boxplot_speedup_compilation(df):
     next()
 
 def barplot_size(df):
+  log('barplot_size')
   for benchName, data in df.groupby('benchmark'):
     data['size'] = data['value'].div(1000).div(1000) # MB
     plotBars(data, 'size', benchName)
     next()
 
+def barplot_hits(df):
+  log('barplot_hits')
+  for benchName, data in df.groupby('benchmark'):
+    data['hits'] = data['value'].div(1000) # KHits
+    plotBars(data, 'hits', benchName)
+    logLines(benchName, data, 'hits')
+    next()
+
+
+## LOGS ##
+logs = []
+def log(text): logs.append(text)
+def logLines(benchName, df, column): 
+  for executor, values in df.loc[(df['executor'] == 'CleanConstantBlocks')].groupby('unit'):
+    log(' '.join([benchName, executor, str(values[column].mean())]))
+def flushLogs(file):
+  global logs
+  with open(file, 'w') as f:
+    for text in logs: f.write(text + '\n')
+  logs = []
+
+def save(name):
+  plt.savefig('chart-' + name + '.pdf', format='pdf')
+  flushLogs('chart-' + name + '.log')
+
 
 ## INICIALIZATION ##
+closures = ['FullBlockClosure', 'CleanBlockClosure', 'ConstantBlockClosure']
 
-def sanitizeDF():
+def sanitizeDF(**kwargs):
   global df
-  interestVMs = vmsToPlot + ['Stack']
+  interestVMs = vmsToPlot + [baseline]
   df = df.loc[~df['benchmark'].str.contains("Network")]
-  df = df.loc[~(df['criterion'] == 'MaxRSS')]
+  df = df.loc[(df['criterion'] == 'total')]
   df = df.loc[df['executor'].isin(interestVMs)]
   # df = df.loc[(df['benchmark'].str.contains("bench")) | (df['benchmark'].str.contains("SMark"))]
 
-  # df.sort_values(by=['executor'], inplace=True)
+  if not 'by' in kwargs.keys(): kwargs['by'] = ['executor']
   df = df.sort_values(
-    by="executor",
-    key=lambda col: col.map(lambda value: interestVMs.index(value))
+    key=lambda col: col.map(lambda value: (interestVMs+closures).index(value)),
+    **kwargs
   )
  
-def initializeDF(path):
+def initializeDF(path, **kwargs):
   global f, axs, row, col, df
   f, axs = plt.subplots(ncols=ncols, nrows=nrows, layout="compressed", figsize=(5, 7))
   row = 0
   col = 0
   df = pd.read_csv(path, sep='	', comment='#')
-  sanitizeDF()
+  sanitizeDF(**kwargs)
   return df
 
 
 ## SCRIPT ##
 
-nrows = 6
-ncols = 4
+nrows = 7
+ncols = 3
 
-df = initializeDF('../data/new_posta/executionTime_simple.data')
-boxplot_speedup_execution(df)
-plt.savefig('chart-box.pdf', format='pdf')
+df = initializeDF('../data/executionHits_blockClosures.data', by='unit')
+barplot_hits(df)
+save('blockHits')
 
-df = initializeDF('../data/new_posta/compileSize_simple.data')
-barplot_size(df)
-plt.savefig('chart-bar.pdf', format='pdf')
+# df = initializeDF('../data/executionTime_Blocks.data')
+# boxplot_speedup_execution(df)
+# save('speedUp')
 
 # Show 
 # plt.show()
